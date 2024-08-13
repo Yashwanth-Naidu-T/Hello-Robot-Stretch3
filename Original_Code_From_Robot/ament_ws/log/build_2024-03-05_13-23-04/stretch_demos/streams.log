@@ -1,0 +1,26 @@
+[4.951s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_demos': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_demos/prefix_override:/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/hello-robot/ament_ws/build/stretch_demos/build install --record /home/hello-robot/ament_ws/build/stretch_demos/install.log --single-version-externally-managed
+[5.556s] [39mrunning egg_info[0m
+[5.557s] [39mwriting ../../../build/stretch_demos/stretch_demos.egg-info/PKG-INFO[0m
+[5.558s] [39mwriting dependency_links to ../../../build/stretch_demos/stretch_demos.egg-info/dependency_links.txt[0m
+[5.559s] [39mwriting entry points to ../../../build/stretch_demos/stretch_demos.egg-info/entry_points.txt[0m
+[5.559s] [39mwriting requirements to ../../../build/stretch_demos/stretch_demos.egg-info/requires.txt[0m
+[5.561s] [39mwriting top-level names to ../../../build/stretch_demos/stretch_demos.egg-info/top_level.txt[0m
+[5.561s] [39mreading manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'[0m
+[5.562s] [39madding license file 'LICENSE.md'[0m
+[5.562s] [39mwriting manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'[0m
+[5.562s] [39mrunning build[0m
+[5.562s] [39mrunning build_py[0m
+[5.563s] [39mrunning install[0m
+[5.563s] [39mrunning install_lib[0m
+[5.563s] [39mrunning install_data[0m
+[5.563s] [39mrunning install_egg_info[0m
+[5.564s] [39mremoving '/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info' (and everything under it)[0m
+[5.564s] [39mCopying ../../../build/stretch_demos/stretch_demos.egg-info to /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info[0m
+[5.564s] [39mrunning install_scripts[0m
+[5.565s] [39mInstalling clean_surface script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[5.565s] [39mInstalling grasp_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[5.565s] [39mInstalling handover_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[5.565s] [39mInstalling hello_world script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[5.566s] [39mInstalling open_drawer script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[5.566s] [39mwriting list of installed files to '/home/hello-robot/ament_ws/build/stretch_demos/install.log'[0m
+[6.582s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_demos' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_demos/prefix_override:/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/hello-robot/ament_ws/build/stretch_demos/build install --record /home/hello-robot/ament_ws/build/stretch_demos/install.log --single-version-externally-managed

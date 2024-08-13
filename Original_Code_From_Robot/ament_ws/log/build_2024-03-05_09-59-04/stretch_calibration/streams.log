@@ -1,0 +1,86 @@
+[0.512s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_calibration': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_calibration/prefix_override:/home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_calibration build --build-base /home/hello-robot/ament_ws/build/stretch_calibration/build install --record /home/hello-robot/ament_ws/build/stretch_calibration/install.log --single-version-externally-managed
+[0.665s] running egg_info
+[0.665s] creating ../../../build/stretch_calibration/stretch_calibration.egg-info
+[0.665s] writing ../../../build/stretch_calibration/stretch_calibration.egg-info/PKG-INFO
+[0.666s] writing dependency_links to ../../../build/stretch_calibration/stretch_calibration.egg-info/dependency_links.txt
+[0.666s] writing entry points to ../../../build/stretch_calibration/stretch_calibration.egg-info/entry_points.txt
+[0.666s] writing requirements to ../../../build/stretch_calibration/stretch_calibration.egg-info/requires.txt
+[0.666s] writing top-level names to ../../../build/stretch_calibration/stretch_calibration.egg-info/top_level.txt
+[0.666s] writing manifest file '../../../build/stretch_calibration/stretch_calibration.egg-info/SOURCES.txt'
+[0.667s] reading manifest file '../../../build/stretch_calibration/stretch_calibration.egg-info/SOURCES.txt'
+[0.667s] adding license file 'LICENSE.md'
+[0.667s] writing manifest file '../../../build/stretch_calibration/stretch_calibration.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.667s] creating /home/hello-robot/ament_ws/build/stretch_calibration/build
+[0.667s] creating /home/hello-robot/ament_ws/build/stretch_calibration/build/lib
+[0.667s] creating /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.667s] copying stretch_calibration/calibration.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.674s] copying stretch_calibration/update_uncalibrated_urdf.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.674s] copying stretch_calibration/update_with_most_recent_calibration.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.674s] copying stretch_calibration/update_urdf_after_xacro_change.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.674s] copying stretch_calibration/revert_to_previous_calibration.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.674s] copying stretch_calibration/collect_head_calibration_data.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.675s] copying stretch_calibration/check_head_calibration.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.675s] copying stretch_calibration/process_head_calibration_data.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.675s] copying stretch_calibration/__init__.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.675s] copying stretch_calibration/visualize_most_recent_head_calibration.py -> /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration
+[0.675s] running install
+[0.675s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.675s]   warnings.warn(
+[0.675s] running install_lib
+[0.676s] creating /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/calibration.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/update_uncalibrated_urdf.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/update_with_most_recent_calibration.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/update_urdf_after_xacro_change.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/revert_to_previous_calibration.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/collect_head_calibration_data.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/check_head_calibration.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/process_head_calibration_data.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/__init__.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] copying /home/hello-robot/ament_ws/build/stretch_calibration/build/lib/stretch_calibration/visualize_most_recent_head_calibration.py -> /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration
+[0.676s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/calibration.py to calibration.cpython-310.pyc
+[0.678s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/update_uncalibrated_urdf.py to update_uncalibrated_urdf.cpython-310.pyc
+[0.678s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/update_with_most_recent_calibration.py to update_with_most_recent_calibration.cpython-310.pyc
+[0.678s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/update_urdf_after_xacro_change.py to update_urdf_after_xacro_change.cpython-310.pyc
+[0.678s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/revert_to_previous_calibration.py to revert_to_previous_calibration.cpython-310.pyc
+[0.679s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/collect_head_calibration_data.py to collect_head_calibration_data.cpython-310.pyc
+[0.681s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/check_head_calibration.py to check_head_calibration.cpython-310.pyc
+[0.681s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/process_head_calibration_data.py to process_head_calibration_data.cpython-310.pyc
+[0.684s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/__init__.py to __init__.cpython-310.pyc
+[0.684s] byte-compiling /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration/visualize_most_recent_head_calibration.py to visualize_most_recent_head_calibration.cpython-310.pyc
+[0.684s] running install_data
+[0.684s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/ament_index
+[0.684s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/ament_index/resource_index
+[0.684s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/ament_index/resource_index/packages
+[0.684s] copying resource/stretch_calibration -> /home/hello-robot/ament_ws/install/stretch_calibration/share/ament_index/resource_index/packages
+[0.684s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration
+[0.685s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/simple_test_head_calibration.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/simple_test_head_calibration_low_resolution.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/process_head_calibration_data_with_visualization.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/check_head_calibration.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/process_head_calibration_data.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/visualize_head_calibration.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/collect_head_calibration_data.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/collect_check_head_calibration_data.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] copying launch/use_prior_head_calibration_to_update_urdf.launch.py -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/launch
+[0.685s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/config
+[0.685s] copying config/head_calibration_options.yaml -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/config
+[0.685s] creating /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/rviz
+[0.685s] copying rviz/stretch_simple_test.rviz -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/rviz
+[0.685s] copying rviz/head_calibration.rviz -> /home/hello-robot/ament_ws/install/stretch_calibration/share/stretch_calibration/rviz
+[0.685s] running install_egg_info
+[0.687s] Copying ../../../build/stretch_calibration/stretch_calibration.egg-info to /home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages/stretch_calibration-0.2.0-py3.10.egg-info
+[0.687s] running install_scripts
+[0.699s] Installing check_head_calibration script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing collect_head_calibration_data script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing process_head_calibration_data script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing revert_to_previous_calibration script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing update_uncalibrated_urdf script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing update_urdf_after_xacro_change script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing update_with_most_recent_calibration script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] Installing visualize_most_recent_head_calibration script to /home/hello-robot/ament_ws/install/stretch_calibration/lib/stretch_calibration
+[0.699s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_calibration/install.log'
+[0.714s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_calibration' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/stretch_description:/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/ros2_numpy:/home/hello-robot/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_calibration/prefix_override:/home/hello-robot/ament_ws/install/stretch_calibration/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_calibration build --build-base /home/hello-robot/ament_ws/build/stretch_calibration/build install --record /home/hello-robot/ament_ws/build/stretch_calibration/install.log --single-version-externally-managed

@@ -1,0 +1,78 @@
+###########################################
+INSTALLATION OF SYSTEM WIDE PACKAGES
+###########################################
+Apt update & upgrade (this might take a while)
+Install zip & unzip
+Install Curl
+Install ca-certificates
+Install gnupg
+Install Git
+Install rpl
+Install ipython3
+Install pip3
+Install pyaudio
+Install Emacs packages
+Install nettools
+Install wget
+Install vim
+Install pyserial
+Install Port Audio
+Install lm-sensors & nvme-cli
+Install Cython for FUNMAP
+Install cheese for camera testing
+Install SSH Server
+Install Chromium
+Install htop
+Install Ubuntu Sounds
+Install BleachBit
+Install APT HTTPS
+Install Network Security Services libraries
+
+###########################################
+INSTALLATION OF ROS 2 HUMBLE
+###########################################
+Setting up keys
+Setting up sources.list
+Apt update
+Install ROS 2 Humble (this might take a while)
+Install ROS 2 Dev Tools
+Install colcon
+Install rosdep
+Configure rosdep
+Install vcstool
+
+###########################################
+INSTALLATION OF ADDITIONAL ROS HUMBLE PKGS
+###########################################
+Install packages to work with URDFs
+Install joint state GUI package
+Install IMU visualization plugin for RViz and IMU filter
+Install robot localization package for use with IMU and wheel odometry
+Install teleop packages
+
+###########################################
+INSTALLATION OF INTEL D435i
+###########################################
+Register the librealsense APT server's public key
+Add the librealsense APT server to the list of APT repositories
+Remove old records in case of upgrading
+Apt update
+Install librealsense2 packages
+
+###########################################
+INSTALLATION OF WEB INTERFACE
+###########################################
+Register the nodesource APT server's public key
+Add the nodesource APT server to the list of APT respositories
+Apt update
+Install NodeJS
+Install PyPCL and PyKDL
+Install PM2
+
+###########################################
+INSTALLATION OF REMOTE DESKTOP
+###########################################
+Install Sunshine Remote Desktop Server
+Add Sunshine uinput udev rule
+Setup Sunshine apps
+Setup Sunshine systemd unit

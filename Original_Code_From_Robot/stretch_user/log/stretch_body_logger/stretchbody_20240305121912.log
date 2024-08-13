@@ -1,0 +1,16 @@
+[DEBUG   ] [03/05/2024 12:19:12.220] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 12:19:12.230] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 12:19:12.240] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 12:19:12.255] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 12:19:12.270] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 12:19:12.288] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 12:19:12.306] [pimu]: Shutting down TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 12:19:12.342] [wacc]: Shutting down TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 12:19:12.382] [hello-motor-left-wheel]: Shutting down Stepper on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 12:19:12.486] [hello-motor-left-wheel]: Shutting down TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 12:19:12.524] [hello-motor-right-wheel]: Shutting down Stepper on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 12:19:12.628] [hello-motor-right-wheel]: Shutting down TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 12:19:12.667] [hello-motor-lift]: Shutting down Stepper on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 12:19:12.772] [hello-motor-lift]: Shutting down TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 12:19:12.774] [hello-motor-arm]: Shutting down Stepper on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 12:19:12.877] [hello-motor-arm]: Shutting down TransportConnection on: /dev/hello-motor-arm

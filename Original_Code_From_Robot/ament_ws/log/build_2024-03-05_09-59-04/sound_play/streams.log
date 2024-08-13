@@ -1,0 +1,86 @@
+[1.111s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/sound_play -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sound_play
+[1.674s] -- The C compiler identification is GNU 11.4.0
+[1.771s] -- The CXX compiler identification is GNU 11.4.0
+[1.798s] -- Detecting C compiler ABI info
+[2.499s] -- Detecting C compiler ABI info - done
+[2.499s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.499s] -- Detecting C compile features
+[2.499s] -- Detecting C compile features - done
+[2.499s] -- Detecting CXX compiler ABI info
+[2.650s] -- Detecting CXX compiler ABI info - done
+[2.650s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.650s] -- Detecting CXX compile features
+[2.650s] -- Detecting CXX compile features - done
+[2.650s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.190s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.484s] -- Found audio_common_msgs: 0.3.12 (/home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[3.600s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.619s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.634s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.936s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[4.393s] -- Configuring done
+[4.399s] -- Generating done
+[4.401s] -- Build files have been written to: /home/hello-robot/ament_ws/build/sound_play
+[4.458s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/sound_play -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sound_play
+[4.459s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sound_play -- -j16 -l16
+[4.699s] Built target ament_cmake_python_copy_sound_play
+[5.626s] running egg_info
+[5.627s] creating sound_play.egg-info
+[5.627s] writing sound_play.egg-info/PKG-INFO
+[5.627s] writing dependency_links to sound_play.egg-info/dependency_links.txt
+[5.628s] writing top-level names to sound_play.egg-info/top_level.txt
+[5.628s] writing manifest file 'sound_play.egg-info/SOURCES.txt'
+[5.633s] reading manifest file 'sound_play.egg-info/SOURCES.txt'
+[5.634s] writing manifest file 'sound_play.egg-info/SOURCES.txt'
+[5.780s] Built target ament_cmake_python_build_sound_play_egg
+[5.833s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sound_play -- -j16 -l16
+[5.970s] Invoking command in '/home/hello-robot/ament_ws/build/sound_play': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sound_play
+[5.983s] -- Install configuration: "Release"
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/pythonpath.sh
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/pythonpath.dsv
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play-0.3.12-py3.10.egg-info
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play-0.3.12-py3.10.egg-info/PKG-INFO
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play-0.3.12-py3.10.egg-info/dependency_links.txt
+[5.983s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play-0.3.12-py3.10.egg-info/top_level.txt
+[5.984s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play-0.3.12-py3.10.egg-info/SOURCES.txt
+[5.984s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play
+[5.984s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play/libsoundplay.py
+[5.984s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play/__init__.py
+[6.105s] Listing '/home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play'...
+[6.105s] Compiling '/home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play/__init__.py'...
+[6.105s] Compiling '/home/hello-robot/ament_ws/install/sound_play/local/lib/python3.10/dist-packages/sound_play/libsoundplay.py'...
+[6.122s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/is_speaking.py
+[6.122s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/playbuiltin.py
+[6.122s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/play.py
+[6.123s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/say.py
+[6.123s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/shutup.py
+[6.123s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/lib/sound_play/soundplay_node.py
+[6.124s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/include/sound_play
+[6.124s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/include/sound_play/sound_play.h
+[6.131s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/launch
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/launch/soundplay_node.launch.xml
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/NEEDS_UNPLUGGING.ogg
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/NEEDS_PLUGGING_BADLY.ogg
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/say-beep.wav
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/NEEDS_UNPLUGGING_BADLY.ogg
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/NEEDS_PLUGGING.ogg
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/sounds/BACKINGUP.ogg
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/ament_index/resource_index/package_run_dependencies/sound_play
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/ament_index/resource_index/parent_prefix_path/sound_play
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/ament_prefix_path.sh
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/ament_prefix_path.dsv
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/path.sh
+[6.132s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/environment/path.dsv
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/local_setup.bash
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/local_setup.sh
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/local_setup.zsh
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/local_setup.dsv
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/package.dsv
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/ament_index/resource_index/packages/sound_play
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/cmake/sound_playConfig.cmake
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/cmake/sound_playConfig-version.cmake
+[6.133s] -- Installing: /home/hello-robot/ament_ws/install/sound_play/share/sound_play/package.xml
+[6.146s] Invoked command in '/home/hello-robot/ament_ws/build/sound_play' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sound_play

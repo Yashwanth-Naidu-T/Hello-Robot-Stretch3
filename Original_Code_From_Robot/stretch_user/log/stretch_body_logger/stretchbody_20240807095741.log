@@ -1,0 +1,297 @@
+[DEBUG   ] [08/07/2024 09:57:42.651] [robot]: Starting up Robot stretch-se3-3014 of batch questlove
+[DEBUG   ] [08/07/2024 09:57:42.651] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [08/07/2024 09:57:42.662] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [08/07/2024 09:57:42.677] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [08/07/2024 09:57:42.693] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [08/07/2024 09:57:42.711] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [08/07/2024 09:57:42.744] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:42.832] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:42.930] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [08/07/2024 09:57:42.980] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:43.100] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:43.200] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:43.292] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [08/07/2024 09:57:43.426] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(17669, 3), faces.shape=(31052, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.426] [trimesh]: load_mesh executed in 0.0235 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.426] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.427] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.427] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.427] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.428] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.428] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.436] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.436] [trimesh]: load_mesh executed in 0.0079 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.437] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.437] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.445] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.445] [trimesh]: load_mesh executed in 0.0075 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.445] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.445] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.486] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(27344, 3), faces.shape=(54720, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.486] [trimesh]: load_mesh executed in 0.0409 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.487] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(32, 3), faces.shape=(60, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.487] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.488] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.488] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.498] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7871, 3), faces.shape=(15812, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.498] [trimesh]: load_mesh executed in 0.0094 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.498] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.498] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.500] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1102, 3), faces.shape=(2268, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.500] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.501] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.501] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.503] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.503] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.503] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.503] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.505] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.505] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.506] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.506] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.507] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1204, 3), faces.shape=(2472, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.507] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.508] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.508] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.513] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(4271, 3), faces.shape=(8838, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.513] [trimesh]: load_mesh executed in 0.0050 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.514] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.514] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.516] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2870, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.516] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.516] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 09:57:43.516] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.516] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.526] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7551, 3), faces.shape=(15334, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.526] [trimesh]: load_mesh executed in 0.0093 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.527] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.527] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.531] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3017, 3), faces.shape=(6118, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.531] [trimesh]: load_mesh executed in 0.0035 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.531] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.531] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.544] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(9941, 3), faces.shape=(20078, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.544] [trimesh]: load_mesh executed in 0.0128 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.545] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.545] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.546] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.546] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.546] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.546] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.547] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.547] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.548] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.548] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.548] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.548] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.549] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.549] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.549] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.550] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.550] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.550] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.551] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.551] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.551] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.551] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: loaded <trimesh.Scene(len(geometry)=18)> using load_collada
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: load_mesh executed in 0.2833 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: `nodes_geometry`: 8.45E-06s, `cache.verify`: 1.62E-06s
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.835] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.836] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.839] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.839] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.839] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.839] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.840] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.840] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 09:57:43.841] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 09:57:43.841] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(344, 3), faces.shape=(684, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.841] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.842] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.842] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.843] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.843] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.844] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.844] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.846] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.846] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.847] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.847] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.850] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1847, 3), faces.shape=(3729, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.850] [trimesh]: load_mesh executed in 0.0022 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.850] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.850] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.853] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2842, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.853] [trimesh]: load_mesh executed in 0.0017 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.853] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.853] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.854] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(381, 3), faces.shape=(758, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.854] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.855] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.855] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.871] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(14545, 3), faces.shape=(24513, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.871] [trimesh]: load_mesh executed in 0.0150 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.871] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(46, 3), faces.shape=(88, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.871] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.872] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 09:57:43.873] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(582, 3), faces.shape=(1164, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.873] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.873] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.873] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.875] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.875] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.876] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.876] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.877] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.877] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.877] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.877] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.878] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 09:57:43.878] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(577, 3), faces.shape=(1154, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.878] [trimesh]: load_mesh executed in 0.0009 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.879] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.879] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.881] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.881] [trimesh]: load_mesh executed in 0.0017 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.881] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.881] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.882] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.882] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.883] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.883] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.883] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.883] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.884] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.884] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.888] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3274, 3), faces.shape=(6042, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.888] [trimesh]: load_mesh executed in 0.0035 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.888] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 09:57:43.888] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 09:57:43.911] [base]: Fast motion turned off
+[DEBUG   ] [08/07/2024 09:57:43.911] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:43.979] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.047] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.114] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.181] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.248] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.315] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.382] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.449] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.516] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.583] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.650] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.716] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.783] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.850] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.917] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:44.984] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.052] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.119] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.186] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.253] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.320] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.387] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.454] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.521] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.576] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 09:57:45.578] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 09:57:45.578] [NonDXLStatusThread]: Current rate (Hz): 29.048639
+[DEBUG   ] [08/07/2024 09:57:45.578] [NonDXLStatusThread]: Average rate (Hz): 30.206334
+[DEBUG   ] [08/07/2024 09:57:45.579] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 2.013426
+[DEBUG   ] [08/07/2024 09:57:45.579] [NonDXLStatusThread]: Min rate (Hz): 26.582569
+[DEBUG   ] [08/07/2024 09:57:45.579] [NonDXLStatusThread]: Max rate (Hz): 36.054292
+[DEBUG   ] [08/07/2024 09:57:45.579] [NonDXLStatusThread]: Supportable rate (Hz): 100.129833
+[DEBUG   ] [08/07/2024 09:57:45.580] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 42.454126
+[DEBUG   ] [08/07/2024 09:57:45.580] [NonDXLStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 09:57:45.580] [NonDXLStatusThread]: Sleep time (s): 0.030389
+[DEBUG   ] [08/07/2024 09:57:45.589] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.655] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.722] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.790] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.856] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.923] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:45.990] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.057] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.124] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.191] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.258] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.325] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.392] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.459] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.526] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.593] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.660] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.727] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.794] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.861] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.928] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:46.996] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:47.062] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:47.129] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:47.196] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 50 -----------
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Current rate (Hz): 14.885031
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Average rate (Hz): 14.916200
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.053290
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Min rate (Hz): 14.684807
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Max rate (Hz): 14.994759
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Supportable rate (Hz): 1723.365034
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 646.816225
+[DEBUG   ] [08/07/2024 09:57:47.197] [SystemMonitorThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 09:57:47.198] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 09:57:47.198] [SystemMonitorThread]: Sleep time (s): 0.065863
+[DEBUG   ] [08/07/2024 09:57:47.198] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 09:57:47.199] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.900260
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.896055
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.118398
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.270660
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.995885
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.998231
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.488415
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 09:57:47.200] [DXLEndOfArmStatusThread]: Sleep time (s): 0.041390
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Current rate (Hz): 14.887673
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Average rate (Hz): 14.861580
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.189229
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Min rate (Hz): 14.117245
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Max rate (Hz): 14.997601
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Supportable rate (Hz): 57.935770
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.911375
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 09:57:47.206] [DXLHeadStatusThread]: Sleep time (s): 0.049157
+[DEBUG   ] [08/07/2024 09:57:47.214] [robot]: ---- Shutting down robot ----
+[DEBUG   ] [08/07/2024 09:57:47.225] [robot]: Shutting down DXLHeadStatusThread
+[DEBUG   ] [08/07/2024 09:57:47.228] [robot]: Shutting down DXLEndOfArmStatusThread
+[DEBUG   ] [08/07/2024 09:57:47.263] [robot]: Shutting down SystemMonitorThread
+[DEBUG   ] [08/07/2024 09:57:47.263] [robot]: Shutting down pimu
+[DEBUG   ] [08/07/2024 09:57:47.265] [pimu]: Shutting down TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [08/07/2024 09:57:47.303] [robot]: Shutting down base
+[DEBUG   ] [08/07/2024 09:57:47.306] [hello-motor-left-wheel]: Shutting down Stepper on: /dev/hello-motor-left-wheel
+[DEBUG   ] [08/07/2024 09:57:47.410] [hello-motor-left-wheel]: Shutting down TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [08/07/2024 09:57:47.448] [hello-motor-right-wheel]: Shutting down Stepper on: /dev/hello-motor-right-wheel
+[DEBUG   ] [08/07/2024 09:57:47.551] [hello-motor-right-wheel]: Shutting down TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [08/07/2024 09:57:47.589] [robot]: Shutting down lift
+[DEBUG   ] [08/07/2024 09:57:47.590] [hello-motor-lift]: Shutting down Stepper on: /dev/hello-motor-lift
+[DEBUG   ] [08/07/2024 09:57:47.694] [hello-motor-lift]: Shutting down TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [08/07/2024 09:57:47.696] [robot]: Shutting down arm
+[DEBUG   ] [08/07/2024 09:57:47.697] [hello-motor-arm]: Shutting down Stepper on: /dev/hello-motor-arm
+[DEBUG   ] [08/07/2024 09:57:47.800] [hello-motor-arm]: Shutting down TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [08/07/2024 09:57:47.837] [robot]: Shutting down head
+[DEBUG   ] [08/07/2024 09:57:47.844] [robot]: Shutting down wacc
+[DEBUG   ] [08/07/2024 09:57:47.844] [wacc]: Shutting down TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [08/07/2024 09:57:47.881] [robot]: Shutting down end_of_arm
+[DEBUG   ] [08/07/2024 09:57:47.948] [robot]: ---- Shutdown complete ----

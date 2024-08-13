@@ -1,0 +1,35 @@
+[39mrunning egg_info[0m
+[39mwriting ../../../build/stretch_funmap/stretch_funmap.egg-info/PKG-INFO[0m
+[39mwriting dependency_links to ../../../build/stretch_funmap/stretch_funmap.egg-info/dependency_links.txt[0m
+[39mwriting entry points to ../../../build/stretch_funmap/stretch_funmap.egg-info/entry_points.txt[0m
+[39mwriting requirements to ../../../build/stretch_funmap/stretch_funmap.egg-info/requires.txt[0m
+[39mwriting top-level names to ../../../build/stretch_funmap/stretch_funmap.egg-info/top_level.txt[0m
+[39mreading manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'[0m
+[39madding license file 'LICENSE.md'[0m
+[39mwriting manifest file '../../../build/stretch_funmap/stretch_funmap.egg-info/SOURCES.txt'[0m
+[39mrunning build[0m
+[39mrunning build_py[0m
+[39mrunning build_ext[0m
+[39mbuilding 'stretch_funmap.cython_min_cost_path' extension[0m
+[39mINFO: C compiler: x86_64-linux-gnu-gcc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC
+[0m
+[39mINFO: compile options: '-I/home/hello-robot/ament_ws/install/stretch_funmap/include -I/usr/include/python3.10 -c'[0m
+[39mINFO: x86_64-linux-gnu-gcc: stretch_funmap/cython_min_cost_path.c[0m
+In file included from [01m[K/usr/include/python3.10/numpy/ndarraytypes.h:1969[m[K,
+                 from [01m[K/usr/include/python3.10/numpy/ndarrayobject.h:12[m[K,
+                 from [01m[K/usr/include/python3.10/numpy/arrayobject.h:4[m[K,
+                 from [01m[Kstretch_funmap/cython_min_cost_path.c:700[m[K:
+[01m[K/usr/include/python3.10/numpy/npy_1_7_deprecated_api.h:17:2:[m[K [01;35m[Kwarning: [m[K#warning "Using deprecated NumPy API, disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   17 | #[01;35m[Kwarning[m[K "Using deprecated NumPy API, disable it with " \
+      |  [01;35m[K^~~~~~~[m[K
+[39mINFO: x86_64-linux-gnu-gcc -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -g -fwrapv -O2 -Wl,-Bsymbolic-functions -g -fwrapv -O2 -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 /home/hello-robot/ament_ws/build/stretch_funmap/build/temp.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.o -o /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so[0m
+[39mrunning install[0m
+[39mrunning install_lib[0m
+[39mcopying /home/hello-robot/ament_ws/build/stretch_funmap/build/lib.linux-x86_64-3.10/stretch_funmap/cython_min_cost_path.cpython-310-x86_64-linux-gnu.so -> /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap[0m
+[39mrunning install_data[0m
+[39mrunning install_egg_info[0m
+[39mremoving '/home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info' (and everything under it)[0m
+[39mCopying ../../../build/stretch_funmap/stretch_funmap.egg-info to /home/hello-robot/ament_ws/install/stretch_funmap/lib/python3.10/site-packages/stretch_funmap-0.0.0-py3.10.egg-info[0m
+[39mrunning install_scripts[0m
+[39mInstalling funmap script to /home/hello-robot/ament_ws/install/stretch_funmap/lib/stretch_funmap[0m
+[39mwriting list of installed files to '/home/hello-robot/ament_ws/build/stretch_funmap/install.log'[0m

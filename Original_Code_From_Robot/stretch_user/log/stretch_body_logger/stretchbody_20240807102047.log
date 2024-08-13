@@ -1,0 +1,688 @@
+[DEBUG   ] [08/07/2024 10:20:48.446] [robot]: Starting up Robot stretch-se3-3014 of batch questlove
+[DEBUG   ] [08/07/2024 10:20:48.446] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [08/07/2024 10:20:48.457] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [08/07/2024 10:20:48.471] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [08/07/2024 10:20:48.487] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [08/07/2024 10:20:48.505] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [08/07/2024 10:20:48.538] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:48.627] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:48.725] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [08/07/2024 10:20:48.771] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:48.894] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:48.991] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:49.081] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [08/07/2024 10:20:49.209] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(17669, 3), faces.shape=(31052, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.209] [trimesh]: load_mesh executed in 0.0236 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.210] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.210] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.211] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.211] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.211] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.211] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.220] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.220] [trimesh]: load_mesh executed in 0.0079 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.220] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.220] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.228] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.228] [trimesh]: load_mesh executed in 0.0075 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.229] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.229] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.270] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(27344, 3), faces.shape=(54720, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.270] [trimesh]: load_mesh executed in 0.0410 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.271] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(32, 3), faces.shape=(60, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.271] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.272] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.272] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.281] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7871, 3), faces.shape=(15812, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.281] [trimesh]: load_mesh executed in 0.0093 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.282] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.282] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.284] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1102, 3), faces.shape=(2268, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.284] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.284] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.284] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.286] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.286] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.287] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.287] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.289] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.289] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.289] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.289] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.291] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1204, 3), faces.shape=(2472, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.291] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.291] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.291] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.297] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(4271, 3), faces.shape=(8838, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.297] [trimesh]: load_mesh executed in 0.0050 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.297] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.297] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.299] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2870, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.299] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.300] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 10:20:49.300] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.300] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.310] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7551, 3), faces.shape=(15334, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.310] [trimesh]: load_mesh executed in 0.0093 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.310] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.310] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.314] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3017, 3), faces.shape=(6118, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.314] [trimesh]: load_mesh executed in 0.0035 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.315] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.315] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.328] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(9941, 3), faces.shape=(20078, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.328] [trimesh]: load_mesh executed in 0.0126 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.328] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.328] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.329] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.329] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.330] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.330] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.330] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.330] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.331] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.331] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.332] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.332] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.332] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.332] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.333] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.333] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.333] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.333] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.334] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.334] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.335] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.335] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: loaded <trimesh.Scene(len(geometry)=18)> using load_collada
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: load_mesh executed in 0.2870 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: `nodes_geometry`: 9.60E-06s, `cache.verify`: 1.51E-06s
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.622] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.623] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.626] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.626] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.627] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.627] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.627] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.627] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [08/07/2024 10:20:49.628] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 10:20:49.628] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(344, 3), faces.shape=(684, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.628] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.629] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.629] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.630] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.630] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.631] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.631] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.633] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.633] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.634] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.634] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.637] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1847, 3), faces.shape=(3729, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.637] [trimesh]: load_mesh executed in 0.0022 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.638] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.638] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.640] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2842, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.640] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.640] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.640] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.641] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(381, 3), faces.shape=(758, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.641] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.642] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.642] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.657] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(14545, 3), faces.shape=(24513, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.657] [trimesh]: load_mesh executed in 0.0146 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.658] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(46, 3), faces.shape=(88, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.658] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.658] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 10:20:49.659] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(582, 3), faces.shape=(1164, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.659] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.660] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.660] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.662] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.662] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.662] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.662] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.663] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.663] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.663] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.663] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.664] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [08/07/2024 10:20:49.665] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(577, 3), faces.shape=(1154, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.665] [trimesh]: load_mesh executed in 0.0009 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.665] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.665] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.668] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.668] [trimesh]: load_mesh executed in 0.0023 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.668] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.668] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.669] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.669] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.669] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.670] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.670] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.670] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.671] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.671] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.675] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3274, 3), faces.shape=(6042, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.675] [trimesh]: load_mesh executed in 0.0036 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.675] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [08/07/2024 10:20:49.675] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [08/07/2024 10:20:49.692] [base]: Fast motion turned off
+[DEBUG   ] [08/07/2024 10:20:51.376] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 10:20:51.377] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:51.377] [NonDXLStatusThread]: Current rate (Hz): 28.714342
+[DEBUG   ] [08/07/2024 10:20:51.377] [NonDXLStatusThread]: Average rate (Hz): 29.999643
+[DEBUG   ] [08/07/2024 10:20:51.377] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.247944
+[DEBUG   ] [08/07/2024 10:20:51.380] [NonDXLStatusThread]: Min rate (Hz): 27.427017
+[DEBUG   ] [08/07/2024 10:20:51.380] [NonDXLStatusThread]: Max rate (Hz): 34.322712
+[DEBUG   ] [08/07/2024 10:20:51.381] [NonDXLStatusThread]: Supportable rate (Hz): 89.037487
+[DEBUG   ] [08/07/2024 10:20:51.381] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 23.881331
+[DEBUG   ] [08/07/2024 10:20:51.381] [NonDXLStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 10:20:51.382] [NonDXLStatusThread]: Sleep time (s): 0.021489
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.797855
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.903943
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.153123
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:20:52.980] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.994813
+[DEBUG   ] [08/07/2024 10:20:52.981] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 37.565988
+[DEBUG   ] [08/07/2024 10:20:52.981] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.774654
+[DEBUG   ] [08/07/2024 10:20:52.981] [DXLEndOfArmStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 10:20:52.981] [DXLEndOfArmStatusThread]: Sleep time (s): 0.041834
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 50 -----------
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Current rate (Hz): 14.995349
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Average rate (Hz): 14.854302
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.143938
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Max rate (Hz): 14.995349
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Supportable rate (Hz): 57.836580
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 6.278848
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 10:20:52.991] [DXLHeadStatusThread]: Sleep time (s): 0.051191
+[DEBUG   ] [08/07/2024 10:20:52.994] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 50 -----------
+[DEBUG   ] [08/07/2024 10:20:52.994] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:52.995] [SystemMonitorThread]: Current rate (Hz): 14.527087
+[DEBUG   ] [08/07/2024 10:20:52.995] [SystemMonitorThread]: Average rate (Hz): 14.842929
+[DEBUG   ] [08/07/2024 10:20:52.995] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.143983
+[DEBUG   ] [08/07/2024 10:20:52.995] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:20:52.996] [SystemMonitorThread]: Max rate (Hz): 14.992026
+[DEBUG   ] [08/07/2024 10:20:52.996] [SystemMonitorThread]: Supportable rate (Hz): 2208.616550
+[DEBUG   ] [08/07/2024 10:20:52.996] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 632.662510
+[DEBUG   ] [08/07/2024 10:20:52.997] [SystemMonitorThread]: Warnings: 0 out of 50
+[DEBUG   ] [08/07/2024 10:20:52.997] [SystemMonitorThread]: Sleep time (s): 0.066351
+[DEBUG   ] [08/07/2024 10:20:53.041] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 100 -----------
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Current rate (Hz): 29.714172
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Average rate (Hz): 30.109665
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.912611
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Max rate (Hz): 36.700068
+[DEBUG   ] [08/07/2024 10:20:53.042] [NonDXLStatusThread]: Supportable rate (Hz): 88.246231
+[DEBUG   ] [08/07/2024 10:20:53.043] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 31.556164
+[DEBUG   ] [08/07/2024 10:20:53.043] [NonDXLStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [08/07/2024 10:20:53.043] [NonDXLStatusThread]: Sleep time (s): 0.026922
+[DEBUG   ] [08/07/2024 10:20:54.711] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 150 -----------
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Current rate (Hz): 26.556985
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Average rate (Hz): 30.121257
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 2.052702
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Max rate (Hz): 36.700068
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Supportable rate (Hz): 91.705469
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 32.209581
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [08/07/2024 10:20:54.712] [NonDXLStatusThread]: Sleep time (s): 0.029671
+[DEBUG   ] [08/07/2024 10:20:56.329] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 100 -----------
+[DEBUG   ] [08/07/2024 10:20:56.329] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:56.329] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.916104
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.917635
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.111532
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.994813
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.279339
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.780633
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [08/07/2024 10:20:56.330] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043201
+[DEBUG   ] [08/07/2024 10:20:56.343] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 100 -----------
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Current rate (Hz): 14.891848
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Average rate (Hz): 14.884643
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.117241
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Max rate (Hz): 14.996046
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Supportable rate (Hz): 60.116709
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 5.743480
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [08/07/2024 10:20:56.344] [DXLHeadStatusThread]: Sleep time (s): 0.052333
+[DEBUG   ] [08/07/2024 10:20:56.355] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 100 -----------
+[DEBUG   ] [08/07/2024 10:20:56.355] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:56.355] [SystemMonitorThread]: Current rate (Hz): 14.812645
+[DEBUG   ] [08/07/2024 10:20:56.355] [SystemMonitorThread]: Average rate (Hz): 14.860053
+[DEBUG   ] [08/07/2024 10:20:56.355] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.131827
+[DEBUG   ] [08/07/2024 10:20:56.356] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:20:56.356] [SystemMonitorThread]: Max rate (Hz): 14.996796
+[DEBUG   ] [08/07/2024 10:20:56.356] [SystemMonitorThread]: Supportable rate (Hz): 3688.962542
+[DEBUG   ] [08/07/2024 10:20:56.356] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1859.777928
+[DEBUG   ] [08/07/2024 10:20:56.357] [SystemMonitorThread]: Warnings: 0 out of 100
+[DEBUG   ] [08/07/2024 10:20:56.357] [SystemMonitorThread]: Sleep time (s): 0.066309
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 200 -----------
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Current rate (Hz): 30.112674
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Average rate (Hz): 30.084784
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.566054
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Supportable rate (Hz): 94.226005
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 24.134763
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [08/07/2024 10:20:56.374] [NonDXLStatusThread]: Sleep time (s): 0.032133
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 250 -----------
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Current rate (Hz): 31.811421
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Average rate (Hz): 30.106839
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.415740
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Supportable rate (Hz): 94.443654
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 30.722573
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [08/07/2024 10:20:58.040] [NonDXLStatusThread]: Sleep time (s): 0.032173
+[DEBUG   ] [08/07/2024 10:20:59.681] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 150 -----------
+[DEBUG   ] [08/07/2024 10:20:59.681] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.929165
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.923284
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.102648
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.995241
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.994747
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.393024
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [08/07/2024 10:20:59.682] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043370
+[DEBUG   ] [08/07/2024 10:20:59.700] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 150 -----------
+[DEBUG   ] [08/07/2024 10:20:59.700] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Current rate (Hz): 14.998244
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Average rate (Hz): 14.905737
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.085580
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:20:59.701] [DXLHeadStatusThread]: Supportable rate (Hz): 63.634917
+[DEBUG   ] [08/07/2024 10:20:59.702] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.955063
+[DEBUG   ] [08/07/2024 10:20:59.702] [DXLHeadStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [08/07/2024 10:20:59.702] [DXLHeadStatusThread]: Sleep time (s): 0.051821
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 300 -----------
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Current rate (Hz): 31.019746
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Average rate (Hz): 30.076251
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.477630
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Supportable rate (Hz): 96.784817
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 35.007534
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [08/07/2024 10:20:59.707] [NonDXLStatusThread]: Sleep time (s): 0.022717
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 150 -----------
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Current rate (Hz): 14.977517
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Average rate (Hz): 14.885339
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.105432
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Supportable rate (Hz): 5011.275623
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1544.388377
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Warnings: 0 out of 150
+[DEBUG   ] [08/07/2024 10:20:59.712] [SystemMonitorThread]: Sleep time (s): 0.066482
+[DEBUG   ] [08/07/2024 10:21:01.373] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 350 -----------
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Current rate (Hz): 29.887797
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Average rate (Hz): 30.049050
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.236507
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Supportable rate (Hz): 103.191672
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.870617
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [08/07/2024 10:21:01.374] [NonDXLStatusThread]: Sleep time (s): 0.029814
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 200 -----------
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.953862
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.924262
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.104516
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.996528
+[DEBUG   ] [08/07/2024 10:21:03.030] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.424886
+[DEBUG   ] [08/07/2024 10:21:03.031] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.585281
+[DEBUG   ] [08/07/2024 10:21:03.031] [DXLEndOfArmStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [08/07/2024 10:21:03.031] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043269
+[DEBUG   ] [08/07/2024 10:21:03.040] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 400 -----------
+[DEBUG   ] [08/07/2024 10:21:03.041] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Current rate (Hz): 29.888649
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Average rate (Hz): 30.005390
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.553125
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Supportable rate (Hz): 116.518994
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.843472
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [08/07/2024 10:21:03.047] [NonDXLStatusThread]: Sleep time (s): 0.028718
+[DEBUG   ] [08/07/2024 10:21:03.053] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 200 -----------
+[DEBUG   ] [08/07/2024 10:21:03.053] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:03.053] [DXLHeadStatusThread]: Current rate (Hz): 14.985223
+[DEBUG   ] [08/07/2024 10:21:03.053] [DXLHeadStatusThread]: Average rate (Hz): 14.904904
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.089251
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Supportable rate (Hz): 66.922556
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.927297
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [08/07/2024 10:21:03.054] [DXLHeadStatusThread]: Sleep time (s): 0.052087
+[DEBUG   ] [08/07/2024 10:21:03.065] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 200 -----------
+[DEBUG   ] [08/07/2024 10:21:03.065] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Current rate (Hz): 14.917271
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Average rate (Hz): 14.904193
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.081057
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Supportable rate (Hz): 4884.321062
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1254.419121
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Warnings: 0 out of 200
+[DEBUG   ] [08/07/2024 10:21:03.066] [SystemMonitorThread]: Sleep time (s): 0.066447
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 450 -----------
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: Current rate (Hz): 26.823460
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: Average rate (Hz): 30.003866
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.127413
+[DEBUG   ] [08/07/2024 10:21:04.711] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:04.712] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:04.713] [NonDXLStatusThread]: Supportable rate (Hz): 117.201717
+[DEBUG   ] [08/07/2024 10:21:04.713] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.269520
+[DEBUG   ] [08/07/2024 10:21:04.713] [NonDXLStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [08/07/2024 10:21:04.716] [NonDXLStatusThread]: Sleep time (s): 0.026515
+[DEBUG   ] [08/07/2024 10:21:06.377] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 500 -----------
+[DEBUG   ] [08/07/2024 10:21:06.378] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:06.378] [NonDXLStatusThread]: Current rate (Hz): 27.364924
+[DEBUG   ] [08/07/2024 10:21:06.378] [NonDXLStatusThread]: Average rate (Hz): 30.099063
+[DEBUG   ] [08/07/2024 10:21:06.379] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.947858
+[DEBUG   ] [08/07/2024 10:21:06.379] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:06.379] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:06.379] [NonDXLStatusThread]: Supportable rate (Hz): 102.903125
+[DEBUG   ] [08/07/2024 10:21:06.380] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 30.243316
+[DEBUG   ] [08/07/2024 10:21:06.380] [NonDXLStatusThread]: Warnings: 0 out of 500
+[DEBUG   ] [08/07/2024 10:21:06.380] [NonDXLStatusThread]: Sleep time (s): 0.027017
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 250 -----------
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.968591
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.919883
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.078926
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.996528
+[DEBUG   ] [08/07/2024 10:21:06.384] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.996746
+[DEBUG   ] [08/07/2024 10:21:06.385] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.202301
+[DEBUG   ] [08/07/2024 10:21:06.385] [DXLEndOfArmStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [08/07/2024 10:21:06.385] [DXLEndOfArmStatusThread]: Sleep time (s): 0.042002
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 250 -----------
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Current rate (Hz): 14.902907
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Average rate (Hz): 14.916637
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.068368
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Supportable rate (Hz): 67.891324
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.632224
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [08/07/2024 10:21:06.404] [DXLHeadStatusThread]: Sleep time (s): 0.053060
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 250 -----------
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Current rate (Hz): 14.878220
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Average rate (Hz): 14.908978
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.065512
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Supportable rate (Hz): 5229.694941
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1134.423169
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Warnings: 0 out of 250
+[DEBUG   ] [08/07/2024 10:21:06.420] [SystemMonitorThread]: Sleep time (s): 0.066479
+[DEBUG   ] [08/07/2024 10:21:08.040] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 550 -----------
+[DEBUG   ] [08/07/2024 10:21:08.040] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Current rate (Hz): 30.375238
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Average rate (Hz): 30.134522
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.703484
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Supportable rate (Hz): 104.627258
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 28.692073
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Warnings: 0 out of 550
+[DEBUG   ] [08/07/2024 10:21:08.047] [NonDXLStatusThread]: Sleep time (s): 0.033798
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 600 -----------
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Current rate (Hz): 30.277225
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Average rate (Hz): 30.043759
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.691554
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:09.707] [NonDXLStatusThread]: Supportable rate (Hz): 114.308279
+[DEBUG   ] [08/07/2024 10:21:09.708] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 26.607806
+[DEBUG   ] [08/07/2024 10:21:09.708] [NonDXLStatusThread]: Warnings: 0 out of 600
+[DEBUG   ] [08/07/2024 10:21:09.708] [NonDXLStatusThread]: Sleep time (s): 0.031719
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 300 -----------
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.907250
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.917445
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.076436
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.996528
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.985703
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.260350
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [08/07/2024 10:21:09.733] [DXLEndOfArmStatusThread]: Sleep time (s): 0.042059
+[DEBUG   ] [08/07/2024 10:21:09.757] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 300 -----------
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Current rate (Hz): 14.909317
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Average rate (Hz): 14.915066
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.058740
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Supportable rate (Hz): 68.072187
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.437130
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [08/07/2024 10:21:09.758] [DXLHeadStatusThread]: Sleep time (s): 0.052676
+[DEBUG   ] [08/07/2024 10:21:09.769] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 300 -----------
+[DEBUG   ] [08/07/2024 10:21:09.769] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Current rate (Hz): 14.976929
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Average rate (Hz): 14.916305
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.063474
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:09.770] [SystemMonitorThread]: Supportable rate (Hz): 5452.128804
+[DEBUG   ] [08/07/2024 10:21:09.771] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1257.524704
+[DEBUG   ] [08/07/2024 10:21:09.771] [SystemMonitorThread]: Warnings: 0 out of 300
+[DEBUG   ] [08/07/2024 10:21:09.771] [SystemMonitorThread]: Sleep time (s): 0.066404
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 650 -----------
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Current rate (Hz): 32.452601
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Average rate (Hz): 30.065270
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.428912
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Supportable rate (Hz): 109.193035
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 31.288922
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Warnings: 0 out of 650
+[DEBUG   ] [08/07/2024 10:21:11.374] [NonDXLStatusThread]: Sleep time (s): 0.031901
+[DEBUG   ] [08/07/2024 10:21:13.040] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 700 -----------
+[DEBUG   ] [08/07/2024 10:21:13.041] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Current rate (Hz): 30.029240
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Average rate (Hz): 30.067786
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.427818
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Supportable rate (Hz): 109.156739
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 30.048959
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Warnings: 0 out of 700
+[DEBUG   ] [08/07/2024 10:21:13.047] [NonDXLStatusThread]: Sleep time (s): 0.032339
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 350 -----------
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.945709
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.914668
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.077280
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.996528
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 41.405346
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 1.732774
+[DEBUG   ] [08/07/2024 10:21:13.089] [DXLEndOfArmStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [08/07/2024 10:21:13.090] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043009
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 350 -----------
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Current rate (Hz): 14.949491
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Average rate (Hz): 14.906036
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.084401
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Supportable rate (Hz): 68.079318
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.457446
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [08/07/2024 10:21:13.113] [DXLHeadStatusThread]: Sleep time (s): 0.052785
+[DEBUG   ] [08/07/2024 10:21:13.122] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 350 -----------
+[DEBUG   ] [08/07/2024 10:21:13.123] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:13.123] [SystemMonitorThread]: Current rate (Hz): 14.954608
+[DEBUG   ] [08/07/2024 10:21:13.123] [SystemMonitorThread]: Average rate (Hz): 14.919138
+[DEBUG   ] [08/07/2024 10:21:13.123] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.064485
+[DEBUG   ] [08/07/2024 10:21:13.123] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:13.124] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:13.124] [SystemMonitorThread]: Supportable rate (Hz): 5060.453810
+[DEBUG   ] [08/07/2024 10:21:13.124] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1244.867746
+[DEBUG   ] [08/07/2024 10:21:13.124] [SystemMonitorThread]: Warnings: 0 out of 350
+[DEBUG   ] [08/07/2024 10:21:13.124] [SystemMonitorThread]: Sleep time (s): 0.066457
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 750 -----------
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Current rate (Hz): 30.047095
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Average rate (Hz): 30.009477
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.468987
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Supportable rate (Hz): 114.673721
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 22.904956
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Warnings: 0 out of 750
+[DEBUG   ] [08/07/2024 10:21:14.707] [NonDXLStatusThread]: Sleep time (s): 0.029678
+[DEBUG   ] [08/07/2024 10:21:16.378] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 800 -----------
+[DEBUG   ] [08/07/2024 10:21:16.378] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:16.378] [NonDXLStatusThread]: Current rate (Hz): 26.729784
+[DEBUG   ] [08/07/2024 10:21:16.378] [NonDXLStatusThread]: Average rate (Hz): 30.030828
+[DEBUG   ] [08/07/2024 10:21:16.378] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.453103
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Supportable rate (Hz): 109.664448
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 28.931335
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Warnings: 0 out of 800
+[DEBUG   ] [08/07/2024 10:21:16.379] [NonDXLStatusThread]: Sleep time (s): 0.023748
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 400 -----------
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.948852
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.915599
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.078434
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:16.438] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.996528
+[DEBUG   ] [08/07/2024 10:21:16.439] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.784762
+[DEBUG   ] [08/07/2024 10:21:16.439] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.163300
+[DEBUG   ] [08/07/2024 10:21:16.439] [DXLEndOfArmStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [08/07/2024 10:21:16.439] [DXLEndOfArmStatusThread]: Sleep time (s): 0.040256
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 400 -----------
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Current rate (Hz): 14.911808
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Average rate (Hz): 14.909270
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.080496
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:16.465] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:16.466] [DXLHeadStatusThread]: Supportable rate (Hz): 67.448705
+[DEBUG   ] [08/07/2024 10:21:16.466] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.712320
+[DEBUG   ] [08/07/2024 10:21:16.466] [DXLHeadStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [08/07/2024 10:21:16.466] [DXLHeadStatusThread]: Sleep time (s): 0.051069
+[DEBUG   ] [08/07/2024 10:21:16.476] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 400 -----------
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Current rate (Hz): 14.639447
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Average rate (Hz): 14.908927
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.075331
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Supportable rate (Hz): 5152.812703
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1411.683372
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Warnings: 0 out of 400
+[DEBUG   ] [08/07/2024 10:21:16.477] [SystemMonitorThread]: Sleep time (s): 0.066394
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 850 -----------
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Current rate (Hz): 29.439910
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Average rate (Hz): 30.086026
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 1.668628
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Supportable rate (Hz): 100.322630
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.016800
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Warnings: 0 out of 850
+[DEBUG   ] [08/07/2024 10:21:18.041] [NonDXLStatusThread]: Sleep time (s): 0.027622
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 900 -----------
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Current rate (Hz): 29.968733
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Average rate (Hz): 30.066213
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.905936
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Supportable rate (Hz): 107.275636
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 27.204941
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Warnings: 0 out of 900
+[DEBUG   ] [08/07/2024 10:21:19.707] [NonDXLStatusThread]: Sleep time (s): 0.032842
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 450 -----------
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.991543
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.926661
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.081684
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Min rate (Hz): 13.904124
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998405
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 41.425049
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.235779
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [08/07/2024 10:21:19.789] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043733
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 450 -----------
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Current rate (Hz): 14.897878
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Average rate (Hz): 14.915719
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.053173
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Min rate (Hz): 14.138945
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Max rate (Hz): 14.998620
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Supportable rate (Hz): 67.681169
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.880504
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [08/07/2024 10:21:19.817] [DXLHeadStatusThread]: Sleep time (s): 0.052333
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 450 -----------
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Current rate (Hz): 14.946029
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Average rate (Hz): 14.916574
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.070171
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Min rate (Hz): 14.303802
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Max rate (Hz): 14.998459
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Supportable rate (Hz): 5426.058519
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1309.174808
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Warnings: 0 out of 450
+[DEBUG   ] [08/07/2024 10:21:19.827] [SystemMonitorThread]: Sleep time (s): 0.066456
+[DEBUG   ] [08/07/2024 10:21:21.374] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 950 -----------
+[DEBUG   ] [08/07/2024 10:21:21.374] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Current rate (Hz): 30.963185
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Average rate (Hz): 30.007062
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.475579
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Min rate (Hz): 25.589848
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Max rate (Hz): 37.085572
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Supportable rate (Hz): 123.144134
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.015400
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Warnings: 0 out of 950
+[DEBUG   ] [08/07/2024 10:21:21.375] [NonDXLStatusThread]: Sleep time (s): 0.033825
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        

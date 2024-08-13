@@ -1,0 +1,68 @@
+[3.123s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/stretch_ros2/stretch_rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/stretch_rtabmap
+[3.214s] -- The C compiler identification is GNU 11.4.0
+[3.352s] -- The CXX compiler identification is GNU 11.4.0
+[3.382s] -- Detecting C compiler ABI info
+[3.749s] -- Detecting C compiler ABI info - done
+[3.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.760s] -- Detecting C compile features
+[3.760s] -- Detecting C compile features - done
+[3.765s] -- Detecting CXX compiler ABI info
+[4.079s] -- Detecting CXX compiler ABI info - done
+[4.089s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.089s] -- Detecting CXX compile features
+[4.094s] -- Detecting CXX compile features - done
+[4.097s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.834s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.309s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[5.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.496s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.546s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.040s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.065s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.912s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.945s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.945s] -- Looking for pthread.h
+[7.977s] -- Looking for pthread.h - found
+[7.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.719s] -- Found Threads: TRUE  
+[10.628s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.628s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.628s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.628s] -- Added test 'lint_cmake' to check CMake code style
+[10.628s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.628s] -- Added test 'xmllint' to check XML markup files
+[10.628s] -- Configuring done
+[10.628s] -- Generating done
+[10.628s] -- Build files have been written to: /home/hello-robot/ament_ws/build/stretch_rtabmap
+[10.631s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/stretch_ros2/stretch_rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/stretch_rtabmap
+[10.631s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_rtabmap -- -j16 -l16
+[10.838s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_rtabmap -- -j16 -l16
+[11.118s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_rtabmap
+[11.131s] -- Install configuration: "Release"
+[11.131s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch
+[11.131s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_navigation.launch.py
+[11.143s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_odometry.launch.py
+[11.143s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_mapping.launch.py
+[11.144s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz
+[11.144s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap.rviz
+[11.144s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap_nav.rviz
+[11.145s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/package_run_dependencies/stretch_rtabmap
+[11.145s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/parent_prefix_path/stretch_rtabmap
+[11.145s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.sh
+[11.145s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.dsv
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.sh
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.dsv
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.bash
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.sh
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.zsh
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.dsv
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.dsv
+[11.146s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/packages/stretch_rtabmap
+[11.147s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig.cmake
+[11.147s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig-version.cmake
+[11.147s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.xml
+[11.153s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_rtabmap

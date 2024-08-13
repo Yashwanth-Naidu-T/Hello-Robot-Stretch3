@@ -1,0 +1,93 @@
+arm:
+  contact_models:
+    effort_pct:
+      contact_thresh_default:
+      - -50.55699666341145
+      - 48.11592251646752
+      contact_thresh_homing:
+      - -55.0
+      - 55.0
+  range_m:
+  - 0.0
+  - 0.5152566997126085
+base:
+  wheel_separation_m: 0.3185232063643616
+head_pan:
+  range_t:
+  - 79.0
+  - 3832.0
+  zero_t: 1250
+head_tilt:
+  range_t:
+  - 1750.0
+  - 3342.0
+  zero_t: 2048
+hello-motor-arm:
+  serial_no: C8D5EB3E50303247482E3120FF161D3C
+hello-motor-left-wheel:
+  serial_no: F3EB545850303247482E3120FF161D09
+hello-motor-lift:
+  gains:
+    i_safety_feedforward: 1.2
+  serial_no: DD9395FA50303247482E3120FF161D05
+hello-motor-right-wheel:
+  serial_no: BA67651250303247482E3120FF161D1C
+lift:
+  contact_models:
+    effort_pct:
+      contact_thresh_default:
+      - -15.006808486639285
+      - 62.91596057368258
+      contact_thresh_homing:
+      - -10.0
+      - 69.0
+  i_feedforward: 1.2
+  range_m:
+  - 0.0
+  - 1.1019366456566724
+pimu:
+  config:
+    cliff_zero:
+    - 541.7586083984374
+    - 525.4283374023438
+    - 513.4362487792969
+    - 525.4093286132812
+    gravity_vector_scale: 1.0
+    gyro_zero_offsets:
+    - 0.0
+    - 0.0
+    - 0.0
+    mag_offsets:
+    - 0.0
+    - 0.0
+    - 0.0
+    mag_softiron_matrix:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    rate_gyro_vector_scale: 1.0
+robot:
+  batch_name: questlove
+  d435i:
+    serial_no: '242222071318'
+  model_name: SE3
+  serial_no: stretch-se3-3014
+stretch_gripper:
+  range_t:
+  - 0
+  - 9304
+  zero_t: 3182
+wacc:
+  config:
+    accel_gravity_scale: 0.9930759142972826
+wrist_yaw:
+  range_t:
+  - 87.0
+  - 9161.0
+  zero_t: 7005

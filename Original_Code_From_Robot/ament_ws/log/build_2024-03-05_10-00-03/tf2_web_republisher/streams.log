@@ -1,0 +1,249 @@
+[3.031s] Invoking command in '/home/hello-robot/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/tf2_web_republisher
+[3.094s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.305s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.320s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.421s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.543s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.575s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.463s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.920s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.298s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.299s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.299s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.299s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.299s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.301s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.301s] -- Added test 'lint_cmake' to check CMake code style
+[5.301s] -- Added test 'xmllint' to check XML markup files
+[5.302s] -- Configuring done
+[5.302s] -- Generating done
+[5.303s] -- Build files have been written to: /home/hello-robot/ament_ws/build/tf2_web_republisher
+[5.304s] Invoked command in '/home/hello-robot/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/tf2_web_republisher
+[5.305s] Invoking command in '/home/hello-robot/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/tf2_web_republisher -- -j16 -l16
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_generator_c
+[6.269s] [  2%] Built target tf2_web_republisher__cpp
+[6.269s] [ 12%] Built target tf2_web_republisher__rosidl_generator_c
+[6.269s] [ 12%] Built target ament_cmake_python_copy_tf2_web_republisher
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_cpp
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_introspection_cpp
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_fastrtps_cpp
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_c
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_introspection_c
+[6.269s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_fastrtps_c
+[6.269s] [ 23%] Built target tf2_web_republisher__rosidl_typesupport_cpp
+[6.269s] [ 34%] Built target tf2_web_republisher__rosidl_typesupport_introspection_cpp
+[6.269s] [ 44%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_cpp
+[6.269s] [ 55%] Built target tf2_web_republisher__rosidl_typesupport_c
+[6.269s] [ 65%] Built target tf2_web_republisher__rosidl_typesupport_introspection_c
+[6.270s] [ 76%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_c
+[6.270s] [ 76%] Built target tf2_web_republisher
+[6.270s] [ 78%] Built target tf2_web_republisher__py
+[6.270s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_generator_py
+[6.270s] [ 87%] Built target tf2_web_republisher__rosidl_generator_py
+[6.270s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_fastrtps_c__pyext
+[6.270s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_introspection_c__pyext
+[6.270s] Consolidate compiler generated dependencies of target tf2_web_republisher__rosidl_typesupport_c__pyext
+[6.270s] [100%] Built target tf2_web_republisher__rosidl_typesupport_c__pyext
+[6.270s] [100%] Built target tf2_web_republisher__rosidl_typesupport_fastrtps_c__pyext
+[6.270s] [100%] Built target tf2_web_republisher__rosidl_typesupport_introspection_c__pyext
+[6.270s] running egg_info
+[6.270s] writing tf2_web_republisher.egg-info/PKG-INFO
+[6.270s] writing dependency_links to tf2_web_republisher.egg-info/dependency_links.txt
+[6.270s] writing top-level names to tf2_web_republisher.egg-info/top_level.txt
+[6.270s] reading manifest file 'tf2_web_republisher.egg-info/SOURCES.txt'
+[6.270s] writing manifest file 'tf2_web_republisher.egg-info/SOURCES.txt'
+[6.270s] [100%] Built target ament_cmake_python_build_tf2_web_republisher_egg
+[6.502s] Invoked command in '/home/hello-robot/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/tf2_web_republisher -- -j16 -l16
+[6.933s] Invoking command in '/home/hello-robot/ament_ws/build/tf2_web_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/tf2_web_republisher
+[7.120s] -- Install configuration: "Release"
+[7.120s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/ament_index/resource_index/rosidl_interfaces/tf2_web_republisher
+[7.120s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.120s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.120s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.120s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__functions.c
+[7.121s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__struct.h
+[7.121s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__type_support.h
+[7.121s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__functions.h
+[7.121s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/tf_subscription.h
+[7.122s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.122s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/republish_t_fs.h
+[7.122s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.122s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__functions.h
+[7.122s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__functions.c
+[7.123s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__struct.h
+[7.123s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__type_support.h
+[7.123s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.123s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/tf_array.h
+[7.123s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/rosidl_generator_c__visibility_control.h
+[7.124s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.124s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__functions.c
+[7.124s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__functions.h
+[7.124s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__type_support.h
+[7.124s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__struct.h
+[7.125s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/library_path.sh
+[7.125s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/library_path.dsv
+[7.125s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_generator_c.so
+[7.125s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.125s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.125s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_fastrtps_c.h
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_fastrtps_c.h
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.126s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_fastrtps_c.h
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_fastrtps_c.so
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_introspection_c.h
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__type_support.c
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__type_support.c
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_introspection_c.h
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.127s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_introspection_c.h
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__type_support.c
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_introspection_c.so
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_c.so
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__builder.hpp
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__traits.hpp
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__struct.hpp
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/tf_subscription.hpp
+[7.128s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__struct.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__traits.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__builder.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/republish_t_fs.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__struct.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__traits.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__builder.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/tf_array.hpp
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.129s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/dds_fastrtps
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_fastrtps_cpp.hpp
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_fastrtps_cpp.hpp
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/dds_fastrtps
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/dds_fastrtps
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_fastrtps_cpp.so
+[7.130s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__type_support.cpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/action/detail/tf_subscription__rosidl_typesupport_introspection_cpp.hpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__rosidl_typesupport_introspection_cpp.hpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/srv/detail/republish_t_fs__type_support.cpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__type_support.cpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/include/tf2_web_republisher/tf2_web_republisher/msg/detail/tf_array__rosidl_typesupport_introspection_cpp.hpp
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_introspection_cpp.so
+[7.131s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_typesupport_cpp.so
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/pythonpath.sh
+[7.132s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/pythonpath.dsv
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher-0.0.0-py3.10.egg-info
+[7.132s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher-0.0.0-py3.10.egg-info/PKG-INFO
+[7.132s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.132s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher-0.0.0-py3.10.egg-info/top_level.txt
+[7.132s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/_tf2_web_republisher_s.ep.rosidl_typesupport_c.c
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/action
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/action/_tf_subscription_s.c
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/action/_tf_subscription.py
+[7.132s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/action/__init__.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/srv
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/srv/_republish_t_fs_s.c
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/srv/_republish_t_fs.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/srv/__init__.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/_tf2_web_republisher_s.ep.rosidl_typesupport_introspection_c.c
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/msg
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/msg/_tf_array_s.c
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/msg/_tf_array.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/msg/__init__.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/libtf2_web_republisher__rosidl_generator_py.so
+[7.133s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/__init__.py
+[7.133s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/_tf2_web_republisher_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.133s] Listing '/home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher'...
+[7.134s] Compiling '/home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/__init__.py'...
+[7.134s] Listing '/home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/action'...
+[7.134s] Listing '/home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/msg'...
+[7.134s] Listing '/home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/srv'...
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/local/lib/python3.10/dist-packages/tf2_web_republisher/tf2_web_republisher_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/lib/libtf2_web_republisher__rosidl_generator_py.so
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/msg/TFArray.idl
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs.idl
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/action/TFSubscription.idl
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/msg/TFArray.msg
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs.srv
+[7.134s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs_Request.msg
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/srv/RepublishTFs_Response.msg
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/action/TFSubscription.action
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/ament_index/resource_index/package_run_dependencies/tf2_web_republisher
+[7.135s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/ament_index/resource_index/parent_prefix_path/tf2_web_republisher
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/ament_prefix_path.sh
+[7.135s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/ament_prefix_path.dsv
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/path.sh
+[7.135s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/environment/path.dsv
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.bash
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.sh
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.zsh
+[7.135s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/local_setup.dsv
+[7.135s] -- Installing: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/package.dsv
+[7.135s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/ament_index/resource_index/packages/tf2_web_republisher
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_generator_cExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_generator_cExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_typesupport_fastrtps_cExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_typesupport_fastrtps_cExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_generator_cppExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cppExport.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.136s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cppExport.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisher__rosidl_typesupport_cppExport-release.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_generator_pyExport.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/export_tf2_web_republisher__rosidl_generator_pyExport-release.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_libraries-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/ament_cmake_export_targets-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisherConfig.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/cmake/tf2_web_republisherConfig-version.cmake
+[7.137s] -- Up-to-date: /home/hello-robot/ament_ws/install/tf2_web_republisher/share/tf2_web_republisher/package.xml
+[7.447s] Invoked command in '/home/hello-robot/ament_ws/build/tf2_web_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/tf2_web_republisher

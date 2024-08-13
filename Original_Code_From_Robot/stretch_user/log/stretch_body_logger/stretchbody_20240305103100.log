@@ -1,0 +1,30 @@
+[DEBUG   ] [03/05/2024 10:31:00.882] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:00.882] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:00.882] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:01.888] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:01.889] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:01.889] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:02.907] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:02.907] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:02.907] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:03.934] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:03.934] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:03.934] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:04.958] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:04.958] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:04.958] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:05.983] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:05.983] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:05.983] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:07.010] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:07.010] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:07.011] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:08.034] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:08.035] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:08.035] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:09.060] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:09.060] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:09.060] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[DEBUG   ] [03/05/2024 10:31:10.085] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[ERROR   ] [03/05/2024 10:31:10.085] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING ] [03/05/2024 10:31:10.085] [pimu]: Unable to open serial port for device /dev/hello-pimu

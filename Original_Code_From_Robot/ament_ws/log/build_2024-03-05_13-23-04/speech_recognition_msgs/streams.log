@@ -1,0 +1,236 @@
+[1.013s] Invoking command in '/home/hello-robot/ament_ws/build/speech_recognition_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/speech_recognition_msgs -- -j16 -l16
+[3.545s] [ 11%] Built target speech_recognition_msgs__rosidl_generator_c
+[3.545s] [ 12%] Built target speech_recognition_msgs__cpp
+[3.545s] [ 12%] Built target ament_cmake_python_copy_speech_recognition_msgs
+[3.545s] [ 23%] Built target speech_recognition_msgs__rosidl_typesupport_c
+[3.545s] [ 34%] Built target speech_recognition_msgs__rosidl_typesupport_introspection_cpp
+[3.545s] [ 46%] Built target speech_recognition_msgs__rosidl_typesupport_fastrtps_c
+[3.545s] [ 68%] Built target speech_recognition_msgs__rosidl_typesupport_fastrtps_cpp
+[3.545s] [ 68%] Built target speech_recognition_msgs__rosidl_typesupport_introspection_c
+[3.545s] [ 79%] Built target speech_recognition_msgs__rosidl_typesupport_cpp
+[3.545s] [ 79%] Built target speech_recognition_msgs
+[3.545s] [ 80%] Built target speech_recognition_msgs__py
+[3.545s] [ 90%] Built target speech_recognition_msgs__rosidl_generator_py
+[3.545s] [ 93%] Built target speech_recognition_msgs__rosidl_typesupport_c__pyext
+[3.545s] [100%] Built target speech_recognition_msgs__rosidl_typesupport_introspection_c__pyext
+[3.545s] [100%] Built target speech_recognition_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.545s] running egg_info
+[3.545s] writing speech_recognition_msgs.egg-info/PKG-INFO
+[3.545s] writing dependency_links to speech_recognition_msgs.egg-info/dependency_links.txt
+[3.545s] writing top-level names to speech_recognition_msgs.egg-info/top_level.txt
+[3.545s] reading manifest file 'speech_recognition_msgs.egg-info/SOURCES.txt'
+[3.545s] writing manifest file 'speech_recognition_msgs.egg-info/SOURCES.txt'
+[3.545s] [100%] Built target ament_cmake_python_build_speech_recognition_msgs_egg
+[3.557s] Invoked command in '/home/hello-robot/ament_ws/build/speech_recognition_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/speech_recognition_msgs -- -j16 -l16
+[4.078s] Invoking command in '/home/hello-robot/ament_ws/build/speech_recognition_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/speech_recognition_msgs
+[4.269s] -- Install configuration: "Release"
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/ament_index/resource_index/rosidl_interfaces/speech_recognition_msgs
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/speech_recognition.h
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__functions.h
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__functions.c
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__type_support.h
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__struct.h
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.269s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__type_support.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__type_support.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__functions.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__functions.c
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__struct.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__functions.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__functions.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__functions.c
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__functions.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__struct.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__type_support.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__type_support.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__struct.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__functions.c
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__struct.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__functions.c
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/vocabulary.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/grammar.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/speech_recognition_candidates.h
+[4.270s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/phrase_rule.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/library_path.sh
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/library_path.dsv
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_generator_c.so
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__rosidl_typesupport_fastrtps_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__rosidl_typesupport_fastrtps_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__rosidl_typesupport_fastrtps_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__rosidl_typesupport_fastrtps_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__rosidl_typesupport_fastrtps_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_fastrtps_c.so
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__rosidl_typesupport_introspection_c.h
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__type_support.c
+[4.271s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__rosidl_typesupport_introspection_c.h
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__type_support.c
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__rosidl_typesupport_introspection_c.h
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__type_support.c
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__rosidl_typesupport_introspection_c.h
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__rosidl_typesupport_introspection_c.h
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__type_support.c
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__type_support.c
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_introspection_c.so
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_c.so
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/speech_recognition.hpp
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__traits.hpp
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__struct.hpp
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__builder.hpp
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.272s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/speech_recognition_candidates.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/vocabulary.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__builder.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__traits.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__struct.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__struct.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__builder.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__builder.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__builder.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__traits.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__traits.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__traits.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__struct.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__struct.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/phrase_rule.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/grammar.hpp
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.273s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/dds_fastrtps
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/dds_fastrtps
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__rosidl_typesupport_fastrtps_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__rosidl_typesupport_introspection_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/srv/detail/speech_recognition__type_support.cpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__type_support.cpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__rosidl_typesupport_introspection_cpp.hpp
+[4.274s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__rosidl_typesupport_introspection_cpp.hpp
+[4.283s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/vocabulary__rosidl_typesupport_introspection_cpp.hpp
+[4.283s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__type_support.cpp
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/grammar__type_support.cpp
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/speech_recognition_candidates__type_support.cpp
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/include/speech_recognition_msgs/speech_recognition_msgs/msg/detail/phrase_rule__rosidl_typesupport_introspection_cpp.hpp
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_introspection_cpp.so
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_typesupport_cpp.so
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/pythonpath.sh
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/pythonpath.dsv
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs-4.3.2-py3.10.egg-info
+[4.284s] -- Installing: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs-4.3.2-py3.10.egg-info/PKG-INFO
+[4.284s] -- Installing: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs-4.3.2-py3.10.egg-info/dependency_links.txt
+[4.284s] -- Installing: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs-4.3.2-py3.10.egg-info/top_level.txt
+[4.284s] -- Installing: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs-4.3.2-py3.10.egg-info/SOURCES.txt
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/_speech_recognition_msgs_s.ep.rosidl_typesupport_c.c
+[4.284s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/_speech_recognition_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/srv
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/srv/_speech_recognition.py
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/srv/_speech_recognition_s.c
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/srv/__init__.py
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_phrase_rule_s.c
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_grammar_s.c
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_phrase_rule.py
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_vocabulary_s.c
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_vocabulary.py
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_speech_recognition_candidates.py
+[4.285s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/__init__.py
+[4.286s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_grammar.py
+[4.286s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg/_speech_recognition_candidates_s.c
+[4.286s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/libspeech_recognition_msgs__rosidl_generator_py.so
+[4.286s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/_speech_recognition_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.286s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/__init__.py
+[4.364s] Listing '/home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs'...
+[4.364s] Listing '/home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/msg'...
+[4.364s] Listing '/home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/srv'...
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/local/lib/python3.10/dist-packages/speech_recognition_msgs/speech_recognition_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/lib/libspeech_recognition_msgs__rosidl_generator_py.so
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/Grammar.idl
+[4.365s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/PhraseRule.idl
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/SpeechRecognitionCandidates.idl
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/Vocabulary.idl
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/srv/SpeechRecognition.idl
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/Grammar.msg
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/PhraseRule.msg
+[4.366s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/SpeechRecognitionCandidates.msg
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/msg/Vocabulary.msg
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/srv/SpeechRecognition.srv
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/srv/SpeechRecognition_Request.msg
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/srv/SpeechRecognition_Response.msg
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/ament_index/resource_index/package_run_dependencies/speech_recognition_msgs
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/ament_index/resource_index/parent_prefix_path/speech_recognition_msgs
+[4.367s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/ament_prefix_path.sh
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/ament_prefix_path.dsv
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/path.sh
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/environment/path.dsv
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/local_setup.bash
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/local_setup.sh
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/local_setup.zsh
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/local_setup.dsv
+[4.368s] -- Installing: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/package.dsv
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/ament_index/resource_index/packages/speech_recognition_msgs
+[4.368s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_generator_cExport.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_generator_cExport-release.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_cExport.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_cExport-release.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_generator_cppExport.cmake
+[4.369s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_cppExport.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_generator_pyExport.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/export_speech_recognition_msgs__rosidl_generator_pyExport-release.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/rosidl_cmake-extras.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.370s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgsConfig.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/cmake/speech_recognition_msgsConfig-version.cmake
+[4.371s] -- Up-to-date: /home/hello-robot/ament_ws/install/speech_recognition_msgs/share/speech_recognition_msgs/package.xml
+[4.864s] Invoked command in '/home/hello-robot/ament_ws/build/speech_recognition_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/speech_recognition_msgs

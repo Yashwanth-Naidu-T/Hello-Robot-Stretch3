@@ -1,0 +1,118 @@
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 4
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 5
+[INFO] [robot_monitor]: Wrist single tap: 6
+For use with S T R E T C H (R) from Hello Robot Inc.
+---------------------------------------------------------------------
+
+Key mapped to End-Of-Arm Tool: eoa_wrist_dw3_tool_sg3
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+--------- Homing Head ----
+--------- Homing Lift ----
+Homing Lift...
+Hardstop detected at motor position (rad) 95.05918884277344
+Marking Lift position to 1.101937 (m)
+Marking Lift position to 0.000000 (m)
+Lift homing successful
+--------- Homing Arm ----
+Homing Arm...
+Hardstop detected at motor position (rad) -0.41748300194740295
+Marking Arm position to 0.000000 (m)
+Arm homing successful
+Moving to first hardstop...
+First hardstop contact at position (ticks): -4098
+-----
+Homing offset was -1584
+Marking current position to zero ticks
+Homing offset is now  2510 (ticks)
+-----
+Current position (ticks): 32
+Moving to calibrated zero: (rad)
+Moving to first hardstop...
+First hardstop contact at position (ticks): -2
+-----
+Homing offset was 2192
+Marking current position to zero ticks
+Homing offset is now  2190 (ticks)
+-----
+Current position (ticks): 27
+Moving to calibrated zero: (rad)
+Gamepad Dongle DISCONNECTED........
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Gamepad Dongle FOUND!
+[INFO] [robot_monitor]: Wrist single tap: 7
+[INFO] [robot_monitor]: Wrist single tap: 8
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: High current of: 7.15
+Caught signal 15
+Caught signal 15
+Traceback (most recent call last):
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 461, in mainloop
+    self.step_mainloop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 452, in step_mainloop
+    self.do_motion(robot=robot)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 246, in do_motion
+    self.command_robot_joints(robot)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 136, in command_robot_joints
+    self.wirst_yaw_command.stop_motion(robot)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_joints.py", line 490, in stop_motion
+    motor.set_velocity(0,self.params['motion']['max']['accel'])
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/dynamixel_hello_XL430.py", line 606, in set_velocity
+    self.enable_velocity_ctrl()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/dynamixel_hello_XL430.py", line 670, in enable_velocity_ctrl
+    self.motor.disable_torque()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/dynamixel_XL430.py", line 457, in disable_torque
+    self.handle_comm_result('XL430_ADDR_TORQUE_ENABLE', dxl_comm_result, dxl_error)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/dynamixel_XL430.py", line 279, in handle_comm_result
+    raise DynamixelCommError(comm_error_msg)
+stretch_body.dynamixel_XL430.DynamixelCommError: DXL Comm Error on /dev/hello-dynamixel-wrist ID 13. Attempted XL430_ADDR_TORQUE_ENABLE. Result COMM_PORT_BUSY. Error 0. Total Errors 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hello-robot/.local/bin/stretch_gamepad_teleop.py", line 11, in <module>
+    gamepad_teleop.mainloop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 464, in mainloop
+    self.robot.stop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/robot.py", line 358, in stop
+    self.devices[k].stop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/base.py", line 60, in stop
+    self.left_wheel.stop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/stepper.py", line 191, in stop
+    self.push_command(exiting=True)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/stepper.py", line 224, in push_command
+    self.transport.do_push_rpc_sync(payload[:sidx], self.rpc_command_reply, exiting=exiting)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/transport.py", line 937, in do_push_rpc_sync
+    self.sync_handler.do_rpc(push=True, payload=payload, reply_callback=reply_callback, exiting=exiting)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/transport.py", line 166, in do_rpc
+    time.sleep(0.1)  # May have been a hard exit, give time for bad data to land, remove, do final RPC
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/hello_utils.py", line 296, in thread_service_shutdown
+    raise ThreadServiceExit
+stretch_body.hello_utils.ThreadServiceExit

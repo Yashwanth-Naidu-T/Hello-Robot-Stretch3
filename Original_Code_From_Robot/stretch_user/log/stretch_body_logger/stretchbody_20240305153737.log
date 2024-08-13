@@ -1,0 +1,2 @@
+[DEBUG   ] [03/05/2024 15:37:37.600] [git.cmd]: Popen(['git', 'version'], cwd=/home/hello-robot/repos/stretch_dex_teleop, stdin=None, shell=False, universal_newlines=False)
+[DEBUG   ] [03/05/2024 15:37:37.602] [git.cmd]: Popen(['git', 'version'], cwd=/home/hello-robot/repos/stretch_dex_teleop, stdin=None, shell=False, universal_newlines=False)

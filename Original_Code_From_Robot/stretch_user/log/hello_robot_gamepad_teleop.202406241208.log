@@ -1,0 +1,98 @@
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 11
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 13
+[INFO] [robot_monitor]: Wrist single tap: 14
+[INFO] [robot_monitor]: Wrist single tap: 15
+[INFO] [robot_monitor]: Wrist single tap: 16
+[INFO] [robot_monitor]: Wrist single tap: 17
+[INFO] [robot_monitor]: Wrist single tap: 18
+[INFO] [robot_monitor]: Wrist single tap: 20
+[INFO] [robot_monitor]: Wrist single tap: 24
+[INFO] [robot_monitor]: Wrist single tap: 28
+[INFO] [robot_monitor]: Wrist single tap: 32
+[INFO] [robot_monitor]: Wrist single tap: 39
+[INFO] [robot_monitor]: Wrist single tap: 41
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[WARNING] [wrist_pitch]: set_velocity in collision . Motion disabled in direction pos for wrist_pitch. Not executing set_velocity
+[INFO] [robot_monitor]: Wrist single tap: 42
+[INFO] [robot_monitor]: Wrist single tap: 43
+[INFO] [robot_monitor]: Wrist single tap: 44
+[INFO] [robot_monitor]: Wrist single tap: 45
+[INFO] [robot_monitor]: Wrist single tap: 46
+[INFO] [robot_monitor]: Wrist single tap: 48
+[INFO] [robot_monitor]: Wrist single tap: 49
+[INFO] [robot_monitor]: Wrist single tap: 50
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+For use with S T R E T C H (R) from Hello Robot Inc.
+---------------------------------------------------------------------
+
+Key mapped to End-Of-Arm Tool: eoa_wrist_dw3_tool_sg3
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+--------- Homing Head ----
+--------- Homing Lift ----
+Homing Lift...
+Hardstop detected at motor position (rad) 107.78228759765625
+Marking Lift position to 1.101937 (m)
+Marking Lift position to 0.000000 (m)
+Lift homing successful
+--------- Homing Arm ----
+Homing Arm...
+Hardstop detected at motor position (rad) -0.7777186632156372
+Marking Arm position to 0.000000 (m)
+Arm homing successful
+Moving to first hardstop...
+First hardstop contact at position (ticks): -7
+-----
+Homing offset was -1588
+Marking current position to zero ticks
+Homing offset is now  -1587 (ticks)
+-----
+Current position (ticks): 25
+Moving to calibrated zero: (rad)
+Moving to first hardstop...
+First hardstop contact at position (ticks): -21
+-----
+Homing offset was 2159
+Marking current position to zero ticks
+Homing offset is now  2110 (ticks)
+-----
+Current position (ticks): 49
+Moving to calibrated zero: (rad)
+New collision pair event: link_gripper_s3_body_TO_link_arm_l0
+New collision pair event: link_gripper_s3_body_TO_link_arm_l1
+New collision pair event: link_gripper_s3_body_TO_link_arm_l1
+Shutting Down the Robot...
+--------- Stowing Arm ----
+--------- Stowing eoa_wrist_dw3_tool_sg3 ----
+--------- Stowing Lift ----
+Caught signal 15

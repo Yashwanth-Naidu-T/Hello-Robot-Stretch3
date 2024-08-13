@@ -1,0 +1,18 @@
+firmware:
+  hello-motor-arm: Stepper.v0.7.5p5
+  hello-motor-left-wheel: Stepper.v0.7.5p5
+  hello-motor-lift: Stepper.v0.7.5p5
+  hello-motor-right-wheel: Stepper.v0.7.5p5
+  hello-pimu: Pimu.v0.7.0p5
+  hello-wacc: Wacc.v0.5.1p3
+pip:
+  hello-robot-stretch-body: 0.7.17
+  hello-robot-stretch-body-tools: 0.7.9
+  hello-robot-stretch-diagnostics: 0.0.14
+  hello-robot-stretch-factory: 0.5.6
+  hello-robot-stretch-tool-share: 0.3.4
+  hello-robot-stretch-urdf: 0.0.24
+ros:
+  stretch_ros: 7397a97a7843fdd2095588021045414d8310c29b
+  stretch_ros2: 619499a5790f33d4b4da022c002db0063c4aa762
+version: '0.0'

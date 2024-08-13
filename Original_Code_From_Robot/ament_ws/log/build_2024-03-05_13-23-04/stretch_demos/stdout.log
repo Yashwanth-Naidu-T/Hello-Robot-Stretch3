@@ -1,0 +1,24 @@
+[39mrunning egg_info[0m
+[39mwriting ../../../build/stretch_demos/stretch_demos.egg-info/PKG-INFO[0m
+[39mwriting dependency_links to ../../../build/stretch_demos/stretch_demos.egg-info/dependency_links.txt[0m
+[39mwriting entry points to ../../../build/stretch_demos/stretch_demos.egg-info/entry_points.txt[0m
+[39mwriting requirements to ../../../build/stretch_demos/stretch_demos.egg-info/requires.txt[0m
+[39mwriting top-level names to ../../../build/stretch_demos/stretch_demos.egg-info/top_level.txt[0m
+[39mreading manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'[0m
+[39madding license file 'LICENSE.md'[0m
+[39mwriting manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'[0m
+[39mrunning build[0m
+[39mrunning build_py[0m
+[39mrunning install[0m
+[39mrunning install_lib[0m
+[39mrunning install_data[0m
+[39mrunning install_egg_info[0m
+[39mremoving '/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info' (and everything under it)[0m
+[39mCopying ../../../build/stretch_demos/stretch_demos.egg-info to /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info[0m
+[39mrunning install_scripts[0m
+[39mInstalling clean_surface script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[39mInstalling grasp_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[39mInstalling handover_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[39mInstalling hello_world script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[39mInstalling open_drawer script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos[0m
+[39mwriting list of installed files to '/home/hello-robot/ament_ws/build/stretch_demos/install.log'[0m

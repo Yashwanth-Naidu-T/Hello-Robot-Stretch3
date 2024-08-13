@@ -1,0 +1,216 @@
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 8
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 9
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 12
+[INFO] [robot_monitor]: Wrist single tap: 13
+[INFO] [robot_monitor]: Wrist single tap: 14
+[INFO] [robot_monitor]: Wrist single tap: 15
+[INFO] [robot_monitor]: Wrist single tap: 16
+[INFO] [robot_monitor]: Wrist single tap: 17
+[INFO] [robot_monitor]: Wrist single tap: 18
+[INFO] [robot_monitor]: Wrist single tap: 20
+[INFO] [robot_monitor]: Wrist single tap: 21
+[INFO] [robot_monitor]: Wrist single tap: 23
+[INFO] [robot_monitor]: Wrist single tap: 25
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 26
+[INFO] [robot_monitor]: Wrist single tap: 27
+[INFO] [robot_monitor]: Wrist single tap: 28
+[INFO] [robot_monitor]: Wrist single tap: 29
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 30
+[INFO] [robot_monitor]: Wrist single tap: 35
+[INFO] [robot_monitor]: Wrist single tap: 37
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[WARNING] [lift]: In collision. Motion disabled in direction neg for lift. Not executing set_velocity
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 38
+[INFO] [robot_monitor]: Wrist single tap: 39
+[INFO] [robot_monitor]: Wrist single tap: 40
+[INFO] [robot_monitor]: Wrist single tap: 41
+[INFO] [robot_monitor]: Wrist single tap: 42
+[INFO] [robot_monitor]: Wrist single tap: 43
+[INFO] [robot_monitor]: Wrist single tap: 45
+[INFO] [robot_monitor]: Wrist single tap: 51
+[INFO] [robot_monitor]: Wrist single tap: 52
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 53
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 54
+[INFO] [robot_monitor]: Wrist single tap: 56
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 461, in mainloop
+    self.step_mainloop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 452, in step_mainloop
+    self.do_motion(robot=robot)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 246, in do_motion
+    self.command_robot_joints(robot)
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 216, in command_robot_joints
+    self.manage_shutdown(robot) # Stows the robot and performs a PC shutdown when the Back/SELECT_BUTTON is long pressed for 2s. Comment to turn off
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 447, in manage_shutdown
+    os.system('sudo shutdown now')  # sudoers should be set up to not need a password
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/hello_utils.py", line 296, in thread_service_shutdown
+    raise ThreadServiceExit
+stretch_body.hello_utils.ThreadServiceExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1104, in emit
+    self.flush()
+  File "/usr/lib/python3.10/logging/__init__.py", line 1084, in flush
+    self.stream.flush()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/hello_utils.py", line 296, in thread_service_shutdown
+    raise ThreadServiceExit
+stretch_body.hello_utils.ThreadServiceExit
+Call stack:
+  File "/home/hello-robot/.local/bin/stretch_gamepad_teleop.py", line 11, in <module>
+    gamepad_teleop.mainloop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/gamepad_teleop.py", line 464, in mainloop
+    self.robot.stop()
+  File "/home/hello-robot/.local/lib/python3.10/site-packages/stretch_body/robot.py", line 357, in stop
+    self.logger.debug('Shutting down %s'%k)
+Message: 'Shutting down wacc'
+Arguments: ()
+For use with S T R E T C H (R) from Hello Robot Inc.
+---------------------------------------------------------------------
+
+Key mapped to End-Of-Arm Tool: eoa_wrist_dw3_tool_sg3
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+--------- Homing Head ----
+--------- Homing Lift ----
+Homing Lift...
+Hardstop detected at motor position (rad) 107.47510528564453
+Marking Lift position to 1.101937 (m)
+Marking Lift position to 0.000000 (m)
+Lift homing successful
+--------- Homing Arm ----
+Homing Arm...
+Hardstop detected at motor position (rad) -0.7145378589630127
+Marking Arm position to 0.000000 (m)
+Arm homing successful
+Moving to first hardstop...
+First hardstop contact at position (ticks): -4099
+-----
+Homing offset was 2506
+Marking current position to zero ticks
+Homing offset is now  6600 (ticks)
+-----
+Current position (ticks): 23
+Moving to calibrated zero: (rad)
+Moving to first hardstop...
+First hardstop contact at position (ticks): -24
+-----
+Homing offset was 2157
+Marking current position to zero ticks
+Homing offset is now  2179 (ticks)
+-----
+Current position (ticks): 35
+Moving to calibrated zero: (rad)
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+Switch D-Pad to DexWrist Control
+Switch D-Pad to Head Control
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+New collision pair event: link_head_tilt_TO_link_arm_l4
+Switch D-Pad to DexWrist Control
+New collision pair event: link_gripper_s3_body_TO_base_link
+New collision pair event: link_gripper_s3_body_TO_base_link
+New collision pair event: link_gripper_s3_body_TO_base_link
+New collision pair event: link_gripper_s3_body_TO_base_link
+New collision pair event: link_gripper_s3_body_TO_base_link
+--------- Stowing Arm ----
+--------- Stowing eoa_wrist_dw3_tool_sg3 ----
+--------- Stowing Lift ----
+Shutting Down the Robot...
+--------- Stowing Lift ----
+--------- Stowing Arm ----
+--------- Stowing eoa_wrist_dw3_tool_sg3 ----
+Caught signal 15
+Caught signal 15

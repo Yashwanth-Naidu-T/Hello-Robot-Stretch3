@@ -1,0 +1,6 @@
+Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sllidar_ros2
+Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hello-robot/ament_ws/src/sllidar_ros2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/sllidar_ros2
+Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sllidar_ros2 -- -j16 -l16
+Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/sllidar_ros2 -- -j16 -l16
+Invoking command in '/home/hello-robot/ament_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sllidar_ros2
+Invoked command in '/home/hello-robot/ament_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/sllidar_ros2

@@ -1,0 +1,24 @@
+WARNING: Running a FACTORY install. This is only meant to be run at Hello Robot HQ.
+WARNING: Run this installation for fresh Ubuntu installs only.
+Checking ~/.bashrc doesn't already define HELLO_FLEET_ID...
+Plug in charger & attach clip-clamp. Ready to proceed (y/n)? 
+1) stretch-re1
+2) stretch-re2
+3) stretch-se3
+Select model type: Selected model: stretch-se3
+Enter fleet id xxxx for stretch-se3-xxxx> HELLO_FLEET_ID will be stretch-se3-3014. Proceed with installation (y/n)? 
+Checking Stretch Install cloned to right place...
+Waiting to get online...
+Checking install repo is up-to-date...
+Waiting for apt lock...
+Setting up /etc/hello-robot directory...
+Fetching robot's calibration data from Github...
+Cloning into 'stretch_fleet'...
+Updating files:  14% (4980/34489)Updating files:  15% (5174/34489)Updating files:  16% (5519/34489)Updating files:  17% (5864/34489)Updating files:  18% (6209/34489)Updating files:  19% (6553/34489)Updating files:  20% (6898/34489)Updating files:  20% (7081/34489)Updating files:  21% (7243/34489)Updating files:  22% (7588/34489)Updating files:  23% (7933/34489)Updating files:  24% (8278/34489)Updating files:  25% (8623/34489)Updating files:  26% (8968/34489)Updating files:  27% (9313/34489)Updating files:  28% (9657/34489)Updating files:  29% (10002/34489)Updating files:  30% (10347/34489)Updating files:  31% (10692/34489)Updating files:  32% (11037/34489)Updating files:  33% (11382/34489)Updating files:  34% (11727/34489)Updating files:  34% (11905/34489)Updating files:  35% (12072/34489)Updating files:  36% (12417/34489)Updating files:  37% (12761/34489)Updating files:  38% (13106/34489)Updating files:  39% (13451/34489)Updating files:  39% (13737/34489)Updating files:  40% (13796/34489)Updating files:  41% (14141/34489)Updating files:  42% (14486/34489)Updating files:  43% (14831/34489)Updating files:  44% (15176/34489)Updating files:  45% (15521/34489)Updating files:  46% (15865/34489)Updating files:  47% (16210/34489)Updating files:  48% (16555/34489)Updating files:  49% (16900/34489)Updating files:  50% (17245/34489)Updating files:  51% (17590/34489)Updating files:  52% (17935/34489)Updating files:  53% (18280/34489)Updating files:  53% (18402/34489)Updating files:  54% (18625/34489)Updating files:  55% (18969/34489)Updating files:  56% (19314/34489)Updating files:  57% (19659/34489)Updating files:  58% (20004/34489)Updating files:  59% (20349/34489)Updating files:  60% (20694/34489)Updating files:  61% (21039/34489)Updating files:  62% (21384/34489)Updating files:  63% (21729/34489)Updating files:  64% (22073/34489)Updating files:  65% (22418/34489)Updating files:  66% (22763/34489)Updating files:  67% (23108/34489)Updating files:  68% (23453/34489)Updating files:  69% (23798/34489)Updating files:  70% (24143/34489)Updating files:  71% (24488/34489)Updating files:  71% (24699/34489)Updating files:  72% (24833/34489)Updating files:  73% (25177/34489)Updating files:  74% (25522/34489)Updating files:  75% (25867/34489)Updating files:  76% (26212/34489)Updating files:  77% (26557/34489)Updating files:  78% (26902/34489)Updating files:  79% (27247/34489)Updating files:  80% (27592/34489)Updating files:  81% (27937/34489)Updating files:  81% (28268/34489)Updating files:  82% (28281/34489)Updating files:  83% (28626/34489)Updating files:  84% (28971/34489)Updating files:  85% (29316/34489)Updating files:  86% (29661/34489)Updating files:  87% (30006/34489)Updating files:  88% (30351/34489)Updating files:  89% (30696/34489)Updating files:  90% (31041/34489)Updating files:  91% (31385/34489)Updating files:  92% (31730/34489)Updating files:  93% (32075/34489)Updating files:  94% (32420/34489)Updating files:  95% (32765/34489)Updating files:  96% (33110/34489)Updating files:  97% (33455/34489)Updating files:  98% (33800/34489)Updating files:  99% (34145/34489)Updating files: 100% (34489/34489)Updating files: 100% (34489/34489), done.
+Setting up UDEV rules...
+Allow shutdown without password...
+Setting up startup scripts...
+Setting up apt retries...
+Prevent screen dimming...
+Setting up motd...
+Switching from Wayland to X11...

@@ -1,0 +1,214 @@
+[DEBUG   ] [05/28/2024 06:58:27.120] [filelock]: Attempting to acquire lock 140044751791456 on /tmp/stretch_body_robot_pid.txt.lock
+[DEBUG   ] [05/28/2024 06:58:27.120] [filelock]: Lock 140044751791456 acquired on /tmp/stretch_body_robot_pid.txt.lock
+[DEBUG   ] [05/28/2024 06:58:27.134] [robot]: Starting up Robot stretch-se3-3014 of batch questlove
+[DEBUG   ] [05/28/2024 06:58:27.134] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [05/28/2024 06:58:27.144] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [05/28/2024 06:58:27.160] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [05/28/2024 06:58:27.176] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [05/28/2024 06:58:27.195] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [05/28/2024 06:58:27.226] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.317] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.416] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [05/28/2024 06:58:27.442] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.565] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.664] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.764] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:27.899] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(17669, 3), faces.shape=(31052, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.899] [trimesh]: load_mesh executed in 0.0238 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.900] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.900] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.900] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.900] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.901] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.901] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.909] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.909] [trimesh]: load_mesh executed in 0.0080 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.910] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.910] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.918] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.918] [trimesh]: load_mesh executed in 0.0079 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.919] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.919] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.961] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(27344, 3), faces.shape=(54720, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.961] [trimesh]: load_mesh executed in 0.0417 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.962] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(32, 3), faces.shape=(60, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.962] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.963] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.963] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.972] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7871, 3), faces.shape=(15812, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.973] [trimesh]: load_mesh executed in 0.0094 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.973] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.973] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.975] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1102, 3), faces.shape=(2268, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.975] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.976] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.976] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.978] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.978] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.978] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.978] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.980] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.980] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.981] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.981] [trimesh]: load_mesh executed in 0.0003 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.982] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1204, 3), faces.shape=(2472, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.983] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.983] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.983] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.988] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(4271, 3), faces.shape=(8838, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.988] [trimesh]: load_mesh executed in 0.0051 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.989] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.989] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.991] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2870, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.991] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [05/28/2024 06:58:27.992] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [05/28/2024 06:58:27.992] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:27.992] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.002] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7551, 3), faces.shape=(15334, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.002] [trimesh]: load_mesh executed in 0.0094 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.002] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.002] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.006] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3017, 3), faces.shape=(6118, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.006] [trimesh]: load_mesh executed in 0.0036 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.007] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.007] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.020] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(9941, 3), faces.shape=(20078, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.020] [trimesh]: load_mesh executed in 0.0129 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.021] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.021] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.022] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.022] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.022] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.022] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.023] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.023] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.024] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.024] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.024] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.024] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.025] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.025] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.026] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.026] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.026] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.026] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.027] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.027] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.027] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.027] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: loaded <trimesh.Scene(len(geometry)=18)> using load_collada
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: load_mesh executed in 0.2851 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: `nodes_geometry`: 9.72E-06s, `cache.verify`: 1.78E-06s
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.313] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.314] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.314] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.314] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.315] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.318] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.318] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.318] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.318] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.318] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.319] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [05/28/2024 06:58:28.319] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [05/28/2024 06:58:28.320] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(344, 3), faces.shape=(684, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.320] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.321] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.321] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.322] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.322] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.323] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.323] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.324] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.325] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.326] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.326] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.329] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1847, 3), faces.shape=(3729, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.329] [trimesh]: load_mesh executed in 0.0023 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.329] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.329] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.332] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2842, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.332] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.332] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.332] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.333] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(381, 3), faces.shape=(758, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.333] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.334] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.334] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.349] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(14545, 3), faces.shape=(24513, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.349] [trimesh]: load_mesh executed in 0.0152 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.350] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(46, 3), faces.shape=(88, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.350] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.351] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [05/28/2024 06:58:28.352] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(582, 3), faces.shape=(1164, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.352] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.352] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.352] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.354] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.354] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.355] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.355] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.355] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.356] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.356] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.356] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.357] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [05/28/2024 06:58:28.357] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(577, 3), faces.shape=(1154, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.357] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.358] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.358] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.360] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.360] [trimesh]: load_mesh executed in 0.0017 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.361] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.361] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.361] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.361] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.362] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.362] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.363] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.363] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.363] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.363] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.367] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3274, 3), faces.shape=(6042, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.367] [trimesh]: load_mesh executed in 0.0036 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.368] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [05/28/2024 06:58:28.368] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [05/28/2024 06:58:28.398] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:28.401] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:28.404] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:28.405] [base]: Fast motion turned off
+[DEBUG   ] [05/28/2024 06:58:28.408] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:28.414] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:28.424] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [05/28/2024 06:58:29.575] [robot]: ---- Shutting down robot ----
+[DEBUG   ] [05/28/2024 06:58:29.575] [filelock]: Attempting to release lock 140044751791456 on /tmp/stretch_body_robot_pid.txt.lock
+[DEBUG   ] [05/28/2024 06:58:29.575] [filelock]: Lock 140044751791456 released on /tmp/stretch_body_robot_pid.txt.lock
+[DEBUG   ] [05/28/2024 06:58:29.596] [robot]: Shutting down NonDXLStatusThread
+[DEBUG   ] [05/28/2024 06:58:29.600] [robot]: Shutting down DXLHeadStatusThread
+[DEBUG   ] [05/28/2024 06:58:29.620] [robot]: Shutting down DXLEndOfArmStatusThread
+[DEBUG   ] [05/28/2024 06:58:29.677] [robot]: Shutting down SystemMonitorThread
+[DEBUG   ] [05/28/2024 06:58:29.677] [robot]: Shutting down pimu
+[DEBUG   ] [05/28/2024 06:58:29.678] [pimu]: Shutting down TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [05/28/2024 06:58:29.716] [robot]: Shutting down base
+[DEBUG   ] [05/28/2024 06:58:29.718] [hello-motor-left-wheel]: Shutting down Stepper on: /dev/hello-motor-left-wheel
+[DEBUG   ] [05/28/2024 06:58:29.821] [hello-motor-left-wheel]: Shutting down TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [05/28/2024 06:58:29.857] [hello-motor-right-wheel]: Shutting down Stepper on: /dev/hello-motor-right-wheel
+[DEBUG   ] [05/28/2024 06:58:29.961] [hello-motor-right-wheel]: Shutting down TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [05/28/2024 06:58:29.998] [robot]: Shutting down lift
+[DEBUG   ] [05/28/2024 06:58:29.999] [hello-motor-lift]: Shutting down Stepper on: /dev/hello-motor-lift
+[DEBUG   ] [05/28/2024 06:58:30.103] [hello-motor-lift]: Shutting down TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [05/28/2024 06:58:30.106] [robot]: Shutting down arm
+[DEBUG   ] [05/28/2024 06:58:30.107] [hello-motor-arm]: Shutting down Stepper on: /dev/hello-motor-arm
+[DEBUG   ] [05/28/2024 06:58:30.211] [hello-motor-arm]: Shutting down TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [05/28/2024 06:58:30.249] [robot]: Shutting down head
+[DEBUG   ] [05/28/2024 06:58:30.256] [robot]: Shutting down wacc
+[DEBUG   ] [05/28/2024 06:58:30.256] [wacc]: Shutting down TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [05/28/2024 06:58:30.291] [robot]: Shutting down end_of_arm
+[DEBUG   ] [05/28/2024 06:58:30.358] [robot]: ---- Shutdown complete ----

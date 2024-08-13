@@ -1,0 +1,1045 @@
+[DEBUG   ] [03/05/2024 14:46:04.189] [git.cmd]: Popen(['git', 'version'], cwd=/home/hello-robot/repos/stretch_visual_servoing, stdin=None, shell=False, universal_newlines=False)
+[DEBUG   ] [03/05/2024 14:46:04.190] [git.cmd]: Popen(['git', 'version'], cwd=/home/hello-robot/repos/stretch_visual_servoing, stdin=None, shell=False, universal_newlines=False)
+[DEBUG   ] [03/05/2024 14:46:04.206] [robot]: Starting up Robot stretch-se3-3014 of batch questlove
+[DEBUG   ] [03/05/2024 14:46:04.206] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 14:46:04.214] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:46:04.228] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:46:04.242] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:46:04.262] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:46:04.294] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.382] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.476] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 14:46:04.504] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.625] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.724] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.815] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [03/05/2024 14:46:04.951] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(17669, 3), faces.shape=(31052, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.951] [trimesh]: load_mesh executed in 0.0293 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.952] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.952] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.953] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.953] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.954] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.954] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.965] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.965] [trimesh]: load_mesh executed in 0.0103 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.966] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.966] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.976] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.976] [trimesh]: load_mesh executed in 0.0095 seconds.
+[DEBUG   ] [03/05/2024 14:46:04.977] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:04.977] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.028] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(27344, 3), faces.shape=(54720, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.028] [trimesh]: load_mesh executed in 0.0511 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.030] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(32, 3), faces.shape=(60, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.030] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.030] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.030] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.042] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7871, 3), faces.shape=(15812, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.042] [trimesh]: load_mesh executed in 0.0115 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.043] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.043] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.046] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1102, 3), faces.shape=(2268, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.046] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.046] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.047] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.049] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.049] [trimesh]: load_mesh executed in 0.0019 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.050] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.050] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.052] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.052] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.053] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.053] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.055] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1204, 3), faces.shape=(2472, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.055] [trimesh]: load_mesh executed in 0.0020 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.056] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.056] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.063] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(4271, 3), faces.shape=(8838, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.063] [trimesh]: load_mesh executed in 0.0061 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.063] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.063] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.066] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2870, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.066] [trimesh]: load_mesh executed in 0.0021 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.066] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:46:05.067] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.067] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.079] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7551, 3), faces.shape=(15334, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.079] [trimesh]: load_mesh executed in 0.0123 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.080] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.080] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.085] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3017, 3), faces.shape=(6118, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.085] [trimesh]: load_mesh executed in 0.0045 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.086] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.086] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.103] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(9941, 3), faces.shape=(20078, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.103] [trimesh]: load_mesh executed in 0.0161 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.104] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.104] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.106] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.106] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.106] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.106] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.107] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.107] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.108] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.108] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.109] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.109] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.109] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.110] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.110] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.110] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.111] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.111] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.112] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.112] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.113] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.113] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.453] [trimesh]: loaded <trimesh.Scene(len(geometry)=18)> using load_collada
+[DEBUG   ] [03/05/2024 14:46:05.453] [trimesh]: load_mesh executed in 0.3404 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.454] [trimesh]: `nodes_geometry`: 1.18E-05s, `cache.verify`: 1.91E-06s
+[DEBUG   ] [03/05/2024 14:46:05.454] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.454] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.454] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.454] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.455] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.456] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.456] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.459] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.459] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.460] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.460] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.460] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.460] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:46:05.461] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:46:05.461] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(344, 3), faces.shape=(684, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.461] [trimesh]: load_mesh executed in 0.0009 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.462] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.462] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.463] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.463] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.464] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.464] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.466] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.466] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.468] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.468] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.471] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1847, 3), faces.shape=(3729, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.471] [trimesh]: load_mesh executed in 0.0023 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.471] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.472] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.474] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2842, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.474] [trimesh]: load_mesh executed in 0.0022 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.475] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.475] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.476] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(381, 3), faces.shape=(758, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.476] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.477] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.477] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.494] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(14545, 3), faces.shape=(24513, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.494] [trimesh]: load_mesh executed in 0.0168 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.495] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(46, 3), faces.shape=(88, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.495] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.496] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:46:05.496] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(582, 3), faces.shape=(1164, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.496] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.497] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.497] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.499] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.499] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.499] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.500] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.500] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.500] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.501] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.501] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.502] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:46:05.503] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(577, 3), faces.shape=(1154, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.503] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.503] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.503] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.505] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.505] [trimesh]: load_mesh executed in 0.0017 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.506] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.506] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.507] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.507] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.508] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.508] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.509] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.509] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.510] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.510] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.514] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3274, 3), faces.shape=(6042, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.514] [trimesh]: load_mesh executed in 0.0037 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.514] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:46:05.514] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:46:05.552] [base]: Fast motion turned off
+[DEBUG   ] [03/05/2024 14:46:05.552] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:05.619] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:05.686] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:05.753] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:05.820] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:05.887] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:05.889] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:05.954] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:06.022] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:06.025] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.089] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.156] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.223] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.290] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.358] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.425] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.492] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.543] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:06.559] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.626] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.690] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-body/releases.xml HTTP/1.1" 200 1065
+[DEBUG   ] [03/05/2024 14:46:06.693] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.696] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:06.759] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.808] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-body-tools/releases.xml HTTP/1.1" 200 1039
+[DEBUG   ] [03/05/2024 14:46:06.810] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:06.826] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.893] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:06.924] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-tool-share/releases.xml HTTP/1.1" 200 810
+[DEBUG   ] [03/05/2024 14:46:06.927] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:06.960] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.027] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.049] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-factory/releases.xml HTTP/1.1" 200 1028
+[DEBUG   ] [03/05/2024 14:46:07.053] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:07.095] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.155] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-diagnostics/releases.xml HTTP/1.1" 200 592
+[DEBUG   ] [03/05/2024 14:46:07.158] [urllib3.connectionpool]: Starting new HTTPS connection (1): pypi.org:443
+[DEBUG   ] [03/05/2024 14:46:07.162] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.228] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.262] [urllib3.connectionpool]: https://pypi.org:443 "GET /rss/project/hello-robot-stretch-urdf/releases.xml HTTP/1.1" 200 674
+[DEBUG   ] [03/05/2024 14:46:07.264] [urllib3.connectionpool]: Starting new HTTPS connection (1): api.github.com:443
+[DEBUG   ] [03/05/2024 14:46:07.296] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.362] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.430] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.497] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.511] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:46:07.511] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:07.511] [NonDXLStatusThread]: Current rate (Hz): 24.662366
+[DEBUG   ] [03/05/2024 14:46:07.512] [NonDXLStatusThread]: Average rate (Hz): 24.757614
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.163966
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Min rate (Hz): 24.185954
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Max rate (Hz): 24.981858
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Supportable rate (Hz): 102.945106
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.514788
+[DEBUG   ] [03/05/2024 14:46:07.513] [NonDXLStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:46:07.515] [NonDXLStatusThread]: Sleep time (s): 0.026360
+[DEBUG   ] [03/05/2024 14:46:07.563] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.577] [urllib3.connectionpool]: https://api.github.com:443 "GET /repos/hello-robot/stretch_ros/commits HTTP/1.1" 200 None
+[DEBUG   ] [03/05/2024 14:46:07.613] [urllib3.connectionpool]: Starting new HTTPS connection (1): api.github.com:443
+[DEBUG   ] [03/05/2024 14:46:07.630] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.697] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.764] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.831] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.898] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:07.935] [urllib3.connectionpool]: https://api.github.com:443 "GET /repos/hello-robot/stretch_ros2/commits HTTP/1.1" 200 None
+[DEBUG   ] [03/05/2024 14:46:07.966] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.033] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.100] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.167] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.234] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.301] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.367] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.434] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.501] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.569] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.636] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.704] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.770] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.838] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 50 -----------
+[DEBUG   ] [03/05/2024 14:46:08.838] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:08.839] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:46:08.839] [SystemMonitorThread]: Current rate (Hz): 14.914035
+[DEBUG   ] [03/05/2024 14:46:08.839] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:08.840] [SystemMonitorThread]: Average rate (Hz): 14.914833
+[DEBUG   ] [03/05/2024 14:46:08.840] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.962183
+[DEBUG   ] [03/05/2024 14:46:08.840] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.055322
+[DEBUG   ] [03/05/2024 14:46:08.840] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.909385
+[DEBUG   ] [03/05/2024 14:46:08.841] [SystemMonitorThread]: Min rate (Hz): 14.744638
+[DEBUG   ] [03/05/2024 14:46:08.841] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:08.841] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.074154
+[DEBUG   ] [03/05/2024 14:46:08.841] [SystemMonitorThread]: Supportable rate (Hz): 1202.686730
+[DEBUG   ] [03/05/2024 14:46:08.841] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.665091
+[DEBUG   ] [03/05/2024 14:46:08.842] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 646.706292
+[DEBUG   ] [03/05/2024 14:46:08.842] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.994973
+[DEBUG   ] [03/05/2024 14:46:08.842] [SystemMonitorThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:46:08.842] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.746327
+[DEBUG   ] [03/05/2024 14:46:08.842] [SystemMonitorThread]: Sleep time (s): 0.065155
+[DEBUG   ] [03/05/2024 14:46:08.843] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 1.988530
+[DEBUG   ] [03/05/2024 14:46:08.844] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.845] [DXLEndOfArmStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:46:08.845] [DXLEndOfArmStatusThread]: Sleep time (s): 0.042902
+[DEBUG   ] [03/05/2024 14:46:08.851] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:46:08.852] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:08.852] [DXLHeadStatusThread]: Current rate (Hz): 14.268767
+[DEBUG   ] [03/05/2024 14:46:08.852] [DXLHeadStatusThread]: Average rate (Hz): 14.851746
+[DEBUG   ] [03/05/2024 14:46:08.852] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.173887
+[DEBUG   ] [03/05/2024 14:46:08.852] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:08.853] [DXLHeadStatusThread]: Max rate (Hz): 14.997333
+[DEBUG   ] [03/05/2024 14:46:08.854] [DXLHeadStatusThread]: Supportable rate (Hz): 63.045794
+[DEBUG   ] [03/05/2024 14:46:08.854] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 5.067189
+[DEBUG   ] [03/05/2024 14:46:08.854] [DXLHeadStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:46:08.854] [DXLHeadStatusThread]: Sleep time (s): 0.050205
+[DEBUG   ] [03/05/2024 14:46:08.905] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:08.972] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.039] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.105] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.172] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.240] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.306] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.373] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.440] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.507] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Current rate (Hz): 24.723132
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Average rate (Hz): 24.767300
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.143978
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Min rate (Hz): 24.185954
+[DEBUG   ] [03/05/2024 14:46:09.529] [NonDXLStatusThread]: Max rate (Hz): 24.981858
+[DEBUG   ] [03/05/2024 14:46:09.530] [NonDXLStatusThread]: Supportable rate (Hz): 103.910969
+[DEBUG   ] [03/05/2024 14:46:09.530] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 34.026735
+[DEBUG   ] [03/05/2024 14:46:09.530] [NonDXLStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:46:09.530] [NonDXLStatusThread]: Sleep time (s): 0.025443
+[DEBUG   ] [03/05/2024 14:46:09.574] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.641] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.708] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.775] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.842] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.909] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:09.976] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.043] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.109] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.177] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.244] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.311] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.378] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.445] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.512] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.579] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.646] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.713] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.780] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.847] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.914] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:10.981] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.048] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.115] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.182] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.249] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.315] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.383] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.450] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.517] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.547] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:46:11.547] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:11.547] [NonDXLStatusThread]: Current rate (Hz): 24.832473
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Average rate (Hz): 24.775513
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.126404
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Min rate (Hz): 24.185954
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Max rate (Hz): 24.981858
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Supportable rate (Hz): 105.185681
+[DEBUG   ] [03/05/2024 14:46:11.548] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 33.598229
+[DEBUG   ] [03/05/2024 14:46:11.549] [NonDXLStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:46:11.549] [NonDXLStatusThread]: Sleep time (s): 0.028929
+[DEBUG   ] [03/05/2024 14:46:11.584] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.651] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.717] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.784] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.852] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.919] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:11.985] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.052] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.120] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.187] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 100 -----------
+[DEBUG   ] [03/05/2024 14:46:12.187] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:12.187] [SystemMonitorThread]: Current rate (Hz): 14.879222
+[DEBUG   ] [03/05/2024 14:46:12.188] [SystemMonitorThread]: Average rate (Hz): 14.921904
+[DEBUG   ] [03/05/2024 14:46:12.188] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.047934
+[DEBUG   ] [03/05/2024 14:46:12.188] [SystemMonitorThread]: Min rate (Hz): 14.744638
+[DEBUG   ] [03/05/2024 14:46:12.188] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:12.188] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:46:12.189] [SystemMonitorThread]: Supportable rate (Hz): 1182.063070
+[DEBUG   ] [03/05/2024 14:46:12.189] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:12.189] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 550.984746
+[DEBUG   ] [03/05/2024 14:46:12.190] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.987472
+[DEBUG   ] [03/05/2024 14:46:12.190] [SystemMonitorThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:46:12.190] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.918055
+[DEBUG   ] [03/05/2024 14:46:12.190] [SystemMonitorThread]: Sleep time (s): 0.066070
+[DEBUG   ] [03/05/2024 14:46:12.190] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.060879
+[DEBUG   ] [03/05/2024 14:46:12.190] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.665091
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.994973
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.913488
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 1.997584
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:46:12.191] [DXLEndOfArmStatusThread]: Sleep time (s): 0.041516
+[DEBUG   ] [03/05/2024 14:46:12.204] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:46:12.205] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:12.205] [DXLHeadStatusThread]: Current rate (Hz): 14.996957
+[DEBUG   ] [03/05/2024 14:46:12.205] [DXLHeadStatusThread]: Average rate (Hz): 14.883260
+[DEBUG   ] [03/05/2024 14:46:12.205] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.134978
+[DEBUG   ] [03/05/2024 14:46:12.205] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:12.206] [DXLHeadStatusThread]: Max rate (Hz): 14.997333
+[DEBUG   ] [03/05/2024 14:46:12.206] [DXLHeadStatusThread]: Supportable rate (Hz): 64.860066
+[DEBUG   ] [03/05/2024 14:46:12.206] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.904664
+[DEBUG   ] [03/05/2024 14:46:12.206] [DXLHeadStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:46:12.206] [DXLHeadStatusThread]: Sleep time (s): 0.052490
+[DEBUG   ] [03/05/2024 14:46:12.254] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.322] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.389] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.389] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.456] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.457] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.523] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.523] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.590] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.590] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.657] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.657] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.724] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.724] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.791] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.792] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.858] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.859] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.925] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.925] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.992] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:12.992] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.059] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.059] [lift]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:13.126] [robot_monitor]: Guarded contact lift
+[DEBUG   ] [03/05/2024 14:46:13.126] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.127] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.193] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.193] [lift]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:13.259] [robot_monitor]: Wrist single tap: 876
+[INFO    ] [03/05/2024 14:46:13.260] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:13.260] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.260] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.327] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.327] [lift]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:13.394] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:13.394] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.394] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.461] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.461] [lift]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:13.528] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:13.528] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.528] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Current rate (Hz): 24.728233
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Average rate (Hz): 24.770149
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.142633
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Min rate (Hz): 24.115867
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Max rate (Hz): 24.986471
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Supportable rate (Hz): 106.069931
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 28.229508
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:46:13.566] [NonDXLStatusThread]: Sleep time (s): 0.030230
+[DEBUG   ] [03/05/2024 14:46:13.595] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.595] [lift]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:13.662] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:46:13.662] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.662] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.730] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.731] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.797] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.798] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.864] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.864] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.933] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:13.934] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.000] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.000] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.068] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.069] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.134] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.134] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.201] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.202] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.268] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.269] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.336] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.336] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.403] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.404] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.470] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.471] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.537] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.537] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.604] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.604] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.670] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.671] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.738] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.739] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.805] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.806] [lift]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.873] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:14.940] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.008] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.074] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.142] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.209] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.276] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.343] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.410] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.477] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.989025
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.924648
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.050285
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.665091
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.943078
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 1.921756
+[DEBUG   ] [03/05/2024 14:46:15.539] [DXLEndOfArmStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:46:15.540] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043080
+[DEBUG   ] [03/05/2024 14:46:15.544] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 150 -----------
+[DEBUG   ] [03/05/2024 14:46:15.544] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:15.544] [SystemMonitorThread]: Current rate (Hz): 14.980406
+[DEBUG   ] [03/05/2024 14:46:15.544] [SystemMonitorThread]: Average rate (Hz): 14.911419
+[DEBUG   ] [03/05/2024 14:46:15.544] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.071837
+[DEBUG   ] [03/05/2024 14:46:15.545] [SystemMonitorThread]: Min rate (Hz): 14.510100
+[DEBUG   ] [03/05/2024 14:46:15.546] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:15.547] [SystemMonitorThread]: Supportable rate (Hz): 1091.819884
+[DEBUG   ] [03/05/2024 14:46:15.547] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 455.212364
+[DEBUG   ] [03/05/2024 14:46:15.547] [SystemMonitorThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:46:15.547] [SystemMonitorThread]: Sleep time (s): 0.065935
+[DEBUG   ] [03/05/2024 14:46:15.547] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.557] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:46:15.557] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:15.557] [DXLHeadStatusThread]: Current rate (Hz): 14.952049
+[DEBUG   ] [03/05/2024 14:46:15.558] [DXLHeadStatusThread]: Average rate (Hz): 14.914070
+[DEBUG   ] [03/05/2024 14:46:15.558] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.065093
+[DEBUG   ] [03/05/2024 14:46:15.558] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:15.558] [DXLHeadStatusThread]: Max rate (Hz): 14.998137
+[DEBUG   ] [03/05/2024 14:46:15.558] [DXLHeadStatusThread]: Supportable rate (Hz): 67.117654
+[DEBUG   ] [03/05/2024 14:46:15.559] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.764943
+[DEBUG   ] [03/05/2024 14:46:15.559] [DXLHeadStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:46:15.559] [DXLHeadStatusThread]: Sleep time (s): 0.052588
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: Current rate (Hz): 24.836149
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: Average rate (Hz): 24.767601
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.151937
+[DEBUG   ] [03/05/2024 14:46:15.585] [NonDXLStatusThread]: Min rate (Hz): 24.115729
+[DEBUG   ] [03/05/2024 14:46:15.586] [NonDXLStatusThread]: Max rate (Hz): 24.986471
+[DEBUG   ] [03/05/2024 14:46:15.586] [NonDXLStatusThread]: Supportable rate (Hz): 108.609025
+[DEBUG   ] [03/05/2024 14:46:15.586] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.073576
+[DEBUG   ] [03/05/2024 14:46:15.586] [NonDXLStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:46:15.586] [NonDXLStatusThread]: Sleep time (s): 0.033342
+[DEBUG   ] [03/05/2024 14:46:15.611] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.678] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.745] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.812] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.879] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:15.946] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.013] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.080] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.147] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.214] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.282] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.349] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.417] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.483] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.551] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.618] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.685] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.752] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.818] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.886] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:16.953] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.021] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.088] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.155] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.222] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.290] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.357] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.424] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.491] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.558] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Current rate (Hz): 24.651640
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Average rate (Hz): 24.768640
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.133272
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Min rate (Hz): 24.115729
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Max rate (Hz): 24.986471
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Supportable rate (Hz): 107.054972
+[DEBUG   ] [03/05/2024 14:46:17.604] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.337955
+[DEBUG   ] [03/05/2024 14:46:17.605] [NonDXLStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:46:17.605] [NonDXLStatusThread]: Sleep time (s): 0.031514
+[DEBUG   ] [03/05/2024 14:46:17.625] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.693] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.759] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.826] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.893] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:17.960] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.027] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.094] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.161] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.228] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.295] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.362] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.429] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.495] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.562] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.630] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.697] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.763] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.830] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.891] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:46:18.891] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.922313
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.919253
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.059065
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.665091
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.583216
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 1.767549
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:46:18.892] [DXLEndOfArmStatusThread]: Sleep time (s): 0.041499
+[DEBUG   ] [03/05/2024 14:46:18.897] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 200 -----------
+[DEBUG   ] [03/05/2024 14:46:18.898] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:18.899] [SystemMonitorThread]: Current rate (Hz): 14.925711
+[DEBUG   ] [03/05/2024 14:46:18.899] [SystemMonitorThread]: Average rate (Hz): 14.902302
+[DEBUG   ] [03/05/2024 14:46:18.901] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.080314
+[DEBUG   ] [03/05/2024 14:46:18.901] [SystemMonitorThread]: Min rate (Hz): 14.510100
+[DEBUG   ] [03/05/2024 14:46:18.901] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:18.902] [SystemMonitorThread]: Supportable rate (Hz): 1200.656494
+[DEBUG   ] [03/05/2024 14:46:18.902] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 524.259660
+[DEBUG   ] [03/05/2024 14:46:18.902] [SystemMonitorThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:46:18.902] [SystemMonitorThread]: Sleep time (s): 0.064811
+[DEBUG   ] [03/05/2024 14:46:18.902] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:18.904] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:46:18.904] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:18.904] [DXLHeadStatusThread]: Current rate (Hz): 14.969927
+[DEBUG   ] [03/05/2024 14:46:18.904] [DXLHeadStatusThread]: Average rate (Hz): 14.925754
+[DEBUG   ] [03/05/2024 14:46:18.905] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.055573
+[DEBUG   ] [03/05/2024 14:46:18.905] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:18.906] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:18.906] [DXLHeadStatusThread]: Supportable rate (Hz): 67.291665
+[DEBUG   ] [03/05/2024 14:46:18.906] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.664282
+[DEBUG   ] [03/05/2024 14:46:18.907] [DXLHeadStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:46:18.907] [DXLHeadStatusThread]: Sleep time (s): 0.051760
+[DEBUG   ] [03/05/2024 14:46:18.964] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.032] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.099] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.166] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.233] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.300] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.367] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.433] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.500] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:19.567] [robot_monitor]: Guarded contact arm
+[INFO    ] [03/05/2024 14:46:19.567] [robot_monitor]: Wrist single tap: 878
+[DEBUG   ] [03/05/2024 14:46:19.568] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: Current rate (Hz): 24.660916
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: Average rate (Hz): 24.753211
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.158410
+[DEBUG   ] [03/05/2024 14:46:19.625] [NonDXLStatusThread]: Min rate (Hz): 23.740761
+[DEBUG   ] [03/05/2024 14:46:19.626] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:19.626] [NonDXLStatusThread]: Supportable rate (Hz): 104.266764
+[DEBUG   ] [03/05/2024 14:46:19.626] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 30.222601
+[DEBUG   ] [03/05/2024 14:46:19.626] [NonDXLStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:46:19.626] [NonDXLStatusThread]: Sleep time (s): 0.028451
+[DEBUG   ] [03/05/2024 14:46:19.634] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.701] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.768] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.836] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.903] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:19.970] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.037] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.104] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.171] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.239] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.306] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.373] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.441] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.508] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.575] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:20.642] [robot_monitor]: Wrist single tap: 879
+[DEBUG   ] [03/05/2024 14:46:20.643] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.709] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.775] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.842] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.909] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:20.976] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.043] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.110] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.178] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.245] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.312] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.379] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.446] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.513] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.580] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.645] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 400 -----------
+[DEBUG   ] [03/05/2024 14:46:21.646] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:21.646] [NonDXLStatusThread]: Current rate (Hz): 24.931518
+[DEBUG   ] [03/05/2024 14:46:21.646] [NonDXLStatusThread]: Average rate (Hz): 24.749377
+[DEBUG   ] [03/05/2024 14:46:21.647] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.165728
+[DEBUG   ] [03/05/2024 14:46:21.647] [NonDXLStatusThread]: Min rate (Hz): 23.740761
+[DEBUG   ] [03/05/2024 14:46:21.648] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:21.649] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:21.650] [NonDXLStatusThread]: Supportable rate (Hz): 101.566492
+[DEBUG   ] [03/05/2024 14:46:21.650] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 31.357970
+[DEBUG   ] [03/05/2024 14:46:21.651] [NonDXLStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [03/05/2024 14:46:21.651] [NonDXLStatusThread]: Sleep time (s): 0.029480
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.910695
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.899720
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.078856
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.654126
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 40.247090
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.916470
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:46:22.251] [DXLEndOfArmStatusThread]: Sleep time (s): 0.009312
+[DEBUG   ] [03/05/2024 14:46:22.254] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 250 -----------
+[DEBUG   ] [03/05/2024 14:46:22.254] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:22.254] [SystemMonitorThread]: Current rate (Hz): 14.723986
+[DEBUG   ] [03/05/2024 14:46:22.254] [SystemMonitorThread]: Average rate (Hz): 14.903943
+[DEBUG   ] [03/05/2024 14:46:22.255] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.071315
+[DEBUG   ] [03/05/2024 14:46:22.255] [SystemMonitorThread]: Min rate (Hz): 14.510100
+[DEBUG   ] [03/05/2024 14:46:22.255] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:22.255] [SystemMonitorThread]: Supportable rate (Hz): 1321.614175
+[DEBUG   ] [03/05/2024 14:46:22.256] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 576.996035
+[DEBUG   ] [03/05/2024 14:46:22.256] [SystemMonitorThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:46:22.256] [SystemMonitorThread]: Sleep time (s): 0.065886
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Current rate (Hz): 14.844572
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Average rate (Hz): 14.922344
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.057290
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:22.258] [DXLHeadStatusThread]: Supportable rate (Hz): 65.719701
+[DEBUG   ] [03/05/2024 14:46:22.259] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.379434
+[DEBUG   ] [03/05/2024 14:46:22.259] [DXLHeadStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:46:22.259] [DXLHeadStatusThread]: Sleep time (s): 0.047273
+[DEBUG   ] [03/05/2024 14:46:23.661] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 450 -----------
+[DEBUG   ] [03/05/2024 14:46:23.661] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:23.661] [NonDXLStatusThread]: Current rate (Hz): 24.847184
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Average rate (Hz): 24.776585
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.132837
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Min rate (Hz): 23.740761
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Supportable rate (Hz): 96.684391
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 31.715085
+[DEBUG   ] [03/05/2024 14:46:23.662] [NonDXLStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [03/05/2024 14:46:23.663] [NonDXLStatusThread]: Sleep time (s): 0.030043
+[DEBUG   ] [03/05/2024 14:46:23.864] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:23.931] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:23.999] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.066] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.133] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.203] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.236] [wrist_yaw]: Previous HOMING_OFFSET in EEPROM -1596
+[DEBUG   ] [03/05/2024 14:46:24.244] [wrist_yaw]: Setting homing offset to -1593
+[DEBUG   ] [03/05/2024 14:46:24.251] [wrist_yaw]: New HOMING_OFFSET in EEPROM -1593
+[DEBUG   ] [03/05/2024 14:46:24.255] [wrist_yaw]: Current position after homing 5
+[DEBUG   ] [03/05/2024 14:46:24.270] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.329] [DXLEndOfArmStatusThread]: Missed target loop rate of 15.00 Hz for DXLEndOfArmStatusThread. Currently 14.91 Hz
+[DEBUG   ] [03/05/2024 14:46:24.336] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.403] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.470] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.537] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.604] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.671] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.738] [wrist_yaw]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:24.805] [wrist_yaw]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:46:25.072] [robot_monitor]: Wrist single tap: 880
+[DEBUG   ] [03/05/2024 14:46:25.603] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.812383
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.899398
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.073586
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.654126
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.502607
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 4.323408
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Warnings: 1 out of 300
+[DEBUG   ] [03/05/2024 14:46:25.604] [DXLEndOfArmStatusThread]: Sleep time (s): 0.040892
+[DEBUG   ] [03/05/2024 14:46:25.609] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 300 -----------
+[DEBUG   ] [03/05/2024 14:46:25.609] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:25.610] [SystemMonitorThread]: Current rate (Hz): 14.682288
+[DEBUG   ] [03/05/2024 14:46:25.611] [SystemMonitorThread]: Average rate (Hz): 14.900355
+[DEBUG   ] [03/05/2024 14:46:25.611] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.090268
+[DEBUG   ] [03/05/2024 14:46:25.613] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:46:25.613] [SystemMonitorThread]: Min rate (Hz): 14.343816
+[DEBUG   ] [03/05/2024 14:46:25.614] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:25.614] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:25.616] [DXLHeadStatusThread]: Current rate (Hz): 14.599141
+[DEBUG   ] [03/05/2024 14:46:25.617] [SystemMonitorThread]: Supportable rate (Hz): 1525.889180
+[DEBUG   ] [03/05/2024 14:46:25.617] [DXLHeadStatusThread]: Average rate (Hz): 14.906561
+[DEBUG   ] [03/05/2024 14:46:25.618] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 791.521331
+[DEBUG   ] [03/05/2024 14:46:25.618] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.069325
+[DEBUG   ] [03/05/2024 14:46:25.620] [SystemMonitorThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:46:25.620] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:25.621] [SystemMonitorThread]: Sleep time (s): 0.066135
+[DEBUG   ] [03/05/2024 14:46:25.621] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:25.622] [DXLHeadStatusThread]: Supportable rate (Hz): 63.152520
+[DEBUG   ] [03/05/2024 14:46:25.622] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.901480
+[DEBUG   ] [03/05/2024 14:46:25.622] [DXLHeadStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:46:25.622] [DXLHeadStatusThread]: Sleep time (s): 0.051688
+[DEBUG   ] [03/05/2024 14:46:25.682] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 500 -----------
+[DEBUG   ] [03/05/2024 14:46:25.683] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:25.684] [NonDXLStatusThread]: Current rate (Hz): 24.825712
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Average rate (Hz): 24.764532
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.197144
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Min rate (Hz): 23.638405
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Supportable rate (Hz): 98.650290
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 32.520429
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Warnings: 0 out of 500
+[DEBUG   ] [03/05/2024 14:46:25.685] [NonDXLStatusThread]: Sleep time (s): 0.020571
+[INFO    ] [03/05/2024 14:46:26.279] [robot_monitor]: Wrist single tap: 881
+[INFO    ] [03/05/2024 14:46:26.414] [robot_monitor]: Wrist single tap: 884
+[INFO    ] [03/05/2024 14:46:26.548] [robot_monitor]: Wrist single tap: 885
+[DEBUG   ] [03/05/2024 14:46:27.702] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 550 -----------
+[DEBUG   ] [03/05/2024 14:46:27.702] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:27.703] [NonDXLStatusThread]: Current rate (Hz): 24.570625
+[DEBUG   ] [03/05/2024 14:46:27.703] [NonDXLStatusThread]: Average rate (Hz): 24.747108
+[DEBUG   ] [03/05/2024 14:46:27.703] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.203867
+[DEBUG   ] [03/05/2024 14:46:27.704] [NonDXLStatusThread]: Min rate (Hz): 23.638405
+[DEBUG   ] [03/05/2024 14:46:27.704] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:27.707] [NonDXLStatusThread]: Supportable rate (Hz): 100.795310
+[DEBUG   ] [03/05/2024 14:46:27.707] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 31.206223
+[DEBUG   ] [03/05/2024 14:46:27.707] [NonDXLStatusThread]: Warnings: 0 out of 550
+[DEBUG   ] [03/05/2024 14:46:27.707] [NonDXLStatusThread]: Sleep time (s): 0.030601
+[DEBUG   ] [03/05/2024 14:46:28.953] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.902378
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.920484
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.054633
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.654126
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:28.954] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.287760
+[DEBUG   ] [03/05/2024 14:46:28.955] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 3.815207
+[DEBUG   ] [03/05/2024 14:46:28.955] [DXLEndOfArmStatusThread]: Warnings: 1 out of 350
+[DEBUG   ] [03/05/2024 14:46:28.956] [DXLEndOfArmStatusThread]: Sleep time (s): 0.042737
+[DEBUG   ] [03/05/2024 14:46:28.965] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:46:28.965] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:28.965] [DXLHeadStatusThread]: Current rate (Hz): 14.862719
+[DEBUG   ] [03/05/2024 14:46:28.966] [DXLHeadStatusThread]: Average rate (Hz): 14.910612
+[DEBUG   ] [03/05/2024 14:46:28.967] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 350 -----------
+[DEBUG   ] [03/05/2024 14:46:28.967] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.068321
+[DEBUG   ] [03/05/2024 14:46:28.967] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:28.968] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:28.968] [SystemMonitorThread]: Current rate (Hz): 14.819762
+[DEBUG   ] [03/05/2024 14:46:28.968] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:28.968] [SystemMonitorThread]: Average rate (Hz): 14.897339
+[DEBUG   ] [03/05/2024 14:46:28.968] [DXLHeadStatusThread]: Supportable rate (Hz): 63.042922
+[DEBUG   ] [03/05/2024 14:46:28.968] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.104748
+[DEBUG   ] [03/05/2024 14:46:28.969] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 5.382998
+[DEBUG   ] [03/05/2024 14:46:28.969] [SystemMonitorThread]: Min rate (Hz): 14.343816
+[DEBUG   ] [03/05/2024 14:46:28.969] [DXLHeadStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:46:28.969] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:28.969] [DXLHeadStatusThread]: Sleep time (s): 0.051749
+[DEBUG   ] [03/05/2024 14:46:28.969] [SystemMonitorThread]: Supportable rate (Hz): 2176.632892
+[DEBUG   ] [03/05/2024 14:46:28.970] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1011.974085
+[DEBUG   ] [03/05/2024 14:46:28.970] [SystemMonitorThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:46:28.970] [SystemMonitorThread]: Sleep time (s): 0.066253
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 600 -----------
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Current rate (Hz): 24.795772
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Average rate (Hz): 24.775119
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.137796
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Min rate (Hz): 23.638405
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Supportable rate (Hz): 102.656263
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.524157
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Warnings: 0 out of 600
+[DEBUG   ] [03/05/2024 14:46:29.719] [NonDXLStatusThread]: Sleep time (s): 0.031616
+[DEBUG   ] [03/05/2024 14:46:31.735] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 650 -----------
+[DEBUG   ] [03/05/2024 14:46:31.736] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Current rate (Hz): 24.921444
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Average rate (Hz): 24.795695
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.176650
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Min rate (Hz): 23.452305
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Supportable rate (Hz): 103.265508
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 26.005598
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Warnings: 0 out of 650
+[DEBUG   ] [03/05/2024 14:46:31.742] [NonDXLStatusThread]: Sleep time (s): 0.031755
+[DEBUG   ] [03/05/2024 14:46:32.303] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 400 -----------
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.865301
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.924291
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.055167
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.654126
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.642840
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 3.017251
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Warnings: 1 out of 400
+[DEBUG   ] [03/05/2024 14:46:32.304] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043158
+[DEBUG   ] [03/05/2024 14:46:32.318] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 400 -----------
+[DEBUG   ] [03/05/2024 14:46:32.318] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Current rate (Hz): 14.987258
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Average rate (Hz): 14.912699
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.063057
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Supportable rate (Hz): 64.887979
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 5.027498
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [03/05/2024 14:46:32.319] [DXLHeadStatusThread]: Sleep time (s): 0.052738
+[DEBUG   ] [03/05/2024 14:46:32.321] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 400 -----------
+[DEBUG   ] [03/05/2024 14:46:32.321] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:32.321] [SystemMonitorThread]: Current rate (Hz): 14.899572
+[DEBUG   ] [03/05/2024 14:46:32.321] [SystemMonitorThread]: Average rate (Hz): 14.898443
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.086995
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Min rate (Hz): 14.343816
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Supportable rate (Hz): 2983.238813
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1106.541246
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Warnings: 0 out of 400
+[DEBUG   ] [03/05/2024 14:46:32.322] [SystemMonitorThread]: Sleep time (s): 0.066459
+[DEBUG   ] [03/05/2024 14:46:33.064] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.131] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.198] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.265] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.333] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.400] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.467] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.535] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.601] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.668] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.735] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.758] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 700 -----------
+[DEBUG   ] [03/05/2024 14:46:33.758] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:33.758] [NonDXLStatusThread]: Current rate (Hz): 24.744572
+[DEBUG   ] [03/05/2024 14:46:33.758] [NonDXLStatusThread]: Average rate (Hz): 24.760327
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.206665
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Min rate (Hz): 23.452305
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Supportable rate (Hz): 98.956346
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.828800
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Warnings: 0 out of 700
+[DEBUG   ] [03/05/2024 14:46:33.759] [NonDXLStatusThread]: Sleep time (s): 0.033473
+[DEBUG   ] [03/05/2024 14:46:33.802] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.869] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:33.936] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.002] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.069] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.137] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.203] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.270] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.338] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.405] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.472] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.539] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.607] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.673] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.741] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.807] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.874] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:34.942] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.009] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.076] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.143] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.210] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.277] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.344] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.411] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.480] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.547] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.614] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.646] [stretch_gripper]: Previous HOMING_OFFSET in EEPROM 10267
+[DEBUG   ] [03/05/2024 14:46:35.653] [stretch_gripper]: Setting homing offset to 10292
+[DEBUG   ] [03/05/2024 14:46:35.656] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 450 -----------
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.921729
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.917513
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.052558
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Min rate (Hz): 14.654126
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.998244
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 39.864835
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 2.744854
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Warnings: 1 out of 450
+[DEBUG   ] [03/05/2024 14:46:35.657] [DXLEndOfArmStatusThread]: Sleep time (s): 0.040261
+[DEBUG   ] [03/05/2024 14:46:35.669] [stretch_gripper]: New HOMING_OFFSET in EEPROM 10292
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 450 -----------
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Current rate (Hz): 14.948639
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Average rate (Hz): 14.914372
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.058811
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Min rate (Hz): 14.000567
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Max rate (Hz): 14.998512
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Supportable rate (Hz): 65.996807
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.972065
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [03/05/2024 14:46:35.670] [DXLHeadStatusThread]: Sleep time (s): 0.049972
+[DEBUG   ] [03/05/2024 14:46:35.681] [stretch_gripper]: Current position after homing 10
+[DEBUG   ] [03/05/2024 14:46:35.681] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 450 -----------
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Current rate (Hz): 14.857455
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Average rate (Hz): 14.892398
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.090597
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Min rate (Hz): 14.319918
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Supportable rate (Hz): 2883.363434
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 1214.864935
+[DEBUG   ] [03/05/2024 14:46:35.682] [SystemMonitorThread]: Warnings: 0 out of 450
+[DEBUG   ] [03/05/2024 14:46:35.683] [SystemMonitorThread]: Sleep time (s): 0.065627
+[DEBUG   ] [03/05/2024 14:46:35.683] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.750] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.776] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 750 -----------
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Current rate (Hz): 24.729691
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Average rate (Hz): 24.747500
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.162702
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Min rate (Hz): 23.452305
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Max rate (Hz): 24.988109
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Supportable rate (Hz): 101.312298
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 28.240331
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Warnings: 0 out of 750
+[DEBUG   ] [03/05/2024 14:46:35.777] [NonDXLStatusThread]: Sleep time (s): 0.032132
+[DEBUG   ] [03/05/2024 14:46:35.817] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.885] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:35.952] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:46:37.239] [robot]: ---- Shutting down robot ----
+[DEBUG   ] [03/05/2024 14:46:37.271] [robot]: Shutting down NonDXLStatusThread
+[DEBUG   ] [03/05/2024 14:46:37.278] [robot]: Shutting down DXLHeadStatusThread
+[DEBUG   ] [03/05/2024 14:46:37.288] [robot]: Shutting down DXLEndOfArmStatusThread
+[DEBUG   ] [03/05/2024 14:46:37.294] [robot]: Shutting down SystemMonitorThread
+[DEBUG   ] [03/05/2024 14:46:37.295] [robot]: Shutting down pimu
+[DEBUG   ] [03/05/2024 14:46:37.295] [pimu]: Shutting down TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 14:46:37.331] [robot]: Shutting down base
+[DEBUG   ] [03/05/2024 14:46:37.333] [hello-motor-left-wheel]: Shutting down Stepper on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:46:37.436] [hello-motor-left-wheel]: Shutting down TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:46:37.472] [hello-motor-right-wheel]: Shutting down Stepper on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:46:37.575] [hello-motor-right-wheel]: Shutting down TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:46:37.611] [robot]: Shutting down lift
+[DEBUG   ] [03/05/2024 14:46:37.612] [hello-motor-lift]: Shutting down Stepper on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:46:37.716] [hello-motor-lift]: Shutting down TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:46:37.719] [robot]: Shutting down arm
+[DEBUG   ] [03/05/2024 14:46:37.720] [hello-motor-arm]: Shutting down Stepper on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:46:37.824] [hello-motor-arm]: Shutting down TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:46:37.860] [robot]: Shutting down head
+[DEBUG   ] [03/05/2024 14:46:37.866] [robot]: Shutting down wacc
+[DEBUG   ] [03/05/2024 14:46:37.867] [wacc]: Shutting down TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 14:46:37.904] [robot]: Shutting down end_of_arm
+[DEBUG   ] [03/05/2024 14:46:37.972] [robot]: ---- Shutdown complete ----

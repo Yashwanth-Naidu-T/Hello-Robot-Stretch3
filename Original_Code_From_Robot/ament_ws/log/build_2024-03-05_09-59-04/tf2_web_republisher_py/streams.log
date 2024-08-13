@@ -1,0 +1,44 @@
+[4.551s] Invoking command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed
+[5.093s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.093s]   warnings.warn(
+[5.112s] running egg_info
+[5.113s] creating ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info
+[5.134s] writing ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/PKG-INFO
+[5.135s] writing dependency_links to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/dependency_links.txt
+[5.135s] writing entry points to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/entry_points.txt
+[5.136s] writing requirements to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/requires.txt
+[5.136s] writing top-level names to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/top_level.txt
+[5.136s] writing manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[5.140s] reading manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[5.145s] writing manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[5.146s] running build
+[5.146s] running build_py
+[5.147s] creating /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build
+[5.147s] creating /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib
+[5.148s] creating /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py
+[5.148s] copying tf2_web_republisher_py/tf2_web_republisher_py.py -> /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py
+[5.149s] copying tf2_web_republisher_py/tf_pair.py -> /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py
+[5.150s] copying tf2_web_republisher_py/__init__.py -> /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py
+[5.151s] running install
+[5.151s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.151s]   warnings.warn(
+[5.153s] running install_lib
+[5.155s] creating /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py
+[5.156s] copying /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py/tf2_web_republisher_py.py -> /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py
+[5.157s] copying /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py/tf_pair.py -> /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py
+[5.157s] copying /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build/lib/tf2_web_republisher_py/__init__.py -> /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py
+[5.159s] byte-compiling /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py/tf2_web_republisher_py.py to tf2_web_republisher_py.cpython-310.pyc
+[5.165s] byte-compiling /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py/tf_pair.py to tf_pair.cpython-310.pyc
+[5.183s] byte-compiling /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py/__init__.py to __init__.cpython-310.pyc
+[5.184s] running install_data
+[5.186s] creating /home/hello-robot/ament_ws/install/tf2_web_republisher_py/share/ament_index
+[5.186s] creating /home/hello-robot/ament_ws/install/tf2_web_republisher_py/share/ament_index/resource_index
+[5.186s] creating /home/hello-robot/ament_ws/install/tf2_web_republisher_py/share/ament_index/resource_index/packages
+[5.187s] copying resource/tf2_web_republisher_py -> /home/hello-robot/ament_ws/install/tf2_web_republisher_py/share/ament_index/resource_index/packages
+[5.187s] copying package.xml -> /home/hello-robot/ament_ws/install/tf2_web_republisher_py/share/tf2_web_republisher_py
+[5.187s] running install_egg_info
+[5.194s] Copying ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py-0.0.0-py3.10.egg-info
+[5.196s] running install_scripts
+[5.231s] Installing tf2_web_republisher script to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+[5.232s] writing list of installed files to '/home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log'
+[5.349s] Invoked command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed

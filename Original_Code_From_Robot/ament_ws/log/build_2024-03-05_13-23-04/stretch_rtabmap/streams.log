@@ -1,0 +1,27 @@
+[3.065s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_rtabmap -- -j16 -l16
+[3.144s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_rtabmap -- -j16 -l16
+[3.199s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_rtabmap
+[3.212s] -- Install configuration: "Release"
+[3.212s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch
+[3.212s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_navigation.launch.py
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_odometry.launch.py
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/launch/visual_mapping.launch.py
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap.rviz
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/rviz/rtabmap_nav.rviz
+[3.213s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/package_run_dependencies/stretch_rtabmap
+[3.216s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/parent_prefix_path/stretch_rtabmap
+[3.217s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.sh
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/ament_prefix_path.dsv
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.sh
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/environment/path.dsv
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.bash
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.sh
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.zsh
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/local_setup.dsv
+[3.218s] -- Installing: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.dsv
+[3.218s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/ament_index/resource_index/packages/stretch_rtabmap
+[3.219s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig.cmake
+[3.219s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/cmake/stretch_rtabmapConfig-version.cmake
+[3.219s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_rtabmap/share/stretch_rtabmap/package.xml
+[3.221s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_rtabmap' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_rtabmap

@@ -1,0 +1,101 @@
+[5.223s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_deep_perception': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_deep_perception/prefix_override:/home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_deep_perception build --build-base /home/hello-robot/ament_ws/build/stretch_deep_perception/build install --record /home/hello-robot/ament_ws/build/stretch_deep_perception/install.log --single-version-externally-managed
+[6.599s] running egg_info
+[6.599s] creating ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info
+[6.600s] writing ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/PKG-INFO
+[6.600s] writing dependency_links to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/dependency_links.txt
+[6.600s] writing entry points to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/entry_points.txt
+[6.600s] writing requirements to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/requires.txt
+[6.600s] writing top-level names to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/top_level.txt
+[6.601s] writing manifest file '../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/SOURCES.txt'
+[6.604s] reading manifest file '../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/SOURCES.txt'
+[6.604s] adding license file 'LICENSE.md'
+[6.605s] writing manifest file '../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/SOURCES.txt'
+[6.605s] running build
+[6.605s] running build_py
+[6.622s] creating /home/hello-robot/ament_ws/build/stretch_deep_perception/build
+[6.623s] creating /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib
+[6.623s] creating /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.623s] copying stretch_deep_perception/detection_2d_to_3d.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.634s] copying stretch_deep_perception/numba_image_to_pointcloud.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.635s] copying stretch_deep_perception/detect_objects.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.636s] copying stretch_deep_perception/object_detector.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.637s] copying stretch_deep_perception/detect_nearest_mouth.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.637s] copying stretch_deep_perception/head_estimator.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.638s] copying stretch_deep_perception/object_detect_pytorch.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.639s] copying stretch_deep_perception/body_landmark_detector.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.639s] copying stretch_deep_perception/detect_faces.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.640s] copying stretch_deep_perception/detect_body_landmarks.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.640s] copying stretch_deep_perception/test_body_landmark_detection_with_images.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.646s] copying stretch_deep_perception/deep_models_shared.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.647s] copying stretch_deep_perception/test_object_detection_with_images.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.647s] copying stretch_deep_perception/test_head_estimation_with_images.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.648s] copying stretch_deep_perception/detection_ros_markers.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.648s] copying stretch_deep_perception/__init__.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.649s] copying stretch_deep_perception/deep_learning_model_options.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.650s] copying stretch_deep_perception/detection_node.py -> /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception
+[6.651s] running install
+[6.652s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.652s]   warnings.warn(
+[6.653s] running install_lib
+[6.655s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.655s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detection_2d_to_3d.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.656s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/numba_image_to_pointcloud.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.656s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detect_objects.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.657s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/object_detector.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.658s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detect_nearest_mouth.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.658s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/head_estimator.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.658s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/object_detect_pytorch.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.658s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/body_landmark_detector.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.658s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detect_faces.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.659s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detect_body_landmarks.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.659s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/test_body_landmark_detection_with_images.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.659s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/deep_models_shared.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.659s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/test_object_detection_with_images.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.660s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/test_head_estimation_with_images.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.660s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detection_ros_markers.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.660s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/__init__.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.661s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/deep_learning_model_options.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.661s] copying /home/hello-robot/ament_ws/build/stretch_deep_perception/build/lib/stretch_deep_perception/detection_node.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception
+[6.663s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detection_2d_to_3d.py to detection_2d_to_3d.cpython-310.pyc
+[6.681s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/numba_image_to_pointcloud.py to numba_image_to_pointcloud.cpython-310.pyc
+[6.682s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detect_objects.py to detect_objects.cpython-310.pyc
+[6.683s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/object_detector.py to object_detector.cpython-310.pyc
+[6.692s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detect_nearest_mouth.py to detect_nearest_mouth.cpython-310.pyc
+[6.693s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/head_estimator.py to head_estimator.cpython-310.pyc
+[6.705s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/object_detect_pytorch.py to object_detect_pytorch.cpython-310.pyc
+[6.715s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/body_landmark_detector.py to body_landmark_detector.cpython-310.pyc
+[6.725s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detect_faces.py to detect_faces.cpython-310.pyc
+[6.726s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detect_body_landmarks.py to detect_body_landmarks.cpython-310.pyc
+[6.727s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/test_body_landmark_detection_with_images.py to test_body_landmark_detection_with_images.cpython-310.pyc
+[6.730s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/deep_models_shared.py to deep_models_shared.cpython-310.pyc
+[6.731s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/test_object_detection_with_images.py to test_object_detection_with_images.cpython-310.pyc
+[6.732s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/test_head_estimation_with_images.py to test_head_estimation_with_images.cpython-310.pyc
+[6.743s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detection_ros_markers.py to detection_ros_markers.cpython-310.pyc
+[6.756s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/__init__.py to __init__.cpython-310.pyc
+[6.757s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/deep_learning_model_options.py to deep_learning_model_options.cpython-310.pyc
+[6.757s] byte-compiling /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception/detection_node.py to detection_node.cpython-310.pyc
+[6.760s] running install_data
+[6.771s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/share/ament_index
+[6.771s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/share/ament_index/resource_index
+[6.771s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/share/ament_index/resource_index/packages
+[6.771s] copying resource/stretch_deep_perception -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/ament_index/resource_index/packages
+[6.772s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception
+[6.772s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/launch
+[6.772s] copying launch/stretch_detect_nearest_mouth.launch.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/launch
+[6.778s] copying launch/stretch_detect_body_landmarks.launch.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/launch
+[6.786s] copying launch/stretch_detect_objects.launch.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/launch
+[6.786s] copying launch/stretch_detect_faces.launch.py -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/launch
+[6.786s] creating /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/rviz
+[6.787s] copying rviz/face_detection.rviz -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/rviz
+[6.787s] copying rviz/body_landmark_detection.rviz -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/rviz
+[6.787s] copying rviz/nearest_mouth_detection.rviz -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/rviz
+[6.788s] copying rviz/object_detection.rviz -> /home/hello-robot/ament_ws/install/stretch_deep_perception/share/stretch_deep_perception/rviz
+[6.788s] running install_egg_info
+[6.793s] Copying ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception-0.0.0-py3.10.egg-info
+[6.795s] running install_scripts
+[6.911s] Installing detect_body_landmarks script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[6.911s] Installing detect_faces script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[6.911s] Installing detect_nearest_mouth script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[6.911s] Installing detect_objects script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[6.912s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_deep_perception/install.log'
+[7.122s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_deep_perception' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_deep_perception/prefix_override:/home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_deep_perception build --build-base /home/hello-robot/ament_ws/build/stretch_deep_perception/build install --record /home/hello-robot/ament_ws/build/stretch_deep_perception/install.log --single-version-externally-managed

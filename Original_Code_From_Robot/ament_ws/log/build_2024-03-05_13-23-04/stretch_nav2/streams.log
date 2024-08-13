@@ -1,0 +1,59 @@
+[2.890s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_nav2 -- -j16 -l16
+[3.207s] Built target ament_cmake_python_copy_stretch_nav2
+[3.207s] running egg_info
+[3.208s] writing stretch_nav2.egg-info/PKG-INFO
+[3.208s] writing dependency_links to stretch_nav2.egg-info/dependency_links.txt
+[3.208s] writing top-level names to stretch_nav2.egg-info/top_level.txt
+[3.209s] reading manifest file 'stretch_nav2.egg-info/SOURCES.txt'
+[3.209s] writing manifest file 'stretch_nav2.egg-info/SOURCES.txt'
+[3.209s] Built target ament_cmake_python_build_stretch_nav2_egg
+[3.218s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_nav2 -- -j16 -l16
+[3.276s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_nav2
+[3.292s] -- Install configuration: "Release"
+[3.292s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch
+[3.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/offline_mapping.launch.py
+[3.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/online_mapping.launch.py
+[3.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/bringup_launch.py
+[3.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/teleop_twist.launch.py
+[3.293s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/demo_security.launch.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/online_async_launch.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/stretch_navigation.launch.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/navigation.launch.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/launch/navigation_launch.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/config
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/config/nav2_params.yaml
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/config/nav2_voxel_params.yaml
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/config/mapper_params_online_async.yaml
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/stretch_nav2
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/stretch_nav2/simple_commander_demo.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/stretch_nav2/robot_navigator.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/stretch_nav2/__init__.py
+[3.294s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/pythonpath.sh
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/pythonpath.dsv
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2-0.0.1-py3.10.egg-info
+[3.295s] -- Installing: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2-0.0.1-py3.10.egg-info/PKG-INFO
+[3.295s] -- Installing: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.295s] -- Installing: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2-0.0.1-py3.10.egg-info/top_level.txt
+[3.295s] -- Installing: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2/simple_commander_demo.py
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2/robot_navigator.py
+[3.295s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2/__init__.py
+[3.374s] Listing '/home/hello-robot/ament_ws/install/stretch_nav2/local/lib/python3.10/dist-packages/stretch_nav2'...
+[3.376s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/lib/stretch_nav2/simple_commander_demo.py
+[3.376s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/ament_index/resource_index/package_run_dependencies/stretch_nav2
+[3.376s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/ament_index/resource_index/parent_prefix_path/stretch_nav2
+[3.376s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/ament_prefix_path.sh
+[3.377s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/ament_prefix_path.dsv
+[3.377s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/path.sh
+[3.377s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/environment/path.dsv
+[3.377s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/local_setup.bash
+[3.377s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/local_setup.sh
+[3.378s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/local_setup.zsh
+[3.378s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/local_setup.dsv
+[3.378s] -- Installing: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/package.dsv
+[3.379s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/ament_index/resource_index/packages/stretch_nav2
+[3.379s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/cmake/stretch_nav2Config.cmake
+[3.379s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/cmake/stretch_nav2Config-version.cmake
+[3.379s] -- Up-to-date: /home/hello-robot/ament_ws/install/stretch_nav2/share/stretch_nav2/package.xml
+[3.744s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_nav2

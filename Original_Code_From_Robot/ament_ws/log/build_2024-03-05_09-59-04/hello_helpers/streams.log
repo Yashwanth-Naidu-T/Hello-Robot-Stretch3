@@ -1,0 +1,52 @@
+[5.758s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/hello_helpers': PYTHONPATH=/home/hello-robot/ament_ws/build/hello_helpers/prefix_override:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hello_helpers build --build-base /home/hello-robot/ament_ws/build/hello_helpers/build install --record /home/hello-robot/ament_ws/build/hello_helpers/install.log --single-version-externally-managed
+[7.094s] running egg_info
+[7.102s] creating ../../../build/hello_helpers/hello_helpers.egg-info
+[7.103s] writing ../../../build/hello_helpers/hello_helpers.egg-info/PKG-INFO
+[7.113s] writing dependency_links to ../../../build/hello_helpers/hello_helpers.egg-info/dependency_links.txt
+[7.121s] writing entry points to ../../../build/hello_helpers/hello_helpers.egg-info/entry_points.txt
+[7.121s] writing requirements to ../../../build/hello_helpers/hello_helpers.egg-info/requires.txt
+[7.121s] writing top-level names to ../../../build/hello_helpers/hello_helpers.egg-info/top_level.txt
+[7.122s] writing manifest file '../../../build/hello_helpers/hello_helpers.egg-info/SOURCES.txt'
+[7.125s] reading manifest file '../../../build/hello_helpers/hello_helpers.egg-info/SOURCES.txt'
+[7.126s] adding license file 'LICENSE.md'
+[7.134s] writing manifest file '../../../build/hello_helpers/hello_helpers.egg-info/SOURCES.txt'
+[7.134s] running build
+[7.134s] running build_py
+[7.134s] creating /home/hello-robot/ament_ws/build/hello_helpers/build
+[7.145s] creating /home/hello-robot/ament_ws/build/hello_helpers/build/lib
+[7.145s] creating /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.146s] copying src/hello_helpers/simple_command_group.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.153s] copying src/hello_helpers/hello_ros_viz.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.158s] copying src/hello_helpers/gripper_conversion.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.159s] copying src/hello_helpers/hello_misc.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.159s] copying src/hello_helpers/fit_plane.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.159s] copying src/hello_helpers/__init__.py -> /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers
+[7.160s] running install
+[7.160s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.161s]   warnings.warn(
+[7.161s] running install_lib
+[7.164s] creating /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.164s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/simple_command_group.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.165s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/hello_ros_viz.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.165s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/gripper_conversion.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.165s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/hello_misc.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.166s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/fit_plane.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.166s] copying /home/hello-robot/ament_ws/build/hello_helpers/build/lib/hello_helpers/__init__.py -> /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers
+[7.168s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/simple_command_group.py to simple_command_group.cpython-310.pyc
+[7.178s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/hello_ros_viz.py to hello_ros_viz.cpython-310.pyc
+[7.187s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/gripper_conversion.py to gripper_conversion.cpython-310.pyc
+[7.188s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/hello_misc.py to hello_misc.cpython-310.pyc
+[7.195s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/fit_plane.py to fit_plane.cpython-310.pyc
+[7.224s] byte-compiling /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers/__init__.py to __init__.cpython-310.pyc
+[7.225s] running install_data
+[7.238s] creating /home/hello-robot/ament_ws/install/hello_helpers/share/ament_index
+[7.249s] creating /home/hello-robot/ament_ws/install/hello_helpers/share/ament_index/resource_index
+[7.249s] creating /home/hello-robot/ament_ws/install/hello_helpers/share/ament_index/resource_index/packages
+[7.250s] copying resource/hello_helpers -> /home/hello-robot/ament_ws/install/hello_helpers/share/ament_index/resource_index/packages
+[7.250s] copying package.xml -> /home/hello-robot/ament_ws/install/hello_helpers/share/hello_helpers
+[7.250s] running install_egg_info
+[7.255s] Copying ../../../build/hello_helpers/hello_helpers.egg-info to /home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages/hello_helpers-0.2.0-py3.10.egg-info
+[7.256s] running install_scripts
+[8.310s] Installing configure_wrist script to /home/hello-robot/ament_ws/install/hello_helpers/lib/hello_helpers
+[8.310s] writing list of installed files to '/home/hello-robot/ament_ws/build/hello_helpers/install.log'
+[8.405s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/hello_helpers' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/hello_helpers/prefix_override:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hello_helpers build --build-base /home/hello-robot/ament_ws/build/hello_helpers/build install --record /home/hello-robot/ament_ws/build/hello_helpers/install.log --single-version-externally-managed

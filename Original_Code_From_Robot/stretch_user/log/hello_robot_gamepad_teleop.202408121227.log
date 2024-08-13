@@ -1,0 +1,72 @@
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 3
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Wrist single tap: 5
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 9
+[INFO] [robot_monitor]: Wrist single tap: 10
+[INFO] [robot_monitor]: Runstop activated
+For use with S T R E T C H (R) from Hello Robot Inc.
+---------------------------------------------------------------------
+
+Key mapped to End-Of-Arm Tool: eoa_wrist_dw3_tool_sg3
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+--------- Homing Head ----
+--------- Homing Lift ----
+Homing Lift...
+Hardstop detected at motor position (rad) 101.28495025634766
+Marking Lift position to 1.101937 (m)
+Marking Lift position to 0.000000 (m)
+Lift homing successful
+--------- Homing Arm ----
+Homing Arm...
+Hardstop detected at motor position (rad) -13.411109924316406
+Marking Arm position to 0.000000 (m)
+Arm homing successful
+Moving to first hardstop...
+First hardstop contact at position (ticks): -8249
+-----
+Homing offset was -1585
+Marking current position to zero ticks
+Homing offset is now  6660 (ticks)
+-----
+Current position (ticks): 41
+Moving to calibrated zero: (rad)
+Moving to first hardstop...
+First hardstop contact at position (ticks): 78
+-----
+Homing offset was 2192
+Marking current position to zero ticks
+Homing offset is now  2111 (ticks)
+-----
+Current position (ticks): 24
+Moving to calibrated zero: (rad)
+Shutting Down the Robot...
+--------- Stowing Arm ----
+--------- Stowing eoa_wrist_dw3_tool_sg3 ----
+--------- Stowing Lift ----
+Caught signal 15

@@ -1,0 +1,1446 @@
+[DEBUG   ] [03/05/2024 14:51:23.035] [robot]: Starting up Robot stretch-se3-3014 of batch questlove
+[DEBUG   ] [03/05/2024 14:51:23.036] [pimu]: Starting TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 14:51:23.046] [hello-motor-left-wheel]: Starting TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:51:23.061] [hello-motor-right-wheel]: Starting TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:51:23.076] [hello-motor-lift]: Starting TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:51:23.094] [hello-motor-arm]: Starting TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:51:23.125] [head_pan]: [Dynamixel ID:011] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.216] [head_tilt]: [Dynamixel ID:012] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.313] [wacc]: Starting TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 14:51:23.336] [wrist_pitch]: [Dynamixel ID:015] ping Succeeded. Dynamixel model : XM540-W270. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.456] [wrist_roll]: [Dynamixel ID:016] ping Succeeded. Dynamixel model : XM430-W350. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.558] [wrist_yaw]: [Dynamixel ID:013] ping Succeeded. Dynamixel model : XC430-W240. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.651] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[DEBUG   ] [03/05/2024 14:51:23.790] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(17669, 3), faces.shape=(31052, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.790] [trimesh]: load_mesh executed in 0.0307 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.791] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.791] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.792] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.792] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.793] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.793] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.803] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.803] [trimesh]: load_mesh executed in 0.0098 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.804] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.804] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.814] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(6712, 3), faces.shape=(12741, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.815] [trimesh]: load_mesh executed in 0.0101 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.815] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.816] [trimesh]: load_mesh executed in 0.0007 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.868] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(27344, 3), faces.shape=(54720, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.868] [trimesh]: load_mesh executed in 0.0519 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.869] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(32, 3), faces.shape=(60, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.869] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.870] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.870] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.883] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7871, 3), faces.shape=(15812, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.883] [trimesh]: load_mesh executed in 0.0119 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.884] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.884] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.886] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1102, 3), faces.shape=(2268, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.886] [trimesh]: load_mesh executed in 0.0016 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.887] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.887] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.889] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.889] [trimesh]: load_mesh executed in 0.0018 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.889] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.889] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.892] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1176, 3), faces.shape=(2416, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.892] [trimesh]: load_mesh executed in 0.0019 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.893] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.893] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.895] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1204, 3), faces.shape=(2472, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.895] [trimesh]: load_mesh executed in 0.0017 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.896] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.896] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.901] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(4271, 3), faces.shape=(8838, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.901] [trimesh]: load_mesh executed in 0.0052 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.902] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.902] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.904] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2870, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.904] [trimesh]: load_mesh executed in 0.0020 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.905] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:51:23.905] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.905] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.916] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(7551, 3), faces.shape=(15334, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.916] [trimesh]: load_mesh executed in 0.0109 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.917] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.917] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.921] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3017, 3), faces.shape=(6118, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.921] [trimesh]: load_mesh executed in 0.0038 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.922] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.922] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.937] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(9941, 3), faces.shape=(20078, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.937] [trimesh]: load_mesh executed in 0.0146 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.938] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.938] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.939] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.939] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.940] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.940] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.941] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.941] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.942] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.942] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.943] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.943] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.944] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.944] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.945] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.945] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.945] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.945] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.946] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.946] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:23.947] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(40, 3), faces.shape=(76, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:23.947] [trimesh]: load_mesh executed in 0.0004 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: loaded <trimesh.Scene(len(geometry)=18)> using load_collada
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: load_mesh executed in 0.3495 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: `nodes_geometry`: 1.18E-05s, `cache.verify`: 2.66E-06s
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.297] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.298] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.298] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.298] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.298] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.298] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.299] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.299] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.299] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.299] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.303] [trimesh]: apply_transform passed identity matrix
+[DEBUG   ] [03/05/2024 14:51:24.305] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:51:24.305] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(344, 3), faces.shape=(684, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.305] [trimesh]: load_mesh executed in 0.0011 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.306] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.306] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.308] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.308] [trimesh]: load_mesh executed in 0.0010 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.309] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(430, 3), faces.shape=(896, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.309] [trimesh]: load_mesh executed in 0.0012 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.312] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.312] [trimesh]: load_mesh executed in 0.0021 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.314] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1130, 3), faces.shape=(2292, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.314] [trimesh]: load_mesh executed in 0.0020 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.317] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1847, 3), faces.shape=(3729, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.317] [trimesh]: load_mesh executed in 0.0029 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.318] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.318] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.321] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1433, 3), faces.shape=(2842, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.321] [trimesh]: load_mesh executed in 0.0023 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.322] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.322] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.323] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(381, 3), faces.shape=(758, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.323] [trimesh]: load_mesh executed in 0.0009 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.324] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.324] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.344] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(14545, 3), faces.shape=(24513, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.344] [trimesh]: load_mesh executed in 0.0201 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.345] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(46, 3), faces.shape=(88, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.345] [trimesh]: load_mesh executed in 0.0008 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.346] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:51:24.347] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(582, 3), faces.shape=(1164, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.347] [trimesh]: load_mesh executed in 0.0013 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.348] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.348] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.350] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.350] [trimesh]: load_mesh executed in 0.0020 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.351] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.351] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.352] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.352] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.353] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.353] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.354] [trimesh]: face_normals didn't match triangles, ignoring!
+[DEBUG   ] [03/05/2024 14:51:24.355] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(577, 3), faces.shape=(1154, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.355] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.357] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.357] [trimesh]: load_mesh executed in 0.0015 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.360] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(1256, 3), faces.shape=(2508, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.360] [trimesh]: load_mesh executed in 0.0026 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.361] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.361] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.362] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.362] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.363] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(72, 3), faces.shape=(140, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.363] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.364] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.364] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.364] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(56, 3), faces.shape=(108, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.364] [trimesh]: load_mesh executed in 0.0005 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.369] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(3274, 3), faces.shape=(6042, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.369] [trimesh]: load_mesh executed in 0.0045 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.370] [trimesh]: loaded <trimesh.Trimesh(vertices.shape=(8, 3), faces.shape=(12, 3))> using load_stl
+[DEBUG   ] [03/05/2024 14:51:24.370] [trimesh]: load_mesh executed in 0.0006 seconds.
+[DEBUG   ] [03/05/2024 14:51:24.411] [base]: Fast motion turned off
+[DEBUG   ] [03/05/2024 14:51:24.411] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.478] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.545] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.612] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.679] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.747] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.814] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.880] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:24.948] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.015] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.081] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.148] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.215] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.282] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.349] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.417] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.484] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.551] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.618] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.685] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.740] [arm]: Applied safety brakes near limits. reduced set_vel=9.874490172522857e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:25.752] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:25.819] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:25.819] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.848] [arm]: Applied safety brakes near limits. reduced set_vel=9.874490172522857e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:25.885] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:25.952] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:25.953] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.953] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:25.959] [arm]: Applied safety brakes near limits. reduced set_vel=9.740373615973353e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:25.982] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.3103918014709038 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.019] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.019] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.081] [arm]: Applied safety brakes near limits. reduced set_vel=9.874490172522857e-05 m/s
+[INFO    ] [03/05/2024 14:51:26.088] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:26.093] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.094] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.096] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.20133464292440476 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.154] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.155] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.197] [arm]: Applied safety brakes near limits. reduced set_vel=9.606302848620422e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:26.209] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.20042723825128717 rad/s
+[INFO    ] [03/05/2024 14:51:26.221] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:26.221] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.221] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.288] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.288] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.298] [arm]: Applied safety brakes near limits. reduced set_vel=9.472277870463968e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:26.316] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.20288067582337466 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.355] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.355] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.355] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.366] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:51:26.366] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Current rate (Hz): 24.627034
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Average rate (Hz): 24.797795
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.159659
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Min rate (Hz): 23.967588
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Supportable rate (Hz): 104.798345
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.826236
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:51:26.367] [NonDXLStatusThread]: Sleep time (s): 0.031209
+[DEBUG   ] [03/05/2024 14:51:26.413] [arm]: Applied safety brakes near limits. reduced set_vel=9.137055162885017e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:26.422] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.422] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.422] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.423] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.16371652017601454 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.437] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=2.6497018643585983 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.489] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.489] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.490] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.525] [arm]: Applied safety brakes near limits. reduced set_vel=8.399620153247177e-05 m/s
+[DEBUG   ] [03/05/2024 14:51:26.536] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.13705415185768444 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.549] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=1.1735831468457958 rad/s
+[DEBUG   ] [03/05/2024 14:51:26.556] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.556] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.556] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.993] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.993] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:26.993] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.034] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:27.060] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.127] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.290] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.293] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.298] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.298] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.359] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.359] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.359] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.411] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:27.426] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.426] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.426] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.493] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.493] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.493] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.493] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.560] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.560] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.563] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.563] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.627] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.628] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.628] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.628] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.694] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.694] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.694] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.761] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.763] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.763] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.828] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.828] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.828] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.895] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.895] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.895] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.962] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.962] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:27.962] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.028] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.028] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.028] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.095] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.095] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.095] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.159] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:28.163] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.163] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.163] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.179] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:28.230] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 50 -----------
+[DEBUG   ] [03/05/2024 14:51:28.230] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:28.230] [SystemMonitorThread]: Current rate (Hz): 14.936448
+[DEBUG   ] [03/05/2024 14:51:28.230] [SystemMonitorThread]: Average rate (Hz): 14.442996
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Standard deviation of rate history (Hz): 2.307923
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Max rate (Hz): 14.996099
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Supportable rate (Hz): 1348.963566
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 788.409410
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:51:28.231] [SystemMonitorThread]: Sleep time (s): 0.066195
+[DEBUG   ] [03/05/2024 14:51:28.231] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.232] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.232] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.297] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.297] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.297] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.363] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.364] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.364] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Current rate (Hz): 14.885718
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Average rate (Hz): 14.407955
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 2.382574
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Supportable rate (Hz): 61.460769
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 11.214858
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:51:28.380] [DXLHeadStatusThread]: Sleep time (s): 0.051254
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 50 -----------
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.969713
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.355700
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 2.479617
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.994866
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 36.726599
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 9.597347
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Warnings: 0 out of 50
+[DEBUG   ] [03/05/2024 14:51:28.420] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043393
+[DEBUG   ] [03/05/2024 14:51:28.430] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.430] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.430] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.498] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.498] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.498] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.566] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.566] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.633] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.633] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.700] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.700] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.766] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.767] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.772] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:28.833] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.833] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.884] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:28.900] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.900] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.967] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:28.967] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.004] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:29.034] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.034] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.085] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Current rate (Hz): 24.735233
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Average rate (Hz): 24.343231
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 3.028950
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Supportable rate (Hz): 106.367272
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 29.728289
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:51:29.086] [NonDXLStatusThread]: Sleep time (s): 0.031063
+[DEBUG   ] [03/05/2024 14:51:29.101] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.101] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.128] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:29.167] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.168] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.229] [arm]: Applied safety brakes near limits. reduced set_vel=0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:29.235] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.235] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.302] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.303] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.358] [arm]: Applied safety brakes near limits. reduced set_vel=0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:29.369] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.370] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.436] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.437] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.481] [arm]: Applied safety brakes near limits. reduced set_vel=0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:29.504] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.504] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.504] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.571] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.571] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.572] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.596] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:29.638] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.638] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.639] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.689] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:29.705] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.706] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.706] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.772] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.773] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.773] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.787] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:29.840] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.840] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.840] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.871] [arm]: Applied safety brakes near limits. reduced set_vel=0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:29.885] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.2559575969706306 rad/s
+[DEBUG   ] [03/05/2024 14:51:29.907] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.907] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.907] [wrist_pitch]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:29.974] [robot_monitor]: Guarded contact lift
+[DEBUG   ] [03/05/2024 14:51:29.975] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.975] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.976] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:29.983] [arm]: Applied safety brakes near limits. reduced set_vel=0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:29.998] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.4271206865390281 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.041] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.041] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.041] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.099] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.108] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.109] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.176] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.176] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.205] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.8299716396759197 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.243] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.243] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.310] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.311] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.315] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.7941808666216326 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.377] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.391] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.443] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.7895414782654155 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.445] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.459] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.512] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.512] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.555] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.5687535516881278 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.578] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.579] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.645] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.646] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.675] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.2108472840151275 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.712] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.713] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.780] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.780] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.782] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.05963468236538322 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.847] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.847] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.895] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.047815981736802876 rad/s
+[DEBUG   ] [03/05/2024 14:51:30.914] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.914] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.981] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:30.981] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.002] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.13824145889123537 rad/s
+[DEBUG   ] [03/05/2024 14:51:31.047] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.048] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.102] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Current rate (Hz): 24.786101
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Average rate (Hz): 24.344003
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 3.012655
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Supportable rate (Hz): 108.107431
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 26.970567
+[DEBUG   ] [03/05/2024 14:51:31.103] [NonDXLStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:51:31.104] [NonDXLStatusThread]: Sleep time (s): 0.032332
+[DEBUG   ] [03/05/2024 14:51:31.114] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.181] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.249] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.316] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.382] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.383] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.449] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.449] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.476] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.07986294929539929 rad/s
+[DEBUG   ] [03/05/2024 14:51:31.516] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.517] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.583] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 100 -----------
+[DEBUG   ] [03/05/2024 14:51:31.583] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:31.584] [SystemMonitorThread]: Current rate (Hz): 14.926189
+[DEBUG   ] [03/05/2024 14:51:31.584] [SystemMonitorThread]: Average rate (Hz): 14.678998
+[DEBUG   ] [03/05/2024 14:51:31.584] [SystemMonitorThread]: Standard deviation of rate history (Hz): 1.640975
+[DEBUG   ] [03/05/2024 14:51:31.584] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:31.584] [SystemMonitorThread]: Max rate (Hz): 14.997064
+[DEBUG   ] [03/05/2024 14:51:31.585] [SystemMonitorThread]: Supportable rate (Hz): 1408.037108
+[DEBUG   ] [03/05/2024 14:51:31.585] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 684.478891
+[DEBUG   ] [03/05/2024 14:51:31.585] [SystemMonitorThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:51:31.585] [SystemMonitorThread]: Sleep time (s): 0.066129
+[DEBUG   ] [03/05/2024 14:51:31.585] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.585] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.593] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.054898530233254764 rad/s
+[DEBUG   ] [03/05/2024 14:51:31.650] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.650] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.700] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.10356474384868819 rad/s
+[DEBUG   ] [03/05/2024 14:51:31.717] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.733] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Current rate (Hz): 14.978748
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Average rate (Hz): 14.660612
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 1.695647
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Supportable rate (Hz): 63.853804
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 8.629491
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:51:31.734] [DXLHeadStatusThread]: Sleep time (s): 0.050703
+[DEBUG   ] [03/05/2024 14:51:31.768] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 100 -----------
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.951463
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.646265
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 1.768215
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997440
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 35.481961
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 9.600120
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Warnings: 0 out of 100
+[DEBUG   ] [03/05/2024 14:51:31.769] [DXLEndOfArmStatusThread]: Sleep time (s): 0.043103
+[DEBUG   ] [03/05/2024 14:51:31.784] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.851] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.918] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.985] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:31.985] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.037] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.06600505196127816 rad/s
+[DEBUG   ] [03/05/2024 14:51:32.052] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.053] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.119] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.119] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.165] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.04276484837498268 rad/s
+[DEBUG   ] [03/05/2024 14:51:32.186] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.186] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.253] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.253] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.282] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.04801335229476164 rad/s
+[DEBUG   ] [03/05/2024 14:51:32.320] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.388] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.455] [head_pan]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:32.522] [robot_monitor]: Wrist single tap: 913
+[DEBUG   ] [03/05/2024 14:51:32.523] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.523] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.589] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.589] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.599] [arm]: Applied safety brakes near limits. reduced set_vel=0.07585499271896574 m/s
+[INFO    ] [03/05/2024 14:51:32.657] [robot_monitor]: Wrist single tap: 914
+[DEBUG   ] [03/05/2024 14:51:32.657] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.657] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.702] [arm]: Applied safety brakes near limits. reduced set_vel=0.12066118194056547 m/s
+[DEBUG   ] [03/05/2024 14:51:32.723] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.723] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.790] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.857] [head_pan]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:32.925] [robot_monitor]: Wrist single tap: 916
+[DEBUG   ] [03/05/2024 14:51:32.925] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:32.992] [head_pan]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:33.061] [robot_monitor]: Wrist single tap: 917
+[INFO    ] [03/05/2024 14:51:33.061] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:33.061] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.123] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:51:33.123] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Current rate (Hz): 24.844829
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Average rate (Hz): 24.767606
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.190534
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Supportable rate (Hz): 110.686865
+[DEBUG   ] [03/05/2024 14:51:33.124] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 26.085429
+[DEBUG   ] [03/05/2024 14:51:33.125] [NonDXLStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:51:33.125] [NonDXLStatusThread]: Sleep time (s): 0.023030
+[DEBUG   ] [03/05/2024 14:51:33.130] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.130] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.130] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.163] [arm]: Applied safety brakes near limits. reduced set_vel=0.05868236314925709 m/s
+[DEBUG   ] [03/05/2024 14:51:33.176] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.11498944801614734 rad/s
+[INFO    ] [03/05/2024 14:51:33.196] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:33.197] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.197] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.263] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.264] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.264] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.286] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.296] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.11368054363913838 rad/s
+[INFO    ] [03/05/2024 14:51:33.330] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:33.331] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.331] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.387] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.398] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.398] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.398] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.403] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.09790495849210545 rad/s
+[INFO    ] [03/05/2024 14:51:33.465] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:33.466] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.466] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.466] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.500] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.510] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.09903617156851827 rad/s
+[DEBUG   ] [03/05/2024 14:51:33.532] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.532] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.532] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.599] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.600] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.600] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.624] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.634] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.10488506732439694 rad/s
+[DEBUG   ] [03/05/2024 14:51:33.666] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.666] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.733] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.733] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.733] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.734] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.746] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=-0.09405917894604121 rad/s
+[DEBUG   ] [03/05/2024 14:51:33.800] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.800] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.835] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:33.868] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.868] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.935] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.935] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:33.945] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.002] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.003] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.051] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.069] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.070] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.136] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.137] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.172] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.203] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.204] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.271] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.271] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.294] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.337] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.338] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.404] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.405] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.414] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.472] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.472] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.517] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.538] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.539] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.605] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.606] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.637] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.673] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.673] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.739] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.739] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.745] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.806] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.806] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.860] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:34.874] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.874] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 150 -----------
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Current rate (Hz): 14.886880
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Average rate (Hz): 14.901761
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.080455
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Max rate (Hz): 14.997064
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Supportable rate (Hz): 1462.828129
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 512.863743
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:51:34.941] [SystemMonitorThread]: Sleep time (s): 0.066125
+[DEBUG   ] [03/05/2024 14:51:34.941] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.942] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:34.978] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.008] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.008] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.075] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.076] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Current rate (Hz): 14.916104
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Average rate (Hz): 14.918521
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.065588
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Supportable rate (Hz): 66.630685
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.834042
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:51:35.083] [DXLHeadStatusThread]: Sleep time (s): 0.052702
+[DEBUG   ] [03/05/2024 14:51:35.101] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 150 -----------
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.895550
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.926937
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.042206
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997922
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 34.297699
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 9.528870
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Warnings: 0 out of 150
+[DEBUG   ] [03/05/2024 14:51:35.119] [DXLEndOfArmStatusThread]: Sleep time (s): 0.018244
+[DEBUG   ] [03/05/2024 14:51:35.142] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.142] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Current rate (Hz): 24.653959
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Average rate (Hz): 24.732045
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.229033
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:35.146] [NonDXLStatusThread]: Supportable rate (Hz): 110.452619
+[DEBUG   ] [03/05/2024 14:51:35.147] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.867910
+[DEBUG   ] [03/05/2024 14:51:35.147] [NonDXLStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:51:35.147] [NonDXLStatusThread]: Sleep time (s): 0.032169
+[DEBUG   ] [03/05/2024 14:51:35.209] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.210] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.210] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.276] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.277] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.313] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.343] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.343] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.410] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.410] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.440] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[INFO    ] [03/05/2024 14:51:35.477] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:35.477] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.477] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.544] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.544] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.564] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[INFO    ] [03/05/2024 14:51:35.611] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:35.612] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.612] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.671] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.678] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.678] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:35.744] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:35.745] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.745] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.786] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.812] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.812] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:35.879] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:35.879] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.879] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.913] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:35.945] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:35.946] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:36.012] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:36.013] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.013] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.049] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.079] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.079] [arm]: In Vel-Braking Zone.
+[INFO    ] [03/05/2024 14:51:36.146] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:36.147] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.147] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.160] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.214] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.214] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.263] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[INFO    ] [03/05/2024 14:51:36.280] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:36.280] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.281] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.347] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.347] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.379] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[INFO    ] [03/05/2024 14:51:36.414] [robot_monitor]: Base bump event
+[DEBUG   ] [03/05/2024 14:51:36.414] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.414] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.481] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.482] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.490] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.548] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.548] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.595] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.615] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.616] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.682] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.684] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.718] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.749] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.749] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.750] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.763] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:36.817] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.817] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.817] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.848] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:36.884] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.884] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:36.884] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.884] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.950] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.951] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.951] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:36.970] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.017] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.017] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:37.017] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.018] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.084] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.084] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.084] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.101] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.128] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:37.151] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.151] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.151] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.164] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:51:37.165] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:37.165] [NonDXLStatusThread]: Current rate (Hz): 24.844093
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Average rate (Hz): 24.750244
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.208501
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Supportable rate (Hz): 110.573877
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 23.692883
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:51:37.166] [NonDXLStatusThread]: Sleep time (s): 0.032615
+[DEBUG   ] [03/05/2024 14:51:37.204] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.218] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.218] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.218] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.246] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:37.285] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.285] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.285] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.325] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.352] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.352] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.352] [stretch_gripper]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.358] [stretch_gripper]: Applied safety brakes near limits. reduced set_vel=-6.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:37.418] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.419] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.453] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.485] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.485] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.552] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.552] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.569] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.619] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.619] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.669] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.686] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.686] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.753] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.753] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.777] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.820] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.820] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.886] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.887] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.892] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:37.954] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.954] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:37.994] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.021] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.021] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.088] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.088] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.126] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.155] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.155] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.222] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.222] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.238] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 200 -----------
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Current rate (Hz): 14.960636
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Average rate (Hz): 14.913859
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.076431
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Max rate (Hz): 14.997064
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Supportable rate (Hz): 1445.693308
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 449.993389
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:51:38.289] [SystemMonitorThread]: Sleep time (s): 0.066068
+[DEBUG   ] [03/05/2024 14:51:38.289] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.289] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.337] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.356] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.356] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.423] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.424] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Current rate (Hz): 14.904178
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Average rate (Hz): 14.924399
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.048124
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Supportable rate (Hz): 66.576311
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.110017
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:51:38.434] [DXLHeadStatusThread]: Sleep time (s): 0.051219
+[DEBUG   ] [03/05/2024 14:51:38.460] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 200 -----------
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.929218
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.921164
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.047226
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997922
+[DEBUG   ] [03/05/2024 14:51:38.471] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 34.531240
+[DEBUG   ] [03/05/2024 14:51:38.472] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 9.856174
+[DEBUG   ] [03/05/2024 14:51:38.472] [DXLEndOfArmStatusThread]: Warnings: 0 out of 200
+[DEBUG   ] [03/05/2024 14:51:38.472] [DXLEndOfArmStatusThread]: Sleep time (s): 0.007924
+[DEBUG   ] [03/05/2024 14:51:38.490] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.490] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.557] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.557] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.580] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:38.624] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.624] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.690] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.691] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.697] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:38.757] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.759] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.779] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:38.824] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.824] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.859] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:38.892] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.892] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.936] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:38.959] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:38.960] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.026] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.026] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.028] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:39.093] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.093] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.101] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:39.161] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.161] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.181] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:39.183] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:51:39.184] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:39.184] [NonDXLStatusThread]: Current rate (Hz): 24.900140
+[DEBUG   ] [03/05/2024 14:51:39.185] [NonDXLStatusThread]: Average rate (Hz): 24.769959
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.200029
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Supportable rate (Hz): 109.179453
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.337890
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:51:39.186] [NonDXLStatusThread]: Sleep time (s): 0.029217
+[DEBUG   ] [03/05/2024 14:51:39.228] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.228] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.252] [stretch_gripper]: Backoff at stall overload
+[DEBUG   ] [03/05/2024 14:51:39.254] [arm]: Applied safety brakes near limits. reduced set_vel=-0.14 m/s
+[DEBUG   ] [03/05/2024 14:51:39.295] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.295] [stretch_gripper]: Backoff at stall overload
+[DEBUG   ] [03/05/2024 14:51:39.362] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.362] [stretch_gripper]: Backoff at stall overload
+[DEBUG   ] [03/05/2024 14:51:39.429] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.496] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.564] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.631] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.698] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.765] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.832] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.899] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:39.966] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.033] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.100] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.168] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.234] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.301] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.368] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.435] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.502] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.569] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.636] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.703] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.770] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.837] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.904] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:40.972] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.039] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.106] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.173] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 400 -----------
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Current rate (Hz): 24.736254
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Average rate (Hz): 24.760937
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.169929
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Supportable rate (Hz): 110.019495
+[DEBUG   ] [03/05/2024 14:51:41.203] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.757847
+[DEBUG   ] [03/05/2024 14:51:41.204] [NonDXLStatusThread]: Warnings: 0 out of 400
+[DEBUG   ] [03/05/2024 14:51:41.204] [NonDXLStatusThread]: Sleep time (s): 0.031978
+[INFO    ] [03/05/2024 14:51:41.240] [robot_monitor]: Wrist single tap: 918
+[DEBUG   ] [03/05/2024 14:51:41.240] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.307] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.374] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.441] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.509] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.576] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.576] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.626] [arm]: Applied safety brakes near limits. reduced set_vel=-0.12704236216588108 m/s
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 250 -----------
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Current rate (Hz): 14.890474
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Average rate (Hz): 14.920837
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.049701
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:41.643] [SystemMonitorThread]: Max rate (Hz): 14.997064
+[DEBUG   ] [03/05/2024 14:51:41.644] [SystemMonitorThread]: Supportable rate (Hz): 1464.684543
+[DEBUG   ] [03/05/2024 14:51:41.644] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 539.222720
+[DEBUG   ] [03/05/2024 14:51:41.644] [SystemMonitorThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:51:41.644] [SystemMonitorThread]: Sleep time (s): 0.065701
+[INFO    ] [03/05/2024 14:51:41.644] [robot_monitor]: Wrist single tap: 919
+[DEBUG   ] [03/05/2024 14:51:41.644] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.644] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.698] [arm]: Applied safety brakes near limits. reduced set_vel=-0.10525306973551658 m/s
+[DEBUG   ] [03/05/2024 14:51:41.710] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.710] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.773] [arm]: Applied safety brakes near limits. reduced set_vel=-0.09744078603470022 m/s
+[DEBUG   ] [03/05/2024 14:51:41.777] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.777] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Current rate (Hz): 14.925711
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Average rate (Hz): 14.919200
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.054439
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Supportable rate (Hz): 66.575837
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 4.089886
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:51:41.786] [DXLHeadStatusThread]: Sleep time (s): 0.050422
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 250 -----------
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.923269
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.928314
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.044031
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997922
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 37.594898
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 8.523379
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Warnings: 0 out of 250
+[DEBUG   ] [03/05/2024 14:51:41.818] [DXLEndOfArmStatusThread]: Sleep time (s): 0.039657
+[DEBUG   ] [03/05/2024 14:51:41.844] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.844] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.847] [arm]: Applied safety brakes near limits. reduced set_vel=-0.08673409441957408 m/s
+[DEBUG   ] [03/05/2024 14:51:41.911] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.911] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.924] [arm]: Applied safety brakes near limits. reduced set_vel=-0.07324617546651987 m/s
+[DEBUG   ] [03/05/2024 14:51:41.978] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.978] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:41.997] [arm]: Applied safety brakes near limits. reduced set_vel=-0.0672473025199853 m/s
+[DEBUG   ] [03/05/2024 14:51:42.045] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.045] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.068] [arm]: Applied safety brakes near limits. reduced set_vel=-0.057496750059673515 m/s
+[DEBUG   ] [03/05/2024 14:51:42.112] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.112] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.141] [arm]: Applied safety brakes near limits. reduced set_vel=-0.0536931069460579 m/s
+[DEBUG   ] [03/05/2024 14:51:42.178] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.179] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.215] [arm]: Applied safety brakes near limits. reduced set_vel=-0.04918311442502699 m/s
+[DEBUG   ] [03/05/2024 14:51:42.245] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.246] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.289] [arm]: Applied safety brakes near limits. reduced set_vel=-0.04381191430175365 m/s
+[DEBUG   ] [03/05/2024 14:51:42.312] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.312] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.367] [arm]: Applied safety brakes near limits. reduced set_vel=-0.034065841577574696 m/s
+[DEBUG   ] [03/05/2024 14:51:42.379] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.379] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.444] [arm]: Applied safety brakes near limits. reduced set_vel=-0.032435206715804236 m/s
+[DEBUG   ] [03/05/2024 14:51:42.446] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.450] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.513] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.513] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.515] [arm]: Applied safety brakes near limits. reduced set_vel=-0.02819039040078664 m/s
+[DEBUG   ] [03/05/2024 14:51:42.580] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.580] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.587] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:42.647] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.647] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.694] [DXLEndOfArmStatusThread]: Missed target loop rate of 15.00 Hz for DXLEndOfArmStatusThread. Currently 13.75 Hz
+[DEBUG   ] [03/05/2024 14:51:42.714] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.715] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.781] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.781] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.848] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.849] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.915] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.916] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.983] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:42.983] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.050] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.051] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.118] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.118] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.184] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.185] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.222] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 450 -----------
+[DEBUG   ] [03/05/2024 14:51:43.222] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:43.222] [NonDXLStatusThread]: Current rate (Hz): 24.728525
+[DEBUG   ] [03/05/2024 14:51:43.222] [NonDXLStatusThread]: Average rate (Hz): 24.762116
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.141504
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Supportable rate (Hz): 115.519315
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 23.701742
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Warnings: 0 out of 450
+[DEBUG   ] [03/05/2024 14:51:43.223] [NonDXLStatusThread]: Sleep time (s): 0.033459
+[DEBUG   ] [03/05/2024 14:51:43.251] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.252] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.318] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.318] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.385] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.386] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.453] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.453] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.520] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.520] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.586] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.587] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.653] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.653] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.720] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.720] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.787] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.787] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.854] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.855] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.921] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.921] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.988] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:43.988] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.055] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.055] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.122] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.122] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.189] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.189] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.255] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.256] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.323] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.323] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.390] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.391] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.457] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.458] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.524] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.524] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.591] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.592] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.658] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.658] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.658] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.686] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:44.725] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.725] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.725] [wrist_pitch]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.762] [wrist_pitch]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:44.792] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.792] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.859] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.859] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.925] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.926] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.992] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 300 -----------
+[DEBUG   ] [03/05/2024 14:51:44.993] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:44.993] [SystemMonitorThread]: Current rate (Hz): 14.942993
+[DEBUG   ] [03/05/2024 14:51:44.993] [SystemMonitorThread]: Average rate (Hz): 14.917355
+[DEBUG   ] [03/05/2024 14:51:44.993] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.053020
+[DEBUG   ] [03/05/2024 14:51:44.994] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:44.994] [SystemMonitorThread]: Max rate (Hz): 14.997440
+[DEBUG   ] [03/05/2024 14:51:44.994] [SystemMonitorThread]: Supportable rate (Hz): 1550.775339
+[DEBUG   ] [03/05/2024 14:51:44.994] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 629.433037
+[DEBUG   ] [03/05/2024 14:51:44.995] [SystemMonitorThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:51:44.995] [SystemMonitorThread]: Sleep time (s): 0.065936
+[DEBUG   ] [03/05/2024 14:51:44.995] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:44.995] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.059] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.059] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.126] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.126] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Current rate (Hz): 14.982547
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Average rate (Hz): 14.917084
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.064251
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Max rate (Hz): 14.995831
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Supportable rate (Hz): 68.013081
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.606552
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Warnings: 0 out of 300
+[DEBUG   ] [03/05/2024 14:51:45.138] [DXLHeadStatusThread]: Sleep time (s): 0.052139
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 300 -----------
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.913187
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.914234
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.132279
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997922
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 37.403374
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 7.268015
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Warnings: 2 out of 300
+[DEBUG   ] [03/05/2024 14:51:45.176] [DXLEndOfArmStatusThread]: Sleep time (s): 0.032621
+[DEBUG   ] [03/05/2024 14:51:45.193] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.193] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.241] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 500 -----------
+[DEBUG   ] [03/05/2024 14:51:45.241] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Current rate (Hz): 24.890239
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Average rate (Hz): 24.762781
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.153810
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Supportable rate (Hz): 114.054272
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 25.685065
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Warnings: 0 out of 500
+[DEBUG   ] [03/05/2024 14:51:45.242] [NonDXLStatusThread]: Sleep time (s): 0.032445
+[DEBUG   ] [03/05/2024 14:51:45.260] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.261] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.327] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.327] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.394] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.394] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.462] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.462] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.528] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.529] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.595] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.595] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.662] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.662] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.729] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.729] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.796] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.797] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.863] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.864] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.932] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.932] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.999] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:45.999] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.066] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.066] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.133] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.133] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.200] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.200] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.267] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.267] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.334] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.335] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.401] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.401] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.469] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.469] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.535] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.536] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.603] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.603] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.670] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.670] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.737] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.737] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.804] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.804] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.871] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.871] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.939] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:46.939] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.005] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.006] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.072] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.072] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.139] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.140] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.206] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.207] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.260] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 550 -----------
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Current rate (Hz): 24.716721
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Average rate (Hz): 24.762836
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.148127
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Supportable rate (Hz): 113.328720
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 26.019007
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Warnings: 0 out of 550
+[DEBUG   ] [03/05/2024 14:51:47.261] [NonDXLStatusThread]: Sleep time (s): 0.033397
+[DEBUG   ] [03/05/2024 14:51:47.275] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.275] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.341] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.342] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.408] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.408] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.475] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.475] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.542] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.542] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.609] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.610] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.676] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.676] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.742] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.742] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.809] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.809] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.876] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.877] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.943] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:47.944] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.010] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.010] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.078] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.078] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.145] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.145] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.212] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.212] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.278] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.279] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.345] [SystemMonitorThread]: --------- TimingStats SystemMonitorThread 350 -----------
+[DEBUG   ] [03/05/2024 14:51:48.345] [SystemMonitorThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:48.345] [SystemMonitorThread]: Current rate (Hz): 14.946614
+[DEBUG   ] [03/05/2024 14:51:48.345] [SystemMonitorThread]: Average rate (Hz): 14.920003
+[DEBUG   ] [03/05/2024 14:51:48.345] [SystemMonitorThread]: Standard deviation of rate history (Hz): 0.069986
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Min rate (Hz): 2.289838
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Max rate (Hz): 14.997440
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Supportable rate (Hz): 1535.900319
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Standard deviation of supportable rate history (Hz): 639.216575
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:51:48.346] [SystemMonitorThread]: Sleep time (s): 0.066129
+[DEBUG   ] [03/05/2024 14:51:48.346] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.346] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.412] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.412] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.479] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.479] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: --------- TimingStats DXLHeadStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Current rate (Hz): 14.938576
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Average rate (Hz): 14.918780
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Standard deviation of rate history (Hz): 0.054256
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Min rate (Hz): 1.758195
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Max rate (Hz): 14.998191
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Supportable rate (Hz): 68.202788
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Standard deviation of supportable rate history (Hz): 3.255479
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Warnings: 0 out of 350
+[DEBUG   ] [03/05/2024 14:51:48.489] [DXLHeadStatusThread]: Sleep time (s): 0.051639
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: --------- TimingStats DXLEndOfArmStatusThread 350 -----------
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Target rate: 15.000000
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Current rate (Hz): 14.889100
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Average rate (Hz): 14.910836
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Standard deviation of rate history (Hz): 0.131502
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Min rate (Hz): 2.033139
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Max rate (Hz): 14.997922
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Supportable rate (Hz): 36.806745
+[DEBUG   ] [03/05/2024 14:51:48.525] [DXLEndOfArmStatusThread]: Standard deviation of supportable rate history (Hz): 7.135965
+[DEBUG   ] [03/05/2024 14:51:48.526] [DXLEndOfArmStatusThread]: Warnings: 2 out of 350
+[DEBUG   ] [03/05/2024 14:51:48.526] [DXLEndOfArmStatusThread]: Sleep time (s): 0.042024
+[DEBUG   ] [03/05/2024 14:51:48.546] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.547] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.613] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.614] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.681] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.681] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.748] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.748] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.815] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.816] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.882] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.882] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.949] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:48.949] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.016] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.017] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.083] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.083] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.150] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.150] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.162] [arm]: Applied safety brakes near limits. reduced set_vel=0.0 m/s
+[DEBUG   ] [03/05/2024 14:51:49.217] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.217] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.275] [head_pan]: Applied safety brakes near limits. reduced set_vel=0.0 rad/s
+[DEBUG   ] [03/05/2024 14:51:49.277] [NonDXLStatusThread]: --------- TimingStats NonDXLStatusThread 600 -----------
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Target rate: 25.000000
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Current rate (Hz): 24.873560
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Average rate (Hz): 24.775562
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Standard deviation of rate history (Hz): 0.139175
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Min rate (Hz): 1.730609
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Max rate (Hz): 24.986025
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Supportable rate (Hz): 113.789090
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Standard deviation of supportable rate history (Hz): 24.075791
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Warnings: 0 out of 600
+[DEBUG   ] [03/05/2024 14:51:49.278] [NonDXLStatusThread]: Sleep time (s): 0.032921
+[DEBUG   ] [03/05/2024 14:51:49.284] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.284] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.309] [robot]: ---- Shutting down robot ----
+[DEBUG   ] [03/05/2024 14:51:49.310] [robot]: Caught Exception in Thread: Thread-1 (controller_loop)
+[DEBUG   ] [03/05/2024 14:51:49.310] [robot]: ['Traceback (most recent call last):\n', '  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner\n    self.run()\n', '  File "/usr/lib/python3.10/threading.py", line 953, in run\n    self._target(*self._args, **self._kwargs)\n', '  File "/home/hello-robot/repos/stretch_visual_servoing/normalized_velocity_control.py", line 576, in controller_loop\n    exit()\n', '  File "/usr/lib/python3.10/_sitebuiltins.py", line 26, in __call__\n    raise SystemExit(code)\n', 'SystemExit: None\n']
+[DEBUG   ] [03/05/2024 14:51:49.318] [robot]: Shutting down NonDXLStatusThread
+[DEBUG   ] [03/05/2024 14:51:49.351] [head_pan]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.351] [arm]: In Vel-Braking Zone.
+[DEBUG   ] [03/05/2024 14:51:49.359] [robot]: Shutting down DXLHeadStatusThread
+[DEBUG   ] [03/05/2024 14:51:49.395] [robot]: Shutting down DXLEndOfArmStatusThread
+[DEBUG   ] [03/05/2024 14:51:49.418] [robot]: Shutting down SystemMonitorThread
+[DEBUG   ] [03/05/2024 14:51:49.418] [robot]: Shutting down pimu
+[DEBUG   ] [03/05/2024 14:51:49.419] [pimu]: Shutting down TransportConnection on: /dev/hello-pimu
+[DEBUG   ] [03/05/2024 14:51:49.456] [robot]: Shutting down base
+[DEBUG   ] [03/05/2024 14:51:49.459] [hello-motor-left-wheel]: Shutting down Stepper on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:51:49.563] [hello-motor-left-wheel]: Shutting down TransportConnection on: /dev/hello-motor-left-wheel
+[DEBUG   ] [03/05/2024 14:51:49.599] [hello-motor-right-wheel]: Shutting down Stepper on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:51:49.703] [hello-motor-right-wheel]: Shutting down TransportConnection on: /dev/hello-motor-right-wheel
+[DEBUG   ] [03/05/2024 14:51:49.739] [robot]: Shutting down lift
+[DEBUG   ] [03/05/2024 14:51:49.740] [hello-motor-lift]: Shutting down Stepper on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:51:49.844] [hello-motor-lift]: Shutting down TransportConnection on: /dev/hello-motor-lift
+[DEBUG   ] [03/05/2024 14:51:49.847] [robot]: Shutting down arm
+[DEBUG   ] [03/05/2024 14:51:49.848] [hello-motor-arm]: Shutting down Stepper on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:51:49.952] [hello-motor-arm]: Shutting down TransportConnection on: /dev/hello-motor-arm
+[DEBUG   ] [03/05/2024 14:51:49.988] [robot]: Shutting down head
+[DEBUG   ] [03/05/2024 14:51:50.012] [robot]: Shutting down wacc
+[DEBUG   ] [03/05/2024 14:51:50.012] [wacc]: Shutting down TransportConnection on: /dev/hello-wacc
+[DEBUG   ] [03/05/2024 14:51:50.047] [robot]: Shutting down end_of_arm
+[DEBUG   ] [03/05/2024 14:51:50.128] [robot]: ---- Shutdown complete ----

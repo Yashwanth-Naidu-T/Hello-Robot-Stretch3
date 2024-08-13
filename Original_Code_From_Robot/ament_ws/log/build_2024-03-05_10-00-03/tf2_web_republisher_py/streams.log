@@ -1,0 +1,25 @@
+[2.167s] Invoking command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed
+[2.600s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.600s]   warnings.warn(
+[2.600s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.600s]   warnings.warn(
+[2.601s] running egg_info
+[2.601s] writing ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/PKG-INFO
+[2.601s] writing dependency_links to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/dependency_links.txt
+[2.601s] writing entry points to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/entry_points.txt
+[2.601s] writing requirements to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/requires.txt
+[2.601s] writing top-level names to ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/top_level.txt
+[2.601s] reading manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[2.602s] writing manifest file '../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info/SOURCES.txt'
+[2.602s] running build
+[2.602s] running build_py
+[2.602s] running install
+[2.602s] running install_lib
+[2.602s] running install_data
+[2.602s] running install_egg_info
+[2.602s] removing '/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py-0.0.0-py3.10.egg-info' (and everything under it)
+[2.602s] Copying ../../../build/tf2_web_republisher_py/tf2_web_republisher_py.egg-info to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages/tf2_web_republisher_py-0.0.0-py3.10.egg-info
+[2.602s] running install_scripts
+[2.602s] Installing tf2_web_republisher script to /home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/tf2_web_republisher_py
+[2.602s] writing list of installed files to '/home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log'
+[2.691s] Invoked command in '/home/hello-robot/ament_ws/src/tf2_web_republisher_py/tf2_web_republisher_py' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/tf2_web_republisher_py/prefix_override:/home/hello-robot/ament_ws/install/tf2_web_republisher_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/tf2_web_republisher_py build --build-base /home/hello-robot/ament_ws/build/tf2_web_republisher_py/build install --record /home/hello-robot/ament_ws/build/tf2_web_republisher_py/install.log --install-scripts $base/lib/tf2_web_republisher_py --single-version-externally-managed

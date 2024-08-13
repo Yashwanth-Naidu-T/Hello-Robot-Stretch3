@@ -1,0 +1,28 @@
+[4.039s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_tutorials': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed
+[4.337s] running egg_info
+[4.338s] writing ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/PKG-INFO
+[4.338s] writing dependency_links to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/dependency_links.txt
+[4.338s] writing entry points to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/entry_points.txt
+[4.339s] writing requirements to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/requires.txt
+[4.339s] writing top-level names to ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/top_level.txt
+[4.339s] reading manifest file '../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/SOURCES.txt'
+[4.339s] writing manifest file '../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info/SOURCES.txt'
+[4.339s] running build
+[4.339s] running build_py
+[4.340s] running install
+[4.340s] running install_lib
+[4.340s] running install_data
+[4.340s] running install_egg_info
+[4.340s] removing '/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[4.340s] Copying ../../build/stretch_ros_tutorials/stretch_ros_tutorials.egg-info to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages/stretch_ros_tutorials-0.0.0-py3.10.egg-info
+[4.341s] running install_scripts
+[4.341s] Installing avoider script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.341s] Installing marker script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.341s] Installing move script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.341s] Installing multipoint_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.341s] Installing scan_filter script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.341s] Installing stow_command script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.342s] Installing tf_broadcaster script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.342s] Installing tf_listener script to /home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/stretch_ros_tutorials
+[4.342s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log'
+[4.634s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_tutorials' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_ros_tutorials/prefix_override:/home/hello-robot/ament_ws/install/stretch_ros_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/stretch_ros_tutorials build --build-base /home/hello-robot/ament_ws/build/stretch_ros_tutorials/build install --record /home/hello-robot/ament_ws/build/stretch_ros_tutorials/install.log --single-version-externally-managed

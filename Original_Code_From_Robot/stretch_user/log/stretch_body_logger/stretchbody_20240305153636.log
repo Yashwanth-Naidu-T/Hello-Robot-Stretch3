@@ -1,0 +1,2 @@
+[DEBUG   ] [03/05/2024 15:36:36.157] [stretch_gripper]: [Dynamixel ID:014] ping Succeeded. Dynamixel model : XL430-W250. Baud 115200
+[WARNING ] [03/05/2024 15:36:36.229] [stretch_gripper]: WARNING: Servo stretch_gripper in error state: overload_error. Reboot servo with stretch_robot_dynamixel_reboot.py

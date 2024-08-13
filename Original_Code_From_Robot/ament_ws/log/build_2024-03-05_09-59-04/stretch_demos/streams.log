@@ -1,0 +1,63 @@
+[8.130s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_demos': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_demos/prefix_override:/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/hello-robot/ament_ws/build/stretch_demos/build install --record /home/hello-robot/ament_ws/build/stretch_demos/install.log --single-version-externally-managed
+[10.848s] running egg_info
+[10.848s] creating ../../../build/stretch_demos/stretch_demos.egg-info
+[10.848s] writing ../../../build/stretch_demos/stretch_demos.egg-info/PKG-INFO
+[10.848s] writing dependency_links to ../../../build/stretch_demos/stretch_demos.egg-info/dependency_links.txt
+[10.848s] writing entry points to ../../../build/stretch_demos/stretch_demos.egg-info/entry_points.txt
+[10.848s] writing requirements to ../../../build/stretch_demos/stretch_demos.egg-info/requires.txt
+[10.848s] writing top-level names to ../../../build/stretch_demos/stretch_demos.egg-info/top_level.txt
+[10.848s] writing manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[10.848s] reading manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[10.848s] adding license file 'LICENSE.md'
+[10.848s] writing manifest file '../../../build/stretch_demos/stretch_demos.egg-info/SOURCES.txt'
+[10.848s] running build
+[10.848s] running build_py
+[10.849s] creating /home/hello-robot/ament_ws/build/stretch_demos/build
+[10.849s] creating /home/hello-robot/ament_ws/build/stretch_demos/build/lib
+[10.849s] creating /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/handover_object.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/grasp_object.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/hello_world.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/open_drawer.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/__init__.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] copying stretch_demos/clean_surface.py -> /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos
+[10.849s] running install
+[10.849s] running install_lib
+[10.849s] creating /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.849s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/handover_object.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.849s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/grasp_object.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.850s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/hello_world.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.850s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/open_drawer.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.850s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/__init__.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.850s] copying /home/hello-robot/ament_ws/build/stretch_demos/build/lib/stretch_demos/clean_surface.py -> /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos
+[10.850s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/handover_object.py to handover_object.cpython-310.pyc
+[10.850s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.850s]   warnings.warn(
+[10.902s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/grasp_object.py to grasp_object.cpython-310.pyc
+[10.902s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/hello_world.py to hello_world.cpython-310.pyc
+[10.902s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/open_drawer.py to open_drawer.cpython-310.pyc
+[10.902s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/__init__.py to __init__.cpython-310.pyc
+[10.903s] byte-compiling /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos/clean_surface.py to clean_surface.cpython-310.pyc
+[10.903s] running install_data
+[10.903s] creating /home/hello-robot/ament_ws/install/stretch_demos/share/ament_index
+[10.903s] creating /home/hello-robot/ament_ws/install/stretch_demos/share/ament_index/resource_index
+[10.903s] creating /home/hello-robot/ament_ws/install/stretch_demos/share/ament_index/resource_index/packages
+[10.903s] copying resource/stretch_demos -> /home/hello-robot/ament_ws/install/stretch_demos/share/ament_index/resource_index/packages
+[10.903s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos
+[10.903s] creating /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] copying launch/open_drawer.launch.py -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] copying launch/handover_object.launch.py -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] copying launch/hello_world.launch.py -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] copying launch/clean_surface.launch.py -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] copying launch/grasp_object.launch.py -> /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/launch
+[10.903s] creating /home/hello-robot/ament_ws/install/stretch_demos/share/stretch_demos/rviz
+[10.903s] running install_egg_info
+[10.903s] Copying ../../../build/stretch_demos/stretch_demos.egg-info to /home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages/stretch_demos-0.0.0-py3.10.egg-info
+[10.904s] running install_scripts
+[10.904s] Installing clean_surface script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos
+[10.904s] Installing grasp_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos
+[10.904s] Installing handover_object script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos
+[10.904s] Installing hello_world script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos
+[10.904s] Installing open_drawer script to /home/hello-robot/ament_ws/install/stretch_demos/lib/stretch_demos
+[10.904s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_demos/install.log'
+[11.517s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_demos' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_demos/prefix_override:/home/hello-robot/ament_ws/install/stretch_demos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_demos build --build-base /home/hello-robot/ament_ws/build/stretch_demos/build install --record /home/hello-robot/ament_ws/build/stretch_demos/install.log --single-version-externally-managed

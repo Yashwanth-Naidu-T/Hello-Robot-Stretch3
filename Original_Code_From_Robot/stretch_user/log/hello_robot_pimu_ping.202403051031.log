@@ -1,0 +1,22 @@
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+[ERROR] [pimu]: SerialException(2): could not open port /dev/hello-pimu: [Errno 2] No such file or directory: '/dev/hello-pimu'
+[WARNING] [pimu]: Unable to open serial port for device /dev/hello-pimu
+Starting up Pimu Ping on Tue Mar  5 10:31:00 2024
+Failed to ping Pimu

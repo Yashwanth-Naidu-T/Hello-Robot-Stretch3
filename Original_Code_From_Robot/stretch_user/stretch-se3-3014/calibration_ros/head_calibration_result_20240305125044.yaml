@@ -1,0 +1,307 @@
+best_parameter_dict:
+  arm_offset_rotvec_x: 0.022554352062603974
+  arm_offset_rotvec_y: -0.012121317094858084
+  arm_offset_rotvec_z: 0.029169544357170292
+  arm_offset_xyz_x: 0.004681357927028765
+  arm_offset_xyz_y: -0.005434077289506292
+  arm_offset_xyz_z: -0.004118918922616734
+  arm_retracted_offset: 0.003125812641310868
+  camera_mount_offset_rotvec_x: 0.005399398801245836
+  camera_mount_offset_rotvec_y: -0.014570501003103265
+  camera_mount_offset_rotvec_z: 0.08174637082192872
+  camera_mount_offset_xyz_x: -0.004773070976995988
+  camera_mount_offset_xyz_y: -0.0007718211286891862
+  camera_mount_offset_xyz_z: -0.0008932533803093429
+  head_assembly_offset_rotvec_x: 0.0635966129001153
+  head_assembly_offset_rotvec_y: -0.017177337367581685
+  head_assembly_offset_rotvec_z: 0.04771052554707153
+  head_assembly_offset_xyz_x: 0.0044537529036056
+  head_assembly_offset_xyz_y: 0.0012358111418600993
+  head_assembly_offset_xyz_z: 0.0008719509240449651
+  lift_offset_rotvec_x: 0.01357804263112577
+  lift_offset_rotvec_y: -0.0098121175013908
+  lift_offset_rotvec_z: -0.0030303645879407506
+  lift_offset_xyz_x: -0.0007898154381899239
+  lift_offset_xyz_y: -0.0020892582244804035
+  lift_offset_xyz_z: -0.009525358538386054
+  pan_angle_offset: 0.04338415163421367
+  pan_assembly_offset_rotvec_x: -0.008512807013535703
+  pan_assembly_offset_rotvec_y: -0.003261823440850747
+  pan_assembly_offset_rotvec_z: -0.05207068538465185
+  pan_assembly_offset_xyz_x: -0.0041082665234632824
+  pan_assembly_offset_xyz_y: 0.0021993469606516403
+  pan_assembly_offset_xyz_z: -0.007228288769413397
+  pan_looked_left_offset: -0.0012811741204312782
+  tilt_angle_offset: -0.08229682522350755
+  tilt_assembly_offset_rotvec_x: 0.009253371784707537
+  tilt_assembly_offset_rotvec_y: -0.013587890031385804
+  tilt_assembly_offset_rotvec_z: -0.049335541676354594
+  tilt_assembly_offset_xyz_x: 0.0013080695807812222
+  tilt_assembly_offset_xyz_y: -0.00027467881584666983
+  tilt_assembly_offset_xyz_z: -0.006951877802048877
+  tilt_looking_up_offset: 0.010720519533671466
+best_parameters:
+- 0.04338415163421367
+- -0.08229682522350755
+- -0.0012811741204312782
+- 0.010720519533671466
+- 0.003125812641310868
+- 0.0044537529036056
+- 0.0012358111418600993
+- 0.0008719509240449651
+- 0.0635966129001153
+- -0.017177337367581685
+- 0.04771052554707153
+- -0.0041082665234632824
+- 0.0021993469606516403
+- -0.007228288769413397
+- -0.008512807013535703
+- -0.003261823440850747
+- -0.05207068538465185
+- 0.0013080695807812222
+- -0.00027467881584666983
+- -0.006951877802048877
+- 0.009253371784707537
+- -0.013587890031385804
+- -0.049335541676354594
+- -0.004773070976995988
+- -0.0007718211286891862
+- -0.0008932533803093429
+- 0.005399398801245836
+- -0.014570501003103265
+- 0.08174637082192872
+- -0.0007898154381899239
+- -0.0020892582244804035
+- -0.009525358538386054
+- 0.01357804263112577
+- -0.0098121175013908
+- -0.0030303645879407506
+- 0.004681357927028765
+- -0.005434077289506292
+- -0.004118918922616734
+- 0.022554352062603974
+- -0.012121317094858084
+- 0.029169544357170292
+best_parameters_error: 0.030442834970052873
+best_parameters_error_terms:
+  base_left_orient: 0.005722714337646809
+  base_left_pos: 0.00452642643733688
+  base_right_orient: 0.005277417029778061
+  base_right_pos: 0.0036114134633156154
+  parameter_error_total: 0.0
+  shoulder_orient: 0.003182062307191033
+  shoulder_pos: 0.0077432875148048
+  wrist_inside_orient: 0.08253086556260301
+  wrist_inside_pos: 0.006360917562212
+  wrist_top_orient: 0.006488015312284812
+  wrist_top_pos: 0.0065303559288926475
+calibration_data_filename: /home/hello-robot/stretch_user/stretch-se3-3014/calibration_ros/head_calibration_data_202403051238.yaml
+calibration_options:
+  calibrate_arm: true
+  calibrate_arm_backlash: true
+  calibrate_controller_offsets: true
+  calibrate_lift: true
+  calibrate_pan_backlash: true
+  calibrate_tilt_backlash: true
+calibration_time_in_minutes: 8.649817117055257
+cma_iterations: 535
+cma_parameter_means:
+- 0.04341600447950492
+- -0.08241236134166897
+- -0.0015200162222292013
+- 0.010868706827825638
+- 0.003078532341270121
+- 0.00432786330768244
+- 0.0013059652507860899
+- 0.0009774913622249135
+- 0.06369957821145539
+- -0.017208553668978395
+- 0.048010167379248
+- -0.0038975389424370883
+- 0.002185669328148993
+- -0.007162071923576802
+- -0.008576215410120287
+- -0.0029548026403866294
+- -0.052403208828475205
+- 0.0012193825142751762
+- -0.000287489745811
+- -0.007153055108295197
+- 0.009332817816908487
+- -0.013600010110448918
+- -0.049177793350146104
+- -0.004762854860232918
+- -0.000661460267151533
+- -0.0008105872212434495
+- 0.005415466825703564
+- -0.014305457633314115
+- 0.08185600707829999
+- -0.0008352427895702851
+- -0.0018205341057817913
+- -0.009577955486128317
+- 0.01362364786880453
+- -0.009809010004122463
+- -0.0033697002386984336
+- 0.004634264197400246
+- -0.005462597190318325
+- -0.003945300253435254
+- 0.022728966519596265
+- -0.01243053042255105
+- 0.028958444563153864
+cma_parameter_stddevs:
+- 0.00025987808494479307
+- 0.00021980512882213699
+- 0.00023339384218664698
+- 0.0003445716340168196
+- 0.00018278901550507204
+- 0.0001840916269008284
+- 0.00019831736061781056
+- 0.00018147101238267615
+- 0.0002602946607699708
+- 0.00024949236386791787
+- 0.0002762120952537411
+- 0.00016875550288565313
+- 0.0001945021471219508
+- 0.00016020743588151685
+- 0.00023135156785119746
+- 0.00019581126303167167
+- 0.000298722358070091
+- 0.00018044923046861975
+- 0.00018705115771182855
+- 0.00018160271182207101
+- 0.00027086246116498713
+- 0.00019676484892088768
+- 0.00023925538873688745
+- 0.00012265019868398067
+- 0.00018464614964431358
+- 0.00017721645578354985
+- 0.000255088094366889
+- 0.0002564002085558425
+- 0.000223600476996537
+- 0.0001950733825753372
+- 0.00017863449094580416
+- 0.0001398115062598473
+- 0.00028576070425954736
+- 0.0002435392435821255
+- 0.00029895866487357974
+- 0.0001806238728143053
+- 0.00018068659835510643
+- 0.00018560156560963928
+- 0.0002375127769408394
+- 0.00026059155925946167
+- 0.0003428271714488681
+data_to_use: use_all_data
+error_weights:
+  base_left_orient: 0.05
+  base_left_pos: 0.5
+  base_right_orient: 0.05
+  base_right_pos: 0.5
+  joint_head_tilt_looking_up_error_multiplier: 2.0
+  parameter_error_total: 1.0
+  shoulder_orient: 0.05
+  shoulder_pos: 0.5
+  wrist_inside_orient: 0.1
+  wrist_inside_pos: 1.0
+  wrist_top_orient: 0.1
+  wrist_top_pos: 1.0
+fit_quality: slow_high_quality
+fit_quality_dict:
+  fastest_lowest_quality: 0.1
+  medium_speed_and_quality: 0.01
+  slow_high_quality: 0.001
+  slowest_highest_quality: 0.0001
+initial_solution:
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+- 0.0
+initial_standard_deviation: 0.1
+num_evals_to_find_best: 8025
+num_evals_total: 8025
+observations_used_for_fit:
+  base_left: 71
+  base_right: 64
+  shoulder: 45
+  wrist_inside: 33
+  wrist_top: 66
+options:
+  tolfun: 0.001
+parameter_names:
+- pan_angle_offset
+- tilt_angle_offset
+- pan_looked_left_offset
+- tilt_looking_up_offset
+- arm_retracted_offset
+- head_assembly_offset_xyz_x
+- head_assembly_offset_xyz_y
+- head_assembly_offset_xyz_z
+- head_assembly_offset_rotvec_x
+- head_assembly_offset_rotvec_y
+- head_assembly_offset_rotvec_z
+- pan_assembly_offset_xyz_x
+- pan_assembly_offset_xyz_y
+- pan_assembly_offset_xyz_z
+- pan_assembly_offset_rotvec_x
+- pan_assembly_offset_rotvec_y
+- pan_assembly_offset_rotvec_z
+- tilt_assembly_offset_xyz_x
+- tilt_assembly_offset_xyz_y
+- tilt_assembly_offset_xyz_z
+- tilt_assembly_offset_rotvec_x
+- tilt_assembly_offset_rotvec_y
+- tilt_assembly_offset_rotvec_z
+- camera_mount_offset_xyz_x
+- camera_mount_offset_xyz_y
+- camera_mount_offset_xyz_z
+- camera_mount_offset_rotvec_x
+- camera_mount_offset_rotvec_y
+- camera_mount_offset_rotvec_z
+- lift_offset_xyz_x
+- lift_offset_xyz_y
+- lift_offset_xyz_z
+- lift_offset_rotvec_x
+- lift_offset_rotvec_y
+- lift_offset_rotvec_z
+- arm_offset_xyz_x
+- arm_offset_xyz_y
+- arm_offset_xyz_z
+- arm_offset_rotvec_x
+- arm_offset_rotvec_y
+- arm_offset_rotvec_z
+tilt_angle_backlash_transition: -0.4

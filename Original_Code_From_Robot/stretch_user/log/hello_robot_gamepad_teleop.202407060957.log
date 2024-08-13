@@ -1,0 +1,11 @@
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 5
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 6
+[INFO] [robot_monitor]: Wrist single tap: 7
+[INFO] [robot_monitor]: Wrist single tap: 8
+[WARNING] [wrist_yaw]: Dynamixel communication error during move_to_vel on wrist_yaw: 

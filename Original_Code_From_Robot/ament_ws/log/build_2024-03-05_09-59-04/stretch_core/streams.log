@@ -1,0 +1,109 @@
+[0.515s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_core': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_core/prefix_override:/home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_core build --build-base /home/hello-robot/ament_ws/build/stretch_core/build install --record /home/hello-robot/ament_ws/build/stretch_core/install.log --single-version-externally-managed
+[0.668s] running egg_info
+[0.668s] creating ../../../build/stretch_core/stretch_core.egg-info
+[0.669s] writing ../../../build/stretch_core/stretch_core.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../../build/stretch_core/stretch_core.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../../build/stretch_core/stretch_core.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../../build/stretch_core/stretch_core.egg-info/requires.txt
+[0.669s] writing top-level names to ../../../build/stretch_core/stretch_core.egg-info/top_level.txt
+[0.669s] writing manifest file '../../../build/stretch_core/stretch_core.egg-info/SOURCES.txt'
+[0.670s] reading manifest file '../../../build/stretch_core/stretch_core.egg-info/SOURCES.txt'
+[0.670s] adding license file 'LICENSE.md'
+[0.670s] writing manifest file '../../../build/stretch_core/stretch_core.egg-info/SOURCES.txt'
+[0.670s] running build
+[0.671s] running build_py
+[0.671s] creating /home/hello-robot/ament_ws/build/stretch_core/build
+[0.671s] creating /home/hello-robot/ament_ws/build/stretch_core/build/lib
+[0.671s] creating /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.671s] copying stretch_core/keyboard_teleop.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/detect_aruco_markers.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/d435i_configure.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/trajectory_components.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/stretch_driver.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/stretch_diagnostics.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.678s] copying stretch_core/avoider.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/align_to_aruco.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/rwlock.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/d435i_frustum_visualizer.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/usb_cam.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/joint_trajectory_server.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/d435i_accel_correction.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/command_groups.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/keyboard.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] copying stretch_core/__init__.py -> /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core
+[0.679s] running install
+[0.680s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.680s]   warnings.warn(
+[0.680s] running install_lib
+[0.680s] creating /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.680s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/keyboard_teleop.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.680s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/detect_aruco_markers.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.680s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/d435i_configure.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.680s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/trajectory_components.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/stretch_driver.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/stretch_diagnostics.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/avoider.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/align_to_aruco.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/rwlock.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/d435i_frustum_visualizer.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/usb_cam.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/joint_trajectory_server.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/d435i_accel_correction.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/command_groups.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/keyboard.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] copying /home/hello-robot/ament_ws/build/stretch_core/build/lib/stretch_core/__init__.py -> /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core
+[0.681s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/keyboard_teleop.py to keyboard_teleop.cpython-310.pyc
+[0.683s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/detect_aruco_markers.py to detect_aruco_markers.cpython-310.pyc
+[0.685s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/d435i_configure.py to d435i_configure.cpython-310.pyc
+[0.686s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/trajectory_components.py to trajectory_components.cpython-310.pyc
+[0.686s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/stretch_driver.py to stretch_driver.cpython-310.pyc
+[0.689s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/stretch_diagnostics.py to stretch_diagnostics.cpython-310.pyc
+[0.690s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/avoider.py to avoider.cpython-310.pyc
+[0.690s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/align_to_aruco.py to align_to_aruco.cpython-310.pyc
+[0.691s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/rwlock.py to rwlock.cpython-310.pyc
+[0.691s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/d435i_frustum_visualizer.py to d435i_frustum_visualizer.cpython-310.pyc
+[0.692s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/usb_cam.py to usb_cam.cpython-310.pyc
+[0.693s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/joint_trajectory_server.py to joint_trajectory_server.cpython-310.pyc
+[0.694s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/d435i_accel_correction.py to d435i_accel_correction.cpython-310.pyc
+[0.694s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/command_groups.py to command_groups.cpython-310.pyc
+[0.698s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/keyboard.py to keyboard.cpython-310.pyc
+[0.698s] byte-compiling /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core/__init__.py to __init__.cpython-310.pyc
+[0.698s] running install_data
+[0.698s] creating /home/hello-robot/ament_ws/install/stretch_core/share/ament_index
+[0.698s] creating /home/hello-robot/ament_ws/install/stretch_core/share/ament_index/resource_index
+[0.699s] creating /home/hello-robot/ament_ws/install/stretch_core/share/ament_index/resource_index/packages
+[0.699s] copying resource/stretch_core -> /home/hello-robot/ament_ws/install/stretch_core/share/ament_index/resource_index/packages
+[0.699s] copying package.xml -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core
+[0.699s] creating /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.699s] copying launch/d435i_basic.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.699s] copying launch/stretch_aruco.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.699s] copying launch/rplidar_keepout.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/rplidar.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/align_to_aruco.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/d435i_high_resolution.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/d435i_low_resolution.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/beta_gripper_camera.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/navigation_camera.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/stretch_driver.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/multi_camera.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/stretch_realsense.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] copying launch/beta_navigation_camera.launch.py -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/launch
+[0.700s] creating /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/config
+[0.700s] copying config/stretch_marker_dict.yaml -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/config
+[0.700s] copying config/laser_filter_params.yaml -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/config
+[0.700s] copying config/HighAccuracyPreset.json -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/config
+[0.700s] copying config/controller_calibration_head_factory_default.yaml -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/config
+[0.700s] creating /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/rviz
+[0.700s] copying rviz/stretch_simple_test.rviz -> /home/hello-robot/ament_ws/install/stretch_core/share/stretch_core/rviz
+[0.700s] running install_egg_info
+[0.701s] Copying ../../../build/stretch_core/stretch_core.egg-info to /home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages/stretch_core-0.2.0-py3.10.egg-info
+[0.701s] running install_scripts
+[0.713s] Installing align_to_aruco script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing avoider script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing d435i_accel_correction script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing detect_aruco_markers script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing keyboard_teleop script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing stretch_driver script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] Installing usb_cam script to /home/hello-robot/ament_ws/install/stretch_core/lib/stretch_core
+[0.713s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_core/install.log'
+[0.729s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_core' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/home/hello-robot/ament_ws/install/hello_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_camera:/home/hello-robot/ament_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera/lib:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_core/prefix_override:/home/hello-robot/ament_ws/install/stretch_core/lib/python3.10/site-packages:/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/hello-robot/ament_ws/install/hello_helpers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_core build --build-base /home/hello-robot/ament_ws/build/stretch_core/build install --record /home/hello-robot/ament_ws/build/stretch_core/install.log --single-version-externally-managed

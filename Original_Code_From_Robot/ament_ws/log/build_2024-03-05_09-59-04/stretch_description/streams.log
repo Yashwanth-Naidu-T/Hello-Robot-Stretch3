@@ -1,0 +1,48 @@
+[0.268s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_description': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/stretch_ros2/stretch_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/stretch_description
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.488s] -- The CXX compiler identification is GNU 11.4.0
+[0.498s] -- Detecting C compiler ABI info
+[0.630s] -- Detecting C compiler ABI info - done
+[0.637s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.638s] -- Detecting C compile features
+[0.639s] -- Detecting C compile features - done
+[0.644s] -- Detecting CXX compiler ABI info
+[0.786s] -- Detecting CXX compiler ABI info - done
+[0.791s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.802s] -- Detecting CXX compile features
+[0.803s] -- Detecting CXX compile features - done
+[0.808s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.099s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.372s] -- Configuring done
+[1.376s] -- Generating done
+[1.377s] -- Build files have been written to: /home/hello-robot/ament_ws/build/stretch_description
+[1.386s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_description' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/stretch_ros2/stretch_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/stretch_description
+[1.389s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_description': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_description -- -j16 -l16
+[1.468s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_description' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/stretch_description -- -j16 -l16
+[1.614s] Invoking command in '/home/hello-robot/ament_ws/build/stretch_description': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_description
+[1.627s] -- Install configuration: "Release"
+[1.628s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/meshes
+[1.628s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/meshes/.gitkeep
+[1.628s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/urdf
+[1.628s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/urdf/export_urdf_license_template.md
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/urdf/export_urdf.sh
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/launch
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/launch/display.launch.py
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/rviz
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/rviz/stretch.rviz
+[1.629s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/ament_index/resource_index/package_run_dependencies/stretch_description
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/ament_index/resource_index/parent_prefix_path/stretch_description
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/environment/ament_prefix_path.sh
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/environment/ament_prefix_path.dsv
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/environment/path.sh
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/environment/path.dsv
+[1.630s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/local_setup.bash
+[1.631s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/local_setup.sh
+[1.631s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/local_setup.zsh
+[1.631s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/local_setup.dsv
+[1.631s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/package.dsv
+[1.632s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/ament_index/resource_index/packages/stretch_description
+[1.632s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/cmake/stretch_descriptionConfig.cmake
+[1.632s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/cmake/stretch_descriptionConfig-version.cmake
+[1.632s] -- Installing: /home/hello-robot/ament_ws/install/stretch_description/share/stretch_description/package.xml
+[1.646s] Invoked command in '/home/hello-robot/ament_ws/build/stretch_description' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/realsense2_description:/home/hello-robot/ament_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/stretch_description

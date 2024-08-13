@@ -1,0 +1,25 @@
+[4.887s] Invoking command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_deep_perception': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_deep_perception/prefix_override:/home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_deep_perception build --build-base /home/hello-robot/ament_ws/build/stretch_deep_perception/build install --record /home/hello-robot/ament_ws/build/stretch_deep_perception/install.log --single-version-externally-managed
+[5.152s] running egg_info
+[5.153s] writing ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/PKG-INFO
+[5.153s] writing dependency_links to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/dependency_links.txt
+[5.153s] writing entry points to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/entry_points.txt
+[5.154s] writing requirements to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/requires.txt
+[5.154s] writing top-level names to ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/top_level.txt
+[5.157s] reading manifest file '../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/SOURCES.txt'
+[5.157s] adding license file 'LICENSE.md'
+[5.157s] writing manifest file '../../../build/stretch_deep_perception/stretch_deep_perception.egg-info/SOURCES.txt'
+[5.158s] running build
+[5.158s] running build_py
+[5.159s] running install
+[5.160s] running install_lib
+[5.162s] running install_data
+[5.164s] running install_egg_info
+[5.165s] removing '/home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[5.165s] Copying ../../../build/stretch_deep_perception/stretch_deep_perception.egg-info to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages/stretch_deep_perception-0.0.0-py3.10.egg-info
+[5.166s] running install_scripts
+[5.184s] Installing detect_body_landmarks script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[5.184s] Installing detect_faces script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[5.184s] Installing detect_nearest_mouth script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[5.184s] Installing detect_objects script to /home/hello-robot/ament_ws/install/stretch_deep_perception/lib/stretch_deep_perception
+[5.185s] writing list of installed files to '/home/hello-robot/ament_ws/build/stretch_deep_perception/install.log'
+[6.601s] Invoked command in '/home/hello-robot/ament_ws/src/stretch_ros2/stretch_deep_perception' returned '0': PYTHONPATH=/home/hello-robot/ament_ws/build/stretch_deep_perception/prefix_override:/home/hello-robot/ament_ws/install/stretch_deep_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/stretch_deep_perception build --build-base /home/hello-robot/ament_ws/build/stretch_deep_perception/build install --record /home/hello-robot/ament_ws/build/stretch_deep_perception/install.log --single-version-externally-managed

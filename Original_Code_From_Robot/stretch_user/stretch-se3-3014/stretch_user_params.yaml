@@ -1,0 +1,5 @@
+#User parameters
+#You can override nominal settings here
+#USE WITH CAUTION. IT IS POSSIBLE TO CAUSE UNSAFE BEHAVIOR OF THE ROBOT 
+robot:
+  use_collision_manager: 0

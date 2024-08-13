@@ -1,0 +1,89 @@
+[INFO] [robot_monitor]: Guarded contact lift
+[INFO] [robot_monitor]: Wrist single tap: 4
+[INFO] [robot_monitor]: Wrist single tap: 5
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Guarded contact arm
+[INFO] [robot_monitor]: Wrist single tap: 8
+[INFO] [robot_monitor]: Wrist single tap: 9
+[INFO] [robot_monitor]: High current of: 7.01
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Base bump event
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+[INFO] [robot_monitor]: Runstop activated
+[INFO] [robot_monitor]: Runstop deactivated
+For use with S T R E T C H (R) from Hello Robot Inc.
+---------------------------------------------------------------------
+
+Key mapped to End-Of-Arm Tool: eoa_wrist_dw3_tool_sg3
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+press the start button to calibrate the robot
+--------- Homing Head ----
+--------- Homing Lift ----
+Homing Lift...
+Hardstop detected at motor position (rad) 101.51254272460938
+Marking Lift position to 1.101937 (m)
+Marking Lift position to 0.000000 (m)
+Lift homing successful
+--------- Homing Arm ----
+Homing Arm...
+Hardstop detected at motor position (rad) -0.5729913711547852
+Marking Arm position to 0.000000 (m)
+Arm homing successful
+Moving to first hardstop...
+First hardstop contact at position (ticks): 0
+-----
+Homing offset was 6660
+Marking current position to zero ticks
+Homing offset is now  6658 (ticks)
+-----
+Current position (ticks): 26
+Moving to calibrated zero: (rad)
+Moving to first hardstop...
+First hardstop contact at position (ticks): 110
+-----
+Homing offset was 2111
+Marking current position to zero ticks
+Homing offset is now  1999 (ticks)
+-----
+Current position (ticks): 18
+Moving to calibrated zero: (rad)
+Gamepad Dongle DISCONNECTED........
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Waiting for Gamepad Dongle.................
+Gamepad Dongle FOUND!

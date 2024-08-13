@@ -1,0 +1,88 @@
+[0.754s] Invoking command in '/home/hello-robot/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/audio_capture -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/audio_capture
+[1.296s] -- The C compiler identification is GNU 11.4.0
+[1.405s] -- The CXX compiler identification is GNU 11.4.0
+[1.423s] -- Detecting C compiler ABI info
+[2.122s] -- Detecting C compiler ABI info - done
+[2.122s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.122s] -- Detecting C compile features
+[2.122s] -- Detecting C compile features - done
+[2.122s] -- Detecting CXX compiler ABI info
+[2.272s] -- Detecting CXX compiler ABI info - done
+[2.272s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.272s] -- Detecting CXX compile features
+[2.272s] -- Detecting CXX compile features - done
+[2.272s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.875s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.045s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.168s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.175s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.203s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.476s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.495s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.995s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.044s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.141s] -- Looking for pthread.h
+[5.070s] -- Looking for pthread.h - found
+[5.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.071s] -- Found Threads: TRUE  
+[5.310s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.410s] -- Found audio_common_msgs: 0.3.12 (/home/hello-robot/ament_ws/install/audio_common_msgs/share/audio_common_msgs/cmake)
+[5.514s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.516s] -- Checking for module 'gstreamer-1.0'
+[5.605s] --   Found gstreamer-1.0, version 1.20.3
+[5.937s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[6.004s] -- Configuring done
+[6.027s] -- Generating done
+[6.029s] -- Build files have been written to: /home/hello-robot/ament_ws/build/audio_capture
+[6.069s] Invoked command in '/home/hello-robot/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hello-robot/ament_ws/src/audio_common/audio_capture -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hello-robot/ament_ws/install/audio_capture
+[6.070s] Invoking command in '/home/hello-robot/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/audio_capture -- -j16 -l16
+[6.256s] [ 25%] Building CXX object CMakeFiles/audio_capture.dir/src/audio_capture_node.cpp.o
+[6.258s] [ 50%] Building CXX object CMakeFiles/audio_capture_node.dir/rclcpp_components/node_main_audio_capture_node.cpp.o
+[11.198s] [ 75%] Linking CXX executable audio_capture_node
+[11.337s] [ 75%] Built target audio_capture_node
+[12.696s] /home/hello-robot/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp: In static member function ‘static gboolean audio_capture::AudioCaptureNode::onMessage(GstBus*, GstMessage*, gpointer)’:
+[12.697s] /home/hello-robot/ament_ws/src/audio_common/audio_capture/src/audio_capture_node.cpp:230:42: warning: unused parameter ‘bus’ [-Wunused-parameter]
+[12.697s]   230 |       static gboolean onMessage (GstBus *bus, GstMessage *message, gpointer userData)
+[12.697s]       |                                  ~~~~~~~~^~~
+[17.083s] [100%] Linking CXX shared library libaudio_capture.so
+[17.210s] [100%] Built target audio_capture
+[17.220s] Invoked command in '/home/hello-robot/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hello-robot/ament_ws/build/audio_capture -- -j16 -l16
+[17.236s] Invoking command in '/home/hello-robot/ament_ws/build/audio_capture': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/audio_capture
+[17.242s] -- Install configuration: "Release"
+[17.242s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/lib/audio_capture/audio_capture_node
+[17.243s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_capture/lib/audio_capture/audio_capture_node" to ""
+[17.243s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/bin/audio_capture_node
+[17.243s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_capture/bin/audio_capture_node" to ""
+[17.243s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/lib/libaudio_capture.so
+[17.243s] -- Set runtime path of "/home/hello-robot/ament_ws/install/audio_capture/lib/libaudio_capture.so" to ""
+[17.243s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch
+[17.244s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.xml
+[17.244s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture_to_file.launch.py
+[17.244s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.py
+[17.244s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture.launch.py
+[17.244s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture_wave.launch.xml
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/launch/capture.launch.xml
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/library_path.sh
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/library_path.dsv
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/ament_index/resource_index/package_run_dependencies/audio_capture
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/ament_index/resource_index/parent_prefix_path/audio_capture
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.sh
+[17.245s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/ament_prefix_path.dsv
+[17.246s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/path.sh
+[17.246s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/environment/path.dsv
+[17.246s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/local_setup.bash
+[17.246s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/local_setup.sh
+[17.246s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/local_setup.zsh
+[17.247s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/local_setup.dsv
+[17.247s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/package.dsv
+[17.247s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/ament_index/resource_index/packages/audio_capture
+[17.247s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/ament_index/resource_index/rclcpp_components/audio_capture
+[17.247s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/cmake/ament_cmake_export_libraries-extras.cmake
+[17.248s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig.cmake
+[17.248s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/cmake/audio_captureConfig-version.cmake
+[17.248s] -- Installing: /home/hello-robot/ament_ws/install/audio_capture/share/audio_capture/package.xml
+[17.248s] Invoked command in '/home/hello-robot/ament_ws/build/audio_capture' returned '0': AMENT_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hello-robot/ament_ws/install/audio_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hello-robot/ament_ws/install/audio_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/hello-robot/ament_ws/build/audio_capture

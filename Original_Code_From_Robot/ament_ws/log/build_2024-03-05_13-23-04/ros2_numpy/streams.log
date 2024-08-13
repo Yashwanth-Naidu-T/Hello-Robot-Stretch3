@@ -1,0 +1,44 @@
+[1.122s] Invoking command in '/home/hello-robot/ament_ws/build/ros2_numpy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/ros2_numpy -- -j16 -l16
+[3.662s] Built target ament_cmake_python_copy_ros2_numpy
+[3.662s] running egg_info
+[3.662s] writing ros2_numpy.egg-info/PKG-INFO
+[3.663s] writing dependency_links to ros2_numpy.egg-info/dependency_links.txt
+[3.663s] writing top-level names to ros2_numpy.egg-info/top_level.txt
+[3.663s] reading manifest file 'ros2_numpy.egg-info/SOURCES.txt'
+[3.663s] writing manifest file 'ros2_numpy.egg-info/SOURCES.txt'
+[3.663s] Built target ament_cmake_python_build_ros2_numpy_egg
+[3.672s] Invoked command in '/home/hello-robot/ament_ws/build/ros2_numpy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --build /home/hello-robot/ament_ws/build/ros2_numpy -- -j16 -l16
+[3.725s] Invoking command in '/home/hello-robot/ament_ws/build/ros2_numpy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/ros2_numpy
+[3.740s] -- Install configuration: "Release"
+[3.741s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/pythonpath.sh
+[3.741s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/pythonpath.dsv
+[3.742s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info
+[3.742s] -- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/PKG-INFO
+[3.742s] -- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/dependency_links.txt
+[3.742s] -- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/top_level.txt
+[3.742s] -- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy-2.0.9-py3.10.egg-info/SOURCES.txt
+[3.742s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy
+[3.742s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/geometry.py
+[3.743s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/point_cloud2.py
+[3.743s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/registry.py
+[3.743s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/occupancy_grid.py
+[3.743s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/image.py
+[3.744s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy/__init__.py
+[3.809s] Listing '/home/hello-robot/ament_ws/install/ros2_numpy/local/lib/python3.10/dist-packages/ros2_numpy'...
+[3.822s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/package_run_dependencies/ros2_numpy
+[3.823s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/parent_prefix_path/ros2_numpy
+[3.824s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/ament_prefix_path.sh
+[3.824s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/ament_prefix_path.dsv
+[3.824s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/path.sh
+[3.825s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/environment/path.dsv
+[3.825s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.bash
+[3.825s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.sh
+[3.825s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.zsh
+[3.826s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/local_setup.dsv
+[3.826s] -- Installing: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/package.dsv
+[3.826s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ament_index/resource_index/packages/ros2_numpy
+[3.827s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.827s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ros2_numpyConfig.cmake
+[3.828s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/cmake/ros2_numpyConfig-version.cmake
+[3.830s] -- Up-to-date: /home/hello-robot/ament_ws/install/ros2_numpy/share/ros2_numpy/package.xml
+[3.939s] Invoked command in '/home/hello-robot/ament_ws/build/ros2_numpy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hello-robot/ament_ws/install/tf2_web_republisher_py:/home/hello-robot/ament_ws/install/stretch_ros_tutorials:/home/hello-robot/ament_ws/install/stretch_funmap:/home/hello-robot/ament_ws/install/stretch_calibration:/home/hello-robot/ament_ws/install/stretch_demos:/home/hello-robot/ament_ws/install/stretch_deep_perception:/home/hello-robot/ament_ws/install/stretch_core:/home/hello-robot/ament_ws/install/respeaker_ros2:/home/hello-robot/ament_ws/install/hello_helpers:/opt/ros/humble /usr/bin/cmake --install /home/hello-robot/ament_ws/build/ros2_numpy
